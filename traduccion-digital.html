@@ -11,9 +11,6 @@
   <!-- Favicon -->
   <link rel="shortcut icon" href="./favicon.ico">
 
-  <!-- Font -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
-
   <!-- CSS Implementing Plugins -->
   <link rel="stylesheet" href="./assets/vendor/bootstrap-icons/font/bootstrap-icons.css">
   <link rel="stylesheet" href="./assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.css">
@@ -26,16 +23,15 @@
 
 <body>
   <!-- ========== HEADER ========== -->
-  <header id="header" class="navbar navbar-expand-lg navbar-end navbar-absolute-top navbar-light navbar-show-hide" data-hs-header-options='{
+  <header id="header" class="navbar navbar-expand-lg navbar-end navbar-dark bg-primary" data-hs-header-options='{
             "fixMoment": 1000,
             "fixEffect": "slide"
           }'>
-
     <div class="container">
       <nav class="js-mega-menu navbar-nav-wrap">
         <!-- Default Logo -->
         <a class="navbar-brand" href="./index.html" aria-label="Front">
-          <img class="navbar-brand-logo" src="./assets/svg/logos/logo.svg" alt="Logo">
+          <p class="logo_create">limac</p>
         </a>
         <!-- End Default Logo -->
 
@@ -54,247 +50,218 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <div class="navbar-absolute-top-scroller">
             <ul class="navbar-nav">
-              <!-- Landings -->
+              <!-- Demos (reemplaza a Landings) -->
               <li class="hs-has-mega-menu nav-item">
-                <a id="landingsMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle" aria-current="page" href="#" role="button" aria-expanded="false">Servicios</a>
+                <a id="demosMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle active" aria-current="page" href="#" role="button">Servicios</a>
 
                 <!-- Mega Menu -->
-                <div class="hs-mega-menu dropdown-menu" aria-labelledby="landingsMegaMenu" style="min-width: 30rem;">
-                  <div class="row container">
-                    <div class="col-lg-8">
-                      <div class="navbar-dropdown-menu-inner">
-                        <div class="row">
-                          <!-- End Col -->
-                          <div class="navbar-dropdown-menu-promo">
-                            <!-- Promo Item -->
-                            <div class="navbar-dropdown-menu-promo-item">
-                              <!-- Promo Link -->
-                              <a class="navbar-dropdown-menu-promo-link" href="traduccion-digital.html">
-                                <div class="d-flex">
-                                  <div class="flex-shrink-0">
-                                    <span class="svg-icon svg-icon-sm text-primary">
-                                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M15.6 5.59998L20.9 10.9C21.3 11.3 21.3 11.9 20.9 12.3L17.6 15.6L11.6 9.59998L15.6 5.59998ZM2.3 12.3L7.59999 17.6L11.6 13.6L5.59999 7.59998L2.3 10.9C1.9 11.3 1.9 11.9 2.3 12.3Z" fill="#035A4B" />
-                                        <path opacity="0.3" d="M17.6 15.6L12.3 20.9C11.9 21.3 11.3 21.3 10.9 20.9L7.59998 17.6L13.6 11.6L17.6 15.6ZM10.9 2.3L5.59998 7.6L9.59998 11.6L15.6 5.6L12.3 2.3C11.9 1.9 11.3 1.9 10.9 2.3Z" fill="#035A4B" />
-                                      </svg>
+                <div class="hs-mega-menu dropdown-menu w-100" aria-labelledby="demosMegaMenu" style="min-width: 40rem;">
+                  <!-- Promo -->
+                  <div class="row">
+                    <div class="col-lg-6">
+                      <div class="navbar-dropdown-menu-promo">
+                        <!-- Promo Item -->
+                        <div class="navbar-dropdown-menu-promo-item">
+                          <a class="navbar-dropdown-menu-promo-link active" href="./traduccion-digital.html">
+                            <div class="d-flex">
+                              <div class="flex-shrink-0">
+                                <span class="svg-icon svg-icon-sm text-primary">
+                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M15.6 5.59998L20.9 10.9C21.3 11.3 21.3 11.9 20.9 12.3L17.6 15.6L11.6 9.59998L15.6 5.59998ZM2.3 12.3L7.59999 17.6L11.6 13.6L5.59999 7.59998L2.3 10.9C1.9 11.3 1.9 11.9 2.3 12.3Z" fill="#035A4B" />
+                                    <path opacity="0.3" d="M17.6 15.6L12.3 20.9C11.9 21.3 11.3 21.3 10.9 20.9L7.59998 17.6L13.6 11.6L17.6 15.6ZM10.9 2.3L5.59998 7.6L9.59998 11.6L15.6 5.6L12.3 2.3C11.9 1.9 11.3 1.9 10.9 2.3Z" fill="#035A4B" />
+                                  </svg>
 
-                                    </span>
-                                  </div>
-
-                                  <div class="flex-grow-1 ms-3">
-                                    <span class="navbar-dropdown-menu-media-title">Traducción Digital</span>
-                                    <p class="navbar-dropdown-menu-media-desc">Económica, rapída y editable</p>
-                                  </div>
-                                </div>
-                              </a>
-                              <!-- End Promo Link -->
+                                </span>
+                              </div>
+                              <div class="flex-grow-1 ms-3">
+                                <span class="navbar-dropdown-menu-media-title">Traducción Digital</span>
+                                <p class="navbar-dropdown-menu-media-desc">Económica, rápida y editable</p>
+                              </div>
                             </div>
-                            <!-- End Promo Item -->
-
-                            <!-- Promo Item -->
-                            <div class="navbar-dropdown-menu-promo-item">
-                              <!-- Promo Link -->
-                              <a class="navbar-dropdown-menu-promo-link" href="traduccion.html">
-                                <div class="d-flex">
-                                  <div class="flex-shrink-0">
-                                    <span class="svg-icon svg-icon-sm text-primary">
-                                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M6.5 3C5.67157 3 5 3.67157 5 4.5V6H3.5C2.67157 6 2 6.67157 2 7.5C2 8.32843 2.67157 9 3.5 9H5V19.5C5 20.3284 5.67157 21 6.5 21C7.32843 21 8 20.3284 8 19.5V9H20.5C21.3284 9 22 8.32843 22 7.5C22 6.67157 21.3284 6 20.5 6H8V4.5C8 3.67157 7.32843 3 6.5 3Z" fill="#035A4B" />
-                                        <path opacity="0.3" fill-rule="evenodd" clip-rule="evenodd" d="M20.5 11H10V17.5C10 18.3284 10.6716 19 11.5 19H15.5C17.3546 19 19.0277 18.2233 20.2119 16.9775C20.1436 16.9922 20.0727 17 20 17C19.4477 17 19 16.5523 19 16V13C19 12.4477 19.4477 12 20 12C20.5523 12 21 12.4477 21 13V15.9657C21.6334 14.9626 22 13.7741 22 12.5C22 11.6716 21.3284 11 20.5 11Z" fill="#035A4B" />
-                                      </svg>
-
-                                    </span>
-                                  </div>
-
-                                  <div class="flex-grow-1 ms-3">
-                                    <span class="navbar-dropdown-menu-media-title">Traducción Certificada</span>
-                                    <p class="navbar-dropdown-menu-media-desc">Para todo tipo de trámites</p>
-                                  </div>
-                                </div>
-                              </a>
-                              <!-- End Promo Link -->
-                            </div>
-                            <!-- End Promo Item -->
-                          </div>
-                          <!-- End Promo -->
-
-                          <!-- Promo -->
-                          <div class="navbar-dropdown-menu-promo">
-                            <!-- Promo Item -->
-                            <div class="navbar-dropdown-menu-promo-item">
-                              <!-- Promo Link -->
-                              <a class="navbar-dropdown-menu-promo-link" href="traduccion-oficial.html">
-                                <div class="d-flex">
-                                  <div class="flex-shrink-0">
-                                    <span class="svg-icon svg-icon-sm text-primary">
-                                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M20 19H4C2.9 19 2 18.1 2 17H22C22 18.1 21.1 19 20 19Z" fill="#035A4B" />
-                                        <path opacity="0.3" d="M20 5H4C3.4 5 3 5.4 3 6V17H21V6C21 5.4 20.6 5 20 5Z" fill="#035A4B" />
-                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M14.9167 6.83334H9.91666C9.18899 6.83334 8.66666 7.37744 8.66666 8.08334V13.9167C8.66666 14.6226 9.18899 15.1667 9.91666 15.1667H14.9167C15.1841 15.1667 15.3333 15.0112 15.3333 14.75V14.3333H10.3333C10.1032 14.3333 9.91665 14.1468 9.91665 13.9167C9.91665 13.6866 10.1032 13.5 10.3333 13.5H15.3333V7.25001C15.3333 6.9888 15.1841 6.83334 14.9167 6.83334Z" fill="#035A4B" />
-                                        <mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="8" y="6" width="8" height="10">
-                                          <path fill-rule="evenodd" clip-rule="evenodd" d="M14.9167 6.83334H9.91666C9.18899 6.83334 8.66666 7.37744 8.66666 8.08334V13.9167C8.66666 14.6226 9.18899 15.1667 9.91666 15.1667H14.9167C15.1841 15.1667 15.3333 15.0112 15.3333 14.75V14.3333H10.3333C10.1032 14.3333 9.91665 14.1468 9.91665 13.9167C9.91665 13.6866 10.1032 13.5 10.3333 13.5H15.3333V7.25001C15.3333 6.9888 15.1841 6.83334 14.9167 6.83334Z" fill="white" />
-                                        </mask>
-                                        <g mask="url(#mask0)">
-                                        </g>
-                                      </svg>
-
-                                    </span>
-                                  </div>
-
-                                  <div class="flex-grow-1 ms-3">
-                                    <span class="navbar-dropdown-menu-media-title">Traducción Oficial</span>
-                                    <p class="navbar-dropdown-menu-media-desc">Para trámites con el MRE</p>
-                                  </div>
-                                </div>
-                              </a>
-                              <!-- End Promo Link -->
-                            </div>
-                            <!-- End Promo Item -->
-
-                            <!-- Promo Item -->
-                            <div class="navbar-dropdown-menu-promo-item">
-                              <!-- Promo Link -->
-                              <a class="navbar-dropdown-menu-promo-link " href="./interpretacion.html">
-                                <div class="d-flex">
-                                  <div class="flex-shrink-0">
-                                    <span class="svg-icon svg-icon-sm text-primary">
-                                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path opacity="0.3" d="M20 22H4C3.4 22 3 21.6 3 21V2H21V21C21 21.6 20.6 22 20 22Z" fill="#035A4B" />
-                                        <path d="M12 14C9.2 14 7 11.8 7 9V5C7 4.4 7.4 4 8 4C8.6 4 9 4.4 9 5V9C9 10.7 10.3 12 12 12C13.7 12 15 10.7 15 9V5C15 4.4 15.4 4 16 4C16.6 4 17 4.4 17 5V9C17 11.8 14.8 14 12 14Z" fill="#035A4B" />
-                                      </svg>
-
-                                    </span>
-                                  </div>
-
-                                  <div class="flex-grow-1 ms-3">
-                                    <span class="navbar-dropdown-menu-media-title">Interpr. Simultánea</span>
-                                    <p class="navbar-dropdown-menu-media-desc">Interpretación en tiempo real</p>
-                                  </div>
-                                </div>
-                              </a>
-                              <!-- End Promo Link -->
-                            </div>
-                            <!-- End Promo Item -->
-
-                          </div>
-                          <!-- End Promo -->
-
-                          <!-- Promo -->
-                          <div class="navbar-dropdown-menu-promo">
-                            <!-- Promo Item -->
-                            <div class="navbar-dropdown-menu-promo-item">
-                              <!-- Promo Link -->
-                              <a class="navbar-dropdown-menu-promo-link" href="./interpretacion-consecutiva.html">
-                                <div class="d-flex">
-                                  <div class="flex-shrink-0">
-                                    <span class="svg-icon svg-icon-sm text-primary">
-                                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M22.1671 18.1421C22.4827 18.4577 23.0222 18.2331 23.0206 17.7868L23.0039 13.1053V5.52632C23.0039 4.13107 21.8729 3 20.4776 3H8.68815C7.2929 3 6.16183 4.13107 6.16183 5.52632V9H13C14.6568 9 16 10.3431 16 12V15.6316H19.6565L22.1671 18.1421Z" fill="#035A4B" />
-                                        <path opacity="0.3" fill-rule="evenodd" clip-rule="evenodd" d="M1.98508 18V13C1.98508 11.8954 2.88051 11 3.98508 11H11.9851C13.0896 11 13.9851 11.8954 13.9851 13V18C13.9851 19.1046 13.0896 20 11.9851 20H4.10081L2.85695 21.1905C2.53895 21.4949 2.01123 21.2695 2.01123 20.8293V18.3243C1.99402 18.2187 1.98508 18.1104 1.98508 18ZM5.99999 14.5C5.99999 14.2239 6.22385 14 6.49999 14H11.5C11.7761 14 12 14.2239 12 14.5C12 14.7761 11.7761 15 11.5 15H6.49999C6.22385 15 5.99999 14.7761 5.99999 14.5ZM9.49999 16C9.22385 16 8.99999 16.2239 8.99999 16.5C8.99999 16.7761 9.22385 17 9.49999 17H11.5C11.7761 17 12 16.7761 12 16.5C12 16.2239 11.7761 16 11.5 16H9.49999Z" fill="#035A4B" />
-                                      </svg>
-
-                                    </span>
-                                  </div>
-
-                                  <div class="flex-grow-1 ms-3">
-                                    <span class="navbar-dropdown-menu-media-title">Interpr. Consecutiva</span>
-                                    <p class="navbar-dropdown-menu-media-desc">Intérpretes para grupos </p>
-                                  </div>
-                                </div>
-                              </a>
-                              <!-- End Promo Link -->
-                            </div>
-                            <!-- End Promo Item -->
-
-                            <!-- Promo Item -->
-                            <div class="navbar-dropdown-menu-promo-item">
-                              <!-- Promo Link -->
-                              <a class="navbar-dropdown-menu-promo-link" href="https://htmlstream.com/contact-us" target="_blank">
-                                <div class="d-flex">
-                                  <div class="flex-shrink-0">
-                                    <span class="svg-icon svg-icon-sm text-primary">
-                                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path opacity="0.3" fill-rule="evenodd" clip-rule="evenodd" d="M12 17C16.4183 17 20 13.4183 20 9C20 4.58172 16.4183 1 12 1C7.58172 1 4 4.58172 4 9C4 13.4183 7.58172 17 12 17Z" fill="#035A4B" />
-                                        <path opacity="0.3" fill-rule="evenodd" clip-rule="evenodd" d="M6.53819 9L10.568 19.3624L11.976 18.8149L13.3745 19.3674L17.4703 9H6.53819ZM9.46188 11H14.5298L11.9759 17.4645L9.46188 11Z" fill="#035A4B" />
-                                        <path opacity="0.3" d="M10 22H14V22C14 23.1046 13.1046 24 12 24V24C10.8954 24 10 23.1046 10 22V22Z" fill="#035A4B" />
-                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M8 17C8 16.4477 8.44772 16 9 16H15C15.5523 16 16 16.4477 16 17C16 17.5523 15.5523 18 15 18C15.5523 18 16 18.4477 16 19C16 19.5523 15.5523 20 15 20C15.5523 20 16 20.4477 16 21C16 21.5523 15.5523 22 15 22H9C8.44772 22 8 21.5523 8 21C8 20.4477 8.44772 20 9 20C8.44772 20 8 19.5523 8 19C8 18.4477 8.44772 18 9 18C8.44772 18 8 17.5523 8 17Z" fill="#035A4B" />
-                                      </svg>
-
-                                    </span>
-                                  </div>
-
-                                  <div class="flex-grow-1 ms-3">
-                                    <span class="navbar-dropdown-menu-media-title">Interpr. Telefónica</span>
-                                    <p class="navbar-dropdown-menu-media-desc">
-                                      Próximamente...<i class="bi-box-arrow-up-right ms-1"></i>
-                                    </p>
-                                  </div>
-                                </div>
-                              </a>
-                              <!-- End Promo Link -->
-                            </div>
-                            <!-- End Promo Item -->
-                          </div>
-                          <!-- End Col -->
+                          </a>
                         </div>
-                        <!-- End Row -->
+                        <!-- End Promo Item -->
+
+                        <!-- Promo Item -->
+                        <div class="navbar-dropdown-menu-promo-item">
+                          <a class="navbar-dropdown-menu-promo-link" href="./traduccion.html">
+                            <div class="d-flex">
+                              <div class="flex-shrink-0">
+                                <span class="svg-icon svg-icon-sm text-primary">
+                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M6.5 3C5.67157 3 5 3.67157 5 4.5V6H3.5C2.67157 6 2 6.67157 2 7.5C2 8.32843 2.67157 9 3.5 9H5V19.5C5 20.3284 5.67157 21 6.5 21C7.32843 21 8 20.3284 8 19.5V9H20.5C21.3284 9 22 8.32843 22 7.5C22 6.67157 21.3284 6 20.5 6H8V4.5C8 3.67157 7.32843 3 6.5 3Z" fill="#035A4B" />
+                                    <path opacity="0.3" fill-rule="evenodd" clip-rule="evenodd" d="M20.5 11H10V17.5C10 18.3284 10.6716 19 11.5 19H15.5C17.3546 19 19.0277 18.2233 20.2119 16.9775C20.1436 16.9922 20.0727 17 20 17C19.4477 17 19 16.5523 19 16V13C19 12.4477 19.4477 12 20 12C20.5523 12 21 12.4477 21 13V15.9657C21.6334 14.9626 22 13.7741 22 12.5C22 11.6716 21.3284 11 20.5 11Z" fill="#035A4B" />
+                                  </svg>
+
+                                </span>
+                              </div>
+                              <div class="flex-grow-1 ms-3">
+                                <span class="navbar-dropdown-menu-media-title">Traducción Certificada</span>
+                                <p class="navbar-dropdown-menu-media-desc">Para todo tipo de trámites</p>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                        <!-- End Promo Item -->
+
                       </div>
+                      <!-- End Promo -->
+
+                      <!-- Promo -->
+                      <div class="navbar-dropdown-menu-promo">
+                        <!-- Promo Item -->
+                        <div class="navbar-dropdown-menu-promo-item">
+                          <a class="navbar-dropdown-menu-promo-link" href="./traduccion-oficial.html">
+                            <div class="d-flex">
+                              <div class="flex-shrink-0">
+                                <span class="svg-icon svg-icon-sm text-primary">
+                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M20 19H4C2.9 19 2 18.1 2 17H22C22 18.1 21.1 19 20 19Z" fill="#035A4B" />
+                                    <path opacity="0.3" d="M20 5H4C3.4 5 3 5.4 3 6V17H21V6C21 5.4 20.6 5 20 5Z" fill="#035A4B" />
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M14.9167 6.83334H9.91666C9.18899 6.83334 8.66666 7.37744 8.66666 8.08334V13.9167C8.66666 14.6226 9.18899 15.1667 9.91666 15.1667H14.9167C15.1841 15.1667 15.3333 15.0112 15.3333 14.75V14.3333H10.3333C10.1032 14.3333 9.91665 14.1468 9.91665 13.9167C9.91665 13.6866 10.1032 13.5 10.3333 13.5H15.3333V7.25001C15.3333 6.9888 15.1841 6.83334 14.9167 6.83334Z" fill="#035A4B" />
+                                    <mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="8" y="6" width="8" height="10">
+                                      <path fill-rule="evenodd" clip-rule="evenodd" d="M14.9167 6.83334H9.91666C9.18899 6.83334 8.66666 7.37744 8.66666 8.08334V13.9167C8.66666 14.6226 9.18899 15.1667 9.91666 15.1667H14.9167C15.1841 15.1667 15.3333 15.0112 15.3333 14.75V14.3333H10.3333C10.1032 14.3333 9.91665 14.1468 9.91665 13.9167C9.91665 13.6866 10.1032 13.5 10.3333 13.5H15.3333V7.25001C15.3333 6.9888 15.1841 6.83334 14.9167 6.83334Z" fill="white" />
+                                    </mask>
+                                    <g mask="url(#mask0)">
+                                    </g>
+                                  </svg>
+
+                                </span>
+                              </div>
+                              <div class="flex-grow-1 ms-3">
+                                <span class="navbar-dropdown-menu-media-title">Traducción Oficial</span>
+                                <p class="navbar-dropdown-menu-media-desc">Para trámites con el MRE</p>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                        <!-- End Promo Item -->
+
+                        <!-- Promo Item -->
+                        <div class="navbar-dropdown-menu-promo-item">
+                          <a class="navbar-dropdown-menu-promo-link" href="./interpretacion.html">
+                            <div class="d-flex">
+                              <div class="flex-shrink-0">
+                                <span class="svg-icon svg-icon-sm text-primary">
+                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path opacity="0.3" d="M20 22H4C3.4 22 3 21.6 3 21V2H21V21C21 21.6 20.6 22 20 22Z" fill="#035A4B" />
+                                    <path d="M12 14C9.2 14 7 11.8 7 9V5C7 4.4 7.4 4 8 4C8.6 4 9 4.4 9 5V9C9 10.7 10.3 12 12 12C13.7 12 15 10.7 15 9V5C15 4.4 15.4 4 16 4C16.6 4 17 4.4 17 5V9C17 11.8 14.8 14 12 14Z" fill="#035A4B" />
+                                  </svg>
+
+                                </span>
+                              </div>
+                              <div class="flex-grow-1 ms-3">
+                                <span class="navbar-dropdown-menu-media-title">Interpr. Simultánea</span>
+                                <p class="navbar-dropdown-menu-media-desc">Interpretación en tiempo real</p>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                        <!-- End Promo Item -->
+
+                      </div>
+                      <!-- End Promo -->
+
+                      <!-- Promo -->
+                      <div class="navbar-dropdown-menu-promo">
+                        <!-- Promo Item -->
+                        <div class="navbar-dropdown-menu-promo-item">
+                          <a class="navbar-dropdown-menu-promo-link" href="./interpretacion-consecutiva.html">
+                            <div class="d-flex">
+                              <div class="flex-shrink-0">
+                                <span class="svg-icon svg-icon-sm text-primary">
+                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M22.1671 18.1421C22.4827 18.4577 23.0222 18.2331 23.0206 17.7868L23.0039 13.1053V5.52632C23.0039 4.13107 21.8729 3 20.4776 3H8.68815C7.2929 3 6.16183 4.13107 6.16183 5.52632V9H13C14.6568 9 16 10.3431 16 12V15.6316H19.6565L22.1671 18.1421Z" fill="#035A4B" />
+                                    <path opacity="0.3" fill-rule="evenodd" clip-rule="evenodd" d="M1.98508 18V13C1.98508 11.8954 2.88051 11 3.98508 11H11.9851C13.0896 11 13.9851 11.8954 13.9851 13V18C13.9851 19.1046 13.0896 20 11.9851 20H4.10081L2.85695 21.1905C2.53895 21.4949 2.01123 21.2695 2.01123 20.8293V18.3243C1.99402 18.2187 1.98508 18.1104 1.98508 18ZM5.99999 14.5C5.99999 14.2239 6.22385 14 6.49999 14H11.5C11.7761 14 12 14.2239 12 14.5C12 14.7761 11.7761 15 11.5 15H6.49999C6.22385 15 5.99999 14.7761 5.99999 14.5ZM9.49999 16C9.22385 16 8.99999 16.2239 8.99999 16.5C8.99999 16.7761 9.22385 17 9.49999 17H11.5C11.7761 17 12 16.7761 12 16.5C12 16.2239 11.7761 16 11.5 16H9.49999Z" fill="#035A4B" />
+                                  </svg>
+
+                                </span>
+                              </div>
+                              <div class="flex-grow-1 ms-3">
+                                <span class="navbar-dropdown-menu-media-title">Interpr. Consecutiva</span>
+                                <p class="navbar-dropdown-menu-media-desc">Intérpretes para grupos</p>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                        <!-- End Promo Item -->
+
+                        <!-- Promo Item -->
+                        <div class="navbar-dropdown-menu-promo-item">
+                          <a class="navbar-dropdown-menu-promo-link" href="" target="_blank">
+                            <div class="d-flex">
+                              <div class="flex-shrink-0">
+                                <span class="svg-icon svg-icon-sm text-primary">
+                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path opacity="0.3" fill-rule="evenodd" clip-rule="evenodd" d="M12 17C16.4183 17 20 13.4183 20 9C20 4.58172 16.4183 1 12 1C7.58172 1 4 4.58172 4 9C4 13.4183 7.58172 17 12 17Z" fill="#035A4B" />
+                                    <path opacity="0.3" fill-rule="evenodd" clip-rule="evenodd" d="M6.53819 9L10.568 19.3624L11.976 18.8149L13.3745 19.3674L17.4703 9H6.53819ZM9.46188 11H14.5298L11.9759 17.4645L9.46188 11Z" fill="#035A4B" />
+                                    <path opacity="0.3" d="M10 22H14V22C14 23.1046 13.1046 24 12 24V24C10.8954 24 10 23.1046 10 22V22Z" fill="#035A4B" />
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M8 17C8 16.4477 8.44772 16 9 16H15C15.5523 16 16 16.4477 16 17C16 17.5523 15.5523 18 15 18C15.5523 18 16 18.4477 16 19C16 19.5523 15.5523 20 15 20C15.5523 20 16 20.4477 16 21C16 21.5523 15.5523 22 15 22H9C8.44772 22 8 21.5523 8 21C8 20.4477 8.44772 20 9 20C8.44772 20 8 19.5523 8 19C8 18.4477 8.44772 18 9 18C8.44772 18 8 17.5523 8 17Z" fill="#035A4B" />
+                                  </svg>
+
+                                </span>
+                              </div>
+                              <div class="flex-grow-1 ms-3">
+                                <span class="navbar-dropdown-menu-media-title">Interpr. Telefónica</span>
+                                <p class="navbar-dropdown-menu-media-desc">Próximamente<i class="bi-box-arrow-up-right ms-1"></i>
+                                </p>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                        <!-- End Promo Item -->
+                      </div>
+                      <!-- End Promo -->
                     </div>
-                    <!-- End Col -->
-                    <div class="col-lg-4 d-none d-lg-block">
+                    <div class="col-lg-6 d-none d-lg-block">
                       <!-- Banner Image -->
                       <div class="navbar-dropdown-menu-banner" style="background-image: url(./assets/svg/components/shape-3.svg);">
                         <div class="navbar-dropdown-menu-banner-content">
                           <div class="mb-4">
-                            <span class="h2 d-block">Branding Works</span>
-                            <p>Experience a level of our quality in both design &amp; customization works.</p>
+                            <span class="h2 d-block">Interp. Consecutiva</span>
+                            <p>Intérpretes para grupos</p>
                           </div>
                           <a class="btn btn-primary btn-transition" href="#">Learn more <i class="bi-chevron-right small"></i></a>
                         </div>
                       </div>
                       <!-- End Banner Image -->
                     </div>
-                    <!-- End Col -->
                   </div>
-                  <!-- End Row -->
                 </div>
+
                 <!-- End Mega Menu -->
               </li>
-              <!-- End Landings -->
+              <!-- End Demos -->
 
-              <!-- Pages -->
-              <li class="hs-has-sub-menu nav-item">
-                <a id="pagesMegaMenu" class="hs-mega-menu-invoker nav-link" href="nosotros.html" role="button" aria-expanded="false">Nosotros</a>
+              <!-- Resto del menú (Account, Pages, Blog, Portfolio) -->
+              <!-- Company -->
+              <li class="nav-item">
+                <a class="hs-mega-menu-invoker nav-link" href="nosotros.html" role="button" aria-expanded="false">Nosotros</a>
               </li>
-              <!-- End Pages -->
 
-              <!-- Pages -->
-              <li class="hs-has-sub-menu nav-item">
-                <a id="pagesMegaMenu" class="hs-mega-menu-invoker nav-link" href="pagos.html" role="button" aria-expanded="false">Pagos</a>
+              <!-- Portfolio -->
+              <li class="nav-item">
+                <a class="hs-mega-menu-invoker nav-link" href="pagos.html" role="button" aria-expanded="false">Pagos</a>
               </li>
-              <!-- End Pages -->
 
-              <!-- Pages -->
-              <li class="hs-has-sub-menu nav-item">
-                <a id="pagesMegaMenu" class="hs-mega-menu-invoker nav-link" href="nexus.html" role="button" aria-expanded="false">Nexus</a>
+              <!-- Portfolio -->
+              <li class="nav-item">
+                <a class="hs-mega-menu-invoker nav-link" href="nexus.html" role="button" aria-expanded="false">Nexus</a>
               </li>
-              <!-- End Pages -->
 
-              <!-- Pages -->
-              <li class="hs-has-sub-menu nav-item">
-                <a id="pagesMegaMenu" class="hs-mega-menu-invoker nav-link" href="bolsa.html" role="button" aria-expanded="false">Trabaje aquí</a>
+              <!-- Portfolio -->
+              <li class="nav-item">
+                <a class="hs-mega-menu-invoker nav-link" href="bolsa.html" role="button" aria-expanded="false">Trabaje aquí</a>
               </li>
-              <!-- End Pages -->
 
-              <!-- Pages -->
-              <li class="hs-has-sub-menu nav-item">
-                <a id="pagesMegaMenu" class="hs-mega-menu-invoker nav-link" href="#" role="button" aria-expanded="false">Contacto</a>
+              <!-- Portfolio -->
+              <li class="nav-item">
+                <a class="hs-mega-menu-invoker nav-link" href="contacto.html" role="button" aria-expanded="false">Contacto</a>
               </li>
-              <!-- End Pages -->
 
               <!-- Button -->
               <li class="nav-item">
-                <a class="btn btn-primary btn-transition" href="https://themes.getbootstrap.com/product/front-multipurpose-responsive-template/" target="_blank">Iniciar Sesión</a>
+                <a class="btn btn-dark btn-transition" href="https://themes.getbootstrap.com/product/front-multipurpose-responsive-template/" target="_blank">Iniciar Sesión</a>
               </li>
               <!-- End Button -->
             </ul>
@@ -304,35 +271,57 @@
       </nav>
     </div>
   </header>
-
   <!-- ========== END HEADER ========== -->
 
   <!-- ========== MAIN CONTENT ========== -->
   <main id="content" role="main">
-    <!-- Thumbs Slider -->
-    <div class="">
-      <div class="">
-        <!-- Slide -->
-        <div class="bg-img-center" style="background-image: url(./assets/img/servicios/digital/bkg006.jpg);">
-          <div class="card-title d-flex align-items-center position-relative content-space-2">
-            <div class="container content-space-2">
-              <div class="row align-items-md-center">
-                <div class="col-md-6">
-                </div>
-                <div class="col-md-6 pt-5 pb-5">
-                  <h2 class="card-title text-black pt-3 pb-2">Traducciones digitales para todo tipo de documentos físicos o electrónicos</h2>
-                  <p class="pt-1 pb-3">Solicítela en nuestra oficina, por teléfono o en línea hoy.</p>
-                  <a class="btn btn-primary mt-5 mb-5 px-5 py-3 fs-4" target="_blank" href="./landing-classic-corporate.html"> Empiece ahora <i class="bi-box-arrow-up-right ms-2 fs-4"></i></a>
-                </div>
-                <!-- End Col -->
-              </div>
-              <!-- End Row -->
-            </div>
 
+    <div class="d-lg-flex position-relative">
+      <div class="container d-lg-flex align-items-lg-center content-space-t-3 content-space-lg-0 min-vh-lg-100">
+        <!-- Heading -->
+        <div class="w-100">
+          <div class="row justify-content-lg-end">
+            <div class="col-lg-6">
+              <div class="mb-5" data-aos="fade-left">
+                <h1 class="display-4 mb-3">
+                  Traducciones digitales para todo tipo de documentos físicos o electrónicos
+                  <span class="text-primary text-highlight-warning">
+                    <span class="js-typedjs" data-hs-typed-options='{
+                            "strings": ["startup.", "future.", "success."],
+                            "typeSpeed": 90,
+                            "loop": true,
+                            "backSpeed": 30,
+                            "backDelay": 2500
+                          }'></span>
+                  </span>
+                </h1>
+                <p class="lead">Solicítela en nuestra oficina, por teléfono o en línea hoy.</p>
+              </div>
+              <div class="d-grid d-sm-flex gap-3">
+                <a class="btn btn-primary mt-5 mb-5 px-5 py-3 fs-4 " target="_blank" href="./landing-classic-corporate.html" data-aos="fade-left" data-aos-delay="300"> Empiece ahora <i class="bi-box-arrow-up-right ms-2 fs-4"></i></a>
+              </div>
+            </div>
             <!-- End Col -->
           </div>
+          <!-- End Row -->
         </div>
-        <!-- End Slide -->
+        <!-- End Title & Description -->
+
+        <!-- SVG Shape (Izquierda) - Versión ajustada -->
+        <div class="col-lg-7 col-xl-6 d-none d-lg-block position-absolute top-0 start-0 ps-0" style="left: 0 !important;">
+          <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 1137.5 979.2" style="margin-left: -1px;">
+            <defs>
+              <path id="mainHeroSVGLeft1" d="M0,0h687.1l278,279.7c150,150.9,98.1,395.3-54.4,543.8l0,0C791.6,960,570.8,968.7,420.3,843.6L0,470.2V0z" />
+            </defs>
+            <clipPath id="mainHeroSVGLeft2">
+              <use xlink:href="#mainHeroSVGLeft1" />
+            </clipPath>
+            <g transform="matrix(1 0 0 1 -1 0)" clip-path="url(#mainHeroSVGLeft2)" data-aos="fade-down-right">
+              <image width="800" height="800" xlink:href="./assets/img/servicios/digital/bkg0062.jpg" transform="matrix(1.5 0 0 1.5 0 0)"></image>
+            </g>
+          </svg>
+        </div>
+        <!-- End SVG Shape -->
       </div>
     </div>
 
@@ -341,14 +330,37 @@
         <!-- Slide -->
         <div class="sbg-img-start bg-img-start">
           <div class="d-flex align-items-center position-relative">
-            <div class="container content-space-2">
+            <div class="container content-space-1">
               <div class="row align-items-md-center">
                 <div class="col-md-6">
                   <img src="./assets/img/servicios/digital/img01.png" class="d-block w-85 mx-auto" alt="Imagen 1">
                 </div>
                 <div class="col-md-6 pt-5 pb-5">
-                  <h3 class="text-primary pt-3 pb-2 display-6">Presentación de la traducción digital</h3>
-                  <p class="pt-1 pb-3">La traducción digital es una traducción simple en formato electrónico (Documento de Office: Word, Excel, etc.) y es entregada de manera adjunta por correo electrónico. Puede aplicarse para traducir documentos en físico como Currículum Vitae, cartas, artículos, solicitudes, como en documentos de Office o en formato PDF. Este tipo de traducción no tiene certificación alguna ni datos del traductor certificado.</p>
+                  <h3 class="text-primary pt-3 pb-2 display-6" data-aos="fade-up">Presentación de la traducción digital</h3>
+                  <div class="d-flex mb-3" data-aos="fade-up" data-aos-delay="150">
+                    <div class="me-4">
+                      <div class="icon icon-xs icon-shape bg-soft-primary text-primary rounded-circle">
+                        <i class="bi bi-file-earmark-text-fill"></i>
+                      </div>
+                    </div>
+                    <p class="mb-0">Traducción simple en formato electrónico (Word, Excel, etc.) entregada por correo electrónico.</p>
+                  </div>
+                  <div class="d-flex mb-3" data-aos="fade-up" data-aos-delay="175">
+                    <div class="me-4">
+                      <div class="icon icon-xs icon-shape bg-soft-primary text-primary rounded-circle">
+                        <i class="bi bi-filetype-pdf"></i>
+                      </div>
+                    </div>
+                    <p class="mb-0">Aplicable para documentos físicos o digitales (CV, cartas, artículos, solicitudes).</p>
+                  </div>
+                  <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
+                    <div class="me-4">
+                      <div class="icon icon-xs icon-shape bg-soft-warning text-warning rounded-circle">
+                        <i class="bi bi-exclamation-triangle-fill"></i>
+                      </div>
+                    </div>
+                    <p class="mb-0"><strong>Importante:</strong> Este servicio no incluye certificación ni datos del traductor.</p>
+                  </div>
                 </div>
                 <!-- End Col -->
               </div>
@@ -364,101 +376,190 @@
     <!-- End Thumbs Slider -->
     </div>
     <!-- Swiper Slider -->
-    <!-- Step -->
+
     <div class="bg-light">
-      <div class="container content-space-t-2 content-space-b-lg-2">
-        <!-- Step -->
-        <ul class="step step-md step-centered">
-          <li class="step-item">
-            <div class="step-content-wrapper">
-              <div class="step-content text-justify">
-                <h3>Entregas urgentes y puntuales sin dolores de cabeza</h3>
-                <p>Sabemos lo importante que es para usted recibir sus traducciones dentro del plazo acordado. Nuestro proceso traductor es ultra eficiente y, con la plataforma Nexus, nuestros traductores trabajan simultáneamente en el mismo proyecto. Este proceso optimiza el rendimiento de cada traductor en un 35%.</p>
+      <div class="container content-space-2 content-space-t-xl-3 content-space-b-lg-3">
+        <!-- End Heading -->
+        <div class="row mb-5 mb-md-0">
+          <div class="col-sm-6 col-lg-4 mb-4 mb-lg-0" data-aos="zoom-in-up" data-aos-delay="100">
+            <!-- Card -->
+            <div class="card card-sm h-100">
+              <div class="p-2">
+                <img class="card-img" src="./assets/img/480x220/img1.jpg" alt="Image Description">
               </div>
-            </div>
-          </li>
-          <li class="step-item">
-            <div class="step-content-wrapper">
-              <div class="step-content text-justify">
-                <h3>Confidencialidad y protección de datos</h3>
-                <p>Todo nuestro personal está sujeto a contratos de confidencialidad y no-divulgación, y nuestra página web está encriptada con la misma tecnología que usan los bancos más grandes. Lea más sobre cómo manejamos su información privada</p>
+
+              <div class="card-body">
+                <h4 class="card-title">Entregas urgentes y puntuales sin dolores de cabeza</h4>
+                <p class="card-text">Con Nexus, varios traductores trabajan simultáneamente en su proyecto, optimizando el rendimiento en un 35%.</p>
+
+                <!-- List Pointer -->
+                <ul class="list-pointer mb-0">
+                  <li class="list-pointer-item">Trabajo colaborativo en tiempo real</li>
+                  <li class="list-pointer-item">Mayor velocidad de entrega</li>
+                  <li class="list-pointer-item">Optimización del rendimiento</li>
+                </ul>
+                <!-- End List Pointer -->
               </div>
+
             </div>
-          </li>
-          <li class="step-item">
-            <div class="step-content-wrapper">
-              <div class="step-content text-justify">
-                <h3>Satisfacción 100% garantizada o le devolveremos su dinero</h3>
-                <p>Con Limac puede contar con un trato amable y traducciones impecables, libres de errores. Si por cualquier motivo no está satisfecho con el servicio brindado, solicite un reembolso de hasta el 100%.</p>
+            <!-- End Card -->
+          </div>
+          <!-- End Col -->
+
+          <div class="col-sm-6 col-lg-4 mb-4 mb-lg-0" data-aos="zoom-in-up" data-aos-delay="200">
+            <!-- Card -->
+            <div class="card card-sm h-100">
+              <div class="p-2">
+                <img class="card-img" src="./assets/img/480x220/img2.jpg" alt="Image Description">
               </div>
+
+              <div class="card-body">
+                <h4 class="card-title">Confidencialidad y protección de datos</h4>
+                <p class="card-text">Todo nuestro personal firma acuerdos de confidencialidad y nuestra web usa encriptación de nivel bancario.</p>
+
+                <!-- List Pointer -->
+                <ul class="list-pointer mb-0">
+                  <li class="list-pointer-item">Contratos de no-divulgación</li>
+                  <li class="list-pointer-item">Encriptación de nivel bancario</li>
+                  <li class="list-pointer-item">Protección de su información privada</li>
+                </ul>
+                <!-- End List Pointer -->
+              </div>
+
             </div>
-          </li>
-        </ul>
-        <!-- End Step -->
+            <!-- End Card -->
+          </div>
+          <!-- End Col -->
+
+          <div class="col-sm-6 col-lg-4" data-aos="zoom-in-up" data-aos-delay="300">
+            <!-- Card -->
+            <div class="card card-sm h-100">
+              <div class="p-2">
+                <img class="card-img" src="./assets/img/480x220/img3.jpg" alt="Image Description">
+              </div>
+
+              <div class="card-body">
+                <h4 class="card-title">Satisfacción 100% garantizada o le devolvemos su dinero</h4>
+                <p class="card-text">Con Limac, recibirá un trato amable y traducciones impecables. Si no está satisfecho, le reembolsamos el 100%.</p>
+
+                <!-- List Pointer -->
+                <ul class="list-pointer mb-0">
+                  <li class="list-pointer-item">Atención personalizada</li>
+                  <li class="list-pointer-item">Traducciones libres de errores</li>
+                  <li class="list-pointer-item">Reembolso del 100% garantizado</li>
+                </ul>
+                <!-- End List Pointer -->
+              </div>
+
+            </div>
+            <!-- End Card -->
+          </div>
+          <!-- End Col -->
+        </div>
+        <!-- End Row -->
       </div>
     </div>
-    <!-- End Step -->
 
-    <div class="">
-      <div class="">
-        <!-- Slide -->
-        <div class="sbg-img-start bg-img-start" style="background-image: url(./assets/img/servicios/traduccion/bkg005.jpg);">
-          <div class="d-flex align-items-center position-relative">
-            <div class="container content-space-2">
-              <div class="row align-items-md-center">
-                <div class="col-md-6">
-                  <h2 class="card-title text-white pt-3 pb-2">Mejores traductores,<br>clientes más satisfechos</h2>
-                  <p class="text-white pt-1 pb-3">Contamos con nuestros propios traductores colegiados certificados de planta quienes cuentan con más de 10 años de experiencia traduciendo documentos legales, financieros y aeronáuticos, entre otros. Adicionalmente, contamos con una amplia red creciente de 3,500 traductores especializados en diversos temas en más de 95 idiomas</p>
-                </div>
-                <div class="col-md-6 pt-2 pb-2">
-                </div>
-                <!-- End Col -->
+    <div class="bg-primary">
+      <div class="position-relative gradient-x-three-sm-primary rounded-2 content-space-t-md-1 content-space-b-md-2 mx-md-10">
+        <div class="container position-relative content-space-t-2 content-space-t-lg-3 content-space-b-1">
+          <div class="row position-relative zi-2">
+            <div class="col-lg-8">
+              <!-- Heading -->
+              <div class="w-lg-75 text-center text-lg-start mb-5 mb-lg-7">
+                <h1 class="display-4 text-white" data-aos="fade-up">Mejores traductores,<br><span class="text-dark">clientes</span> más satisfechos</h1>
+                <p class="lead text-white" data-aos="fade-up" data-aos-delay="100">Contamos con traductores certificados de planta, con amplia experiencia en documentos legales, financieros y aeronáuticos. Además, disponemos de una red de más de 3,500 traductores especializados en más de 95 idiomas.</p>
+
               </div>
-              <!-- End Row -->
-            </div>
+              <!-- End Heading -->
 
+            </div>
             <!-- End Col -->
           </div>
+          <!-- End Row -->
+
+          <div class="d-none d-lg-block col-lg-6 position-lg-absolute top-0 end-0">
+            <img class="img-fluid rounded-2 shadow-xl" data-aos="zoom-in-up" data-aos-delay="200" src="./assets/img/servicios/traduccion/bkg0051.jpg" alt="Image Description">
+
+            <!-- SVG Shape -->
+            <div class="position-absolute top-0 start-0 zi-n1 mt-n6 ms-n7" style="width: 10rem;">
+              <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 335.2 335.2" width="100" height="100">
+                <circle fill="#ffffff" opacity=".7" cx="167.6" cy="167.6" r="130.1" />
+              </svg>
+            </div>
+            <!-- End SVG Shape -->
+
+            <!-- SVG Shape -->
+            <div class="position-absolute bottom-0 end-0 zi-n1 mb-n6 me-n10" style="width: 10rem;">
+              <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 335.2 335.2" width="120" height="120">
+                <circle fill="none" stroke="#377dff" stroke-width="75" cx="167.6" cy="167.6" r="130.1" />
+              </svg>
+            </div>
+            <!-- End SVG Shape -->
+          </div>
         </div>
-        <!-- End Slide -->
       </div>
     </div>
 
     <!-- PREGUNTAS FRECUENTES -->
-    <div class="bg-light">
-      <div class="container content-space-t-2">
-        <!-- Step -->
-        <h2 class="text-primary text-center content-space">Preguntas frecuentes acerca del servicio</h2>
-        <ul class="step step-md step-centered content-space-1">
-          <li class="step-item">
-            <div class="step-content-wrapper">
-              <div class="step-content text-justify">
-                <h3>"¿Cómo se calcula el costo del servicio de traducción?"</h3>
-                <p>
-                  El costo de la traducción depende de factores como la combinación de idiomas, la cantidad de palabras y la fecha de entrega. Para saber el costo exacto de sus documentos, debe ponerse en contacto con el Departamento de Ventas aquí.
-                </p>
+    <div class="">
+      <div class="container content-space-2 content-space-b-lg-3">
+        <div class="w-lg-75 mx-lg-auto">
+          <div class="d-grid gap-10">
+            <div class="d-grid gap-3">
+              <h2 class="text-primary" data-aos="fade-up">Preguntas frecuentes acerca del servicio</h2>
+
+              <!-- Accordion -->
+              <div class="accordion accordion-flush accordion-lg" id="accordionFAQBasics">
+                <!-- Accordion Item -->
+                <div class="accordion-item px-5" data-aos="fade-up" data-aos-delay="100">
+                  <div class="accordion-header" id="headingBasicsOne">
+                    <a class="accordion-button" role="button" data-bs-toggle="collapse" data-bs-target="#collapseBasicsOne" aria-expanded="true" aria-controls="collapseBasicsOne">
+                      ¿Cómo se calcula el costo del servicio de traducción?
+                    </a>
+                  </div>
+                  <div id="collapseBasicsOne" class="accordion-collapse collapse show" aria-labelledby="headingBasicsOne" data-bs-parent="#accordionFAQBasics">
+                    <div class="accordion-body">
+                      El costo de la traducción depende de factores como la combinación de idiomas, la cantidad de palabras y la fecha de entrega. Para saber el costo exacto de sus documentos, debe ponerse en contacto con el Departamento de Ventas aquí.
+                    </div>
+                  </div>
+                </div>
+                <!-- End Accordion Item -->
+
+                <!-- Accordion Item -->
+                <div class="accordion-item px-5" data-aos="fade-up" data-aos-delay="200">
+                  <div class="accordion-header" id="headingBasicsTwo">
+                    <a class="accordion-button collapsed" role="button" data-bs-toggle="collapse" data-bs-target="#collapseBasicsTwo" aria-expanded="false" aria-controls="collapseBasicsTwo">
+                      ¿Hay facilidades de pago o créditos para personas jurídicas/empresas?
+                    </a>
+                  </div>
+                  <div id="collapseBasicsTwo" class="accordion-collapse collapse" aria-labelledby="headingBasicsTwo" data-bs-parent="#accordionFAQBasics">
+                    <div class="accordion-body">
+                      Dependiendo de las políticas de su empresa y el tipo de contrato firmado, podemos ofrecerle los siguientes métodos de pago: 50% adelantado / 50% contra-avance, 50% adelantado / 50% contra-entrega, 100% adelantado, 100% contra-entrega, Factura a 7 días, Factura a 15 días y Factura a 30 días.
+                    </div>
+                  </div>
+                </div>
+                <!-- End Accordion Item -->
+
+                <!-- Accordion Item -->
+                <div class="accordion-item px-5" data-aos="fade-up" data-aos-delay="300">
+                  <div class="accordion-header" id="headingBasicsThree">
+                    <a class="accordion-button collapsed" role="button" data-bs-toggle="collapse" data-bs-target="#collapseBasicsThree" aria-expanded="false" aria-controls="collapseBasicsThree">
+                      ¿Debo de presentar la traducción en RR.EE. para que sea apostillada?
+                    </a>
+                  </div>
+                  <div id="collapseBasicsThree" class="accordion-collapse collapse" aria-labelledby="headingBasicsThree" data-bs-parent="#accordionFAQBasics">
+                    <div class="accordion-body">
+                      Con Limac puede contar con un trato amable y traducciones impecables, libres de errores. Si por cualquier motivo no está satisfecho con el servicio brindado, solicite un reembolso de hasta el 100%.
+                    </div>
+                  </div>
+                </div>
+                <!-- End Accordion Item -->
               </div>
+              <!-- End Accordion -->
             </div>
-          </li>
-          <li class="step-item">
-            <div class="step-content-wrapper">
-              <div class="step-content text-justify">
-                <h3>"¿Hay facilidades de pago o créditos para personas jurídicas/empresas?"</h3>
-                <p>Dependiendo de las políticas de su empresa y el tipo de contrato firmado, podemos ofrecerle los siguientes métodos de pago:
-                  50% adelantado/50% contra-avance, 50% adelantado/50% contra-entrega, 100% adelantado, 100% contra-entrega, Factura a 7 días, Factura a 15 días y Factura a 30 días.</p>
-              </div>
-            </div>
-          </li>
-          <li class="step-item">
-            <div class="step-content-wrapper">
-              <div class="step-content text-justify">
-                <h3>"¿Debo de presentar la traducción en RR.EE. para que sea apostillada?"</h3>
-                <p>Con Limac puede contar con un trato amable y traducciones impecables, libres de errores. Si por cualquier motivo no está satisfecho con el servicio brindado, solicite un reembolso de hasta el 100%.</p>
-              </div>
-            </div>
-          </li>
-        </ul>
-        <!-- End Step -->
+          </div>
+        </div>
       </div>
     </div>
     <!-- PREGUNTAS FRECUENTES -END-->
@@ -481,49 +582,64 @@
     </div>
 
     <div class="bg-light">
-      <div class="container content-space-2">
-        <div class="row justify-content-lg-between align-items-lg-center">
-          <div class="col-lg-6 mb-9 mb-lg-0">
-            <div class="mb-3">
-              <h2 class="text-primary">Pague de una manera más rápida y segura</h2>
+      <!-- Pagos -->
+      <div class="container content-space-2 content-space-lg-2">
+        <div class="row">
+          <div class="col-md-4 pt-md-0">
+            <!-- Card -->
+            <div class="card bg-primary shadow-lg shadow-xl mt-md-n10" data-aos="fade-up">
+              <div class="card-body">
+                <div class="mb-1">
+
+                  <h2 class="card-title text-white">Pague de forma rápida y segura con tarjetas de crédito, transferencia bancaria, depósito o en efectivo en nuestras oficinas.</h2>
+                </div>
+              </div>
             </div>
-            <p>Para su conveniencia, aceptamos pagos desde nuestro sitio web con las tarjetas de crédito más comerciales. También puede realizar sus pagos mediante depósito, transferencia bancaria o, si lo prefiere, pagar de la manera tradicional acercándose a cancelar en efectivo en nuestra oficina.</p>
+            <!-- End Card -->
           </div>
-          <div class="col-lg-6 col-xl-5">
+          <!-- End Col -->
+
+          <div class="col-md-8">
             <div class="row">
-              <div class="col-6">
+              <div class="col-4 py-3" data-aos="fade-down-right" data-aos-delay="100">
                 <div class="bg-img-start" style="background-image: url(./assets/img/metodos_pago/americanexpress.png); height: 10rem; background-size: contain; background-repeat: no-repeat; background-position: center;"></div>
               </div>
-              <div class="col-6">
+              <!-- End Col -->
+
+              <div class="col-4 py-3" data-aos="fade-down-right" data-aos-delay="200">
                 <div class="bg-img-start" style="background-image: url(./assets/img/metodos_pago/diners.png); height: 10rem; background-size: contain; background-repeat: no-repeat; background-position: center;"></div>
               </div>
-            </div>
+              <!-- End Col -->
 
-            <div class="row">
-              <div class="col-6">
+              <div class="col-4 py-3" data-aos="fade-down-right" data-aos-delay="300">
                 <div class="bg-img-start" style="background-image: url(./assets/img/metodos_pago/mastercard.png); height: 10rem; background-size: contain; background-repeat: no-repeat; background-position: center;"></div>
               </div>
-              <div class="col-6">
+              <!-- End Col -->
+
+              <div class="col-4 py-3" data-aos="fade-down-right" data-aos-delay="400">
                 <div class="bg-img-start" style="background-image: url(./assets/img/metodos_pago/paypal_logo.png); height: 10rem; background-size: contain; background-repeat: no-repeat; background-position: center;"></div>
               </div>
-            </div>
+              <!-- End Col -->
 
-            <div class="row">
-              <div class="col-6">
+              <div class="col-4 py-3" data-aos="fade-down-right" data-aos-delay="500">
                 <div class="bg-img-start" style="background-image: url(./assets/img/metodos_pago/visa.png); height: 10rem; background-size: contain; background-repeat: no-repeat; background-position: center;"></div>
               </div>
-              <div class="col-6">
+              <!-- End Col -->
+
+              <div class="col-4 py-3" data-aos="fade-down-right" data-aos-delay="600">
                 <div class="bg-img-start" style="background-image: url(./assets/img/metodos_pago/payu_logo.png); height: 10rem; background-size: contain; background-repeat: no-repeat; background-position: center;"></div>
               </div>
-            </div>
-          </div>
+              <!-- End Col -->
 
-          <!-- End Col -->
+            </div>
+            <!-- End Row -->
+          </div>
           <!-- End Col -->
         </div>
         <!-- End Row -->
       </div>
-    </div>
+      <!-- End Pagos -->
+
     </div>
 
     <div class="sbg-img-start bg-img-start pb-5 pt-5" style="background-image: url(./assets/img/nexus/nexus_bkg1500.jpg);">
@@ -966,6 +1082,7 @@
   <script src="./assets/vendor/hs-show-animation/dist/hs-show-animation.min.js"></script>
   <script src="./assets/vendor/hs-go-to/dist/hs-go-to.min.js"></script>
   <script src="./assets/vendor/aos/dist/aos.js"></script>
+  <script src="./assets/vendor/typed.js/lib/typed.min.js"></script>
   <script src="./assets/vendor/swiper/swiper-bundle.min.js"></script>
 
   <!-- JS Front -->
@@ -1021,82 +1138,47 @@
       });
 
 
+      // INITIALIZATION OF TEXT ANIMATION (TYPING)
+      // =======================================================
+      HSCore.components.HSTyped.init('.js-typedjs')
+
+
       // INITIALIZATION OF SWIPER
       // =======================================================
-      let activeIndex = 0
       var sliderThumbs = new Swiper('.js-swiper-thumbs', {
-        slidesPerView: 1,
-        autoplay: false,
         watchSlidesVisibility: true,
         watchSlidesProgress: true,
-        followFinger: false,
-        loop: true,
+        history: false,
+        breakpoints: {
+          480: {
+            slidesPerView: 2,
+            spaceBetween: 15,
+          },
+          768: {
+            slidesPerView: 3,
+            spaceBetween: 15,
+          },
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 15,
+          },
+        },
         on: {
-          'slideChangeTransitionEnd': function (event) {
-            if (sliderMain === undefined) return
-            sliderMain.slideTo(event.activeIndex)
+          'afterInit': function (swiper) {
+            swiper.el.querySelectorAll('.js-swiper-pagination-progress-body-helper')
+            .forEach($progress => $progress.style.transitionDuration = `${swiper.params.autoplay.delay}ms`)
           }
         }
       });
 
       var sliderMain = new Swiper('.js-swiper-main', {
         effect: 'fade',
-        autoplay: false,
-        disableOnInteraction: true,
+        autoplay: true,
         loop: true,
-        navigation: {
-          nextEl: '.js-swiper-main-button-next',
-          prevEl: '.js-swiper-main-button-prev',
-        },
         thumbs: {
           swiper: sliderThumbs
-        },
-        on: {
-          'slideChangeTransitionEnd': function (event) {
-            if (sliderThumbs === undefined) return
-            sliderThumbs.slideTo(event.activeIndex)
-          }
         }
       })
-
-      // Clients
-      var swiper = new Swiper('.js-swiper-clients',{
-        slidesPerView: 2,
-        breakpoints: {
-          380: {
-            slidesPerView: 3,
-            spaceBetween: 15,
-          },
-          768: {
-            slidesPerView: 4,
-            spaceBetween: 15,
-          },
-          1024: {
-            slidesPerView: 5,
-            spaceBetween: 15,
-          },
-        },
-      });
-
-      // Card Grid
-      var swiper = new Swiper('.js-swiper-card-blocks',{
-        slidesPerView: 1,
-        pagination: {
-          el: '.js-swiper-card-blocks-pagination',
-          dynamicBullets: true,
-          clickable: true,
-        },
-        breakpoints: {
-          620: {
-            slidesPerView: 2,
-            spaceBetween: 15,
-          },
-          1024: {
-            slidesPerView: 3,
-            spaceBetween: 15,
-          },
-        },
-      });
     })()
   </script>
 </body>

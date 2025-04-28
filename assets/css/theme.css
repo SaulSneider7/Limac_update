@@ -21616,7 +21616,7 @@ label.form-control,
   box-shadow: 0rem 0.375rem 1.5rem 0rem rgba(140, 152, 164, 0.125);
 }
 .navbar.navbar-scrolled.navbar-dark {
-  background-color: #21325b;
+  background-color: #377dff;
 }
 
 .navbar-brand {
@@ -27005,6 +27005,25 @@ a:hover .text-inherit {
   font-size: 0.875rem;
   margin-top: 0.5rem;
 }
+
+
+@media (max-width: 991px) {
+  .hs-mega-menu.dropdown-menu .row {
+    display: block !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+}
+
+.logo_create{
+  font-size: 3em;
+  letter-spacing: -4.5px;
+  line-height: inherit;
+  text-shadow: 0px 2px 1px rgb(0 0 0 / 40%), 0px 4px 2px rgb(0 0 0 / 10%), 0px 6px 3px rgb(0 0 0 / 10%);
+  color: #fff;
+  font-family: 'Maven Pro', sans-serif;
+}
+
 
 /*------------------------------------
   File for your custom SCSS style
