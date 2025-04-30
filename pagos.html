@@ -19,6 +19,7 @@
   <link rel="stylesheet" href="./assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.css">
   <link rel="stylesheet" href="./assets/vendor/aos/dist/aos.css">
   <link rel="stylesheet" href="./assets/vendor/swiper/swiper-bundle.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 
   <!-- CSS Front Template -->
   <link rel="stylesheet" href="./assets/css/theme.min.css">
@@ -279,89 +280,110 @@
   <!-- ========== MAIN CONTENT ========== -->
   <main id="content" role="main">
     <!-- Thumbs Slider -->
-    <div class="">
-      <div class="">
-        <!-- Slide -->
-        <div class="sbg-img-start bg-img-start" style="background-image: url(./assets/img/pagos/bkg017.jpg);">
-          <div class="card-title d-flex align-items-center position-relative">
-            <div class="container content-space-4">
-              <div class="row align-items-md-center">
-                <div class="col-md-6 px-sm-4 py-5">
-                  <h2 class="card-title text-primary pt-3 pb-2">Pague en línea ingresando el número de cotización o factura</h2>
-                  <form>
-                    <!-- Input Card -->
-                    <div class="input-card input-card-sm border mb-3">
-                      <div class="input-card-form">
-                        <label for="subscribeForm" class="form-label visually-hidden"># Cotización</label>
-                        <input type="text" class="form-control form-control-lg" id="subscribeForm" placeholder="Enter email" aria-label="Enter email">
-                      </div>
-                      <button type="button" class="btn btn-primary">Buscar</button>
-                    </div>
-                    <!-- End Input Card -->
-                  </form>
-                  <p class="pt-1 pb-3">Ante cualquier consulta no dude en escribirnos a ventas@limac.com.pe o llamarnos al (01) 700 9040</p>
-                </div>
-                <div class="col-md-6">
-                </div>
-                <!-- End Col -->
+    <div class="position-relative overflow-hidden content-space-t-md-4">
+      <div class="container">
+        <div class="position-relative content-space-t-3 content-space-t-md-0 content-space-t-lg-3 content-space-b-2 content-space-b-md-3 content-space-b-xl-5">
+          <div class="row position-relative zi-2 mt-md-n5">
+            <div class="col-md-6 mb-7 mb-md-0">
+              <!-- Heading -->
+              <div class="w-md-75 mb-7">
+                <h2 class="display-4 text-primary">Pague en línea ingresando el número de
+                  <span class="text-primary text-highlight-warning">
+                    <span class="js-typedjs" data-hs-typed-options='{
+                              "strings": ["cotización", "factura"],
+                              "typeSpeed": 90,
+                              "loop": true,
+                              "backSpeed": 30,
+                              "backDelay": 2500
+                            }'></span>
+                  </span>
+                </h2>
               </div>
-              <!-- End Row -->
-            </div>
+              <!-- End Heading -->
 
+              <form>
+                <!-- Input Card -->
+                <div class="input-card">
+                  <div class="input-card-form">
+                    <label for="searchLocationForm" class="form-label visually-hidden"></label>
+                    <div class="input-group input-group-merge">
+                      <span class="input-group-prepend input-group-text">
+                        <i class="bi-search"></i>
+                      </span>
+                      <input type="text" class="form-control form-control-lg" id="searchLocationForm" placeholder="# Cotización" aria-label="# Cotización">
+                    </div>
+                  </div>
+                  <button type="button lead" class="btn btn-primary btn-lg">Buscar</button>
+                </div>
+                <!-- End Input Card -->
+              </form>
+
+              <p class="py-4">Ante cualquier consulta no dude en escribirnos a ventas@limac.com.pe o llamarnos al (01) 700 9040</p>
+            </div>
             <!-- End Col -->
           </div>
+          <!-- End Row -->
+
+          <div class="col-md-6 position-md-absolute top-0 end-0">
+            <img class="img-fluid rounded-4" src="./assets/img/pagos/bkg0171.jpg" alt="Image Description">
+
+            <!-- SVG Shape -->
+            <div class="position-absolute bottom-0 end-0 zi-n1 mb-n10 me-n7" style="width: 12rem;">
+              <img class="img-fluid" src="./assets/svg/components/dots-lg.svg" alt="Image Description">
+            </div>
+            <!-- End SVG Shape -->
+          </div>
         </div>
-        <!-- End Slide -->
       </div>
-    </div>
+      <!-- End Hero -->
 
-    <div class="bg-light">
-      <div class="">
-        <!-- Slide -->
-        <div class="sbg-img-start bg-img-start">
-          <div class="d-flex align-items-center position-relative">
-            <div class="container content-space-2">
-              <h3 class="text-primary pt-3 pb-4 text-center display-6">Instrucciones para pagos sin comisión</h3>
-              <div class="row justify-content-center align-items-center text-center payment-steps">
-                <ul class="step step-md step-centered">
-                  <li class="step-item">
-                    <div class="step-content-wrapper">
-                      <span class="step-icon step-icon-soft-primary">1</span>
-                      <div class="step-content">
-                        <img src="./assets/img/pagos/03.png" alt="Paso 1" class="img-fluid step-img">
-                        <p class="py-3">Ir al banco y realizar el depósito a la cuenta indicada en la cotización.</p>
+      <div class="bg-light">
+        <div class="">
+          <!-- Slide -->
+          <div class="sbg-img-start bg-img-start">
+            <div class="d-flex align-items-center position-relative">
+              <div class="container content-space-2">
+                <h3 class="text-primary pt-3 pb-4 text-center display-6">Instrucciones para pagos sin comisión</h3>
+                <div class="row justify-content-center align-items-center text-center payment-steps">
+                  <ul class="step step-md step-centered">
+                    <li class="step-item" data-aos="fade-right" data-aos-offset="300" data-aos-duration="500" data-aos-easing="ease-in-sine">
+                      <div class="step-content-wrapper">
+                        <span class="step-icon step-icon-soft-primary">1</span>
+                        <div class="step-content">
+                          <img src="./assets/img/pagos/03.png" alt="Paso 1" class="img-fluid step-img">
+                          <p class="py-3">Ir al banco y realizar el depósito a la cuenta indicada en la cotización.</p>
+                        </div>
                       </div>
-                    </div>
-                  </li>
+                    </li>
 
-                  <li class="step-item">
-                    <div class="step-content-wrapper">
-                      <span class="step-icon step-icon-soft-primary">2</span>
-                      <div class="step-content">
-                        <img src="./assets/img/pagos/04.png" alt="Paso 2" class="img-fluid step-img">
-                        <p class="py-3">Enviar adjunto el voucher del depósito a ventas@limac.com.pe.</p>
+                    <li class="step-item" data-aos="fade-right" data-aos-offset="300" data-aos-duration="600" data-aos-easing="ease-in-sine">
+                      <div class="step-content-wrapper">
+                        <span class="step-icon step-icon-soft-primary">2</span>
+                        <div class="step-content">
+                          <img src="./assets/img/pagos/04.png" alt="Paso 2" class="img-fluid step-img">
+                          <p class="py-3">Enviar adjunto el voucher del depósito a ventas@limac.com.pe.</p>
+                        </div>
                       </div>
-                    </div>
-                  </li>
+                    </li>
 
-                  <li class="step-item">
-                    <div class="step-content-wrapper">
-                      <span class="step-icon step-icon-soft-primary">3</span>
-                      <div class="step-content">
-                        <img src="./assets/img/pagos/05.png" alt="Paso 3" class="img-fluid step-img">
-                        <p class="py-3">Empezamos con el proceso de traducción de sus documentos.</p>
+                    <li class="step-item" data-aos="fade-right" data-aos-offset="300" data-aos-duration="700" data-aos-easing="ease-in-sine">
+                      <div class="step-content-wrapper">
+                        <span class="step-icon step-icon-soft-primary">3</span>
+                        <div class="step-content">
+                          <img src="./assets/img/pagos/05.png" alt="Paso 3" class="img-fluid step-img">
+                          <p class="py-3">Empezamos con el proceso de traducción de sus documentos.</p>
+                        </div>
                       </div>
-                    </div>
-                  </li>
-                </ul>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
+          <!-- End Slide -->
         </div>
-        <!-- End Slide -->
       </div>
-    </div>
-    <!-- End Thumbs Slider -->
+      <!-- End Thumbs Slider -->
 
   </main>
   <!-- ========== END MAIN CONTENT ========== -->
@@ -746,6 +768,7 @@
   <!-- JS Plugins Init. -->
   <script>
     (function() {
+
       // INITIALIZATION OF HEADER
       // =======================================================
       new HSHeader('#header').init()
@@ -759,7 +782,16 @@
           }
         })
 
-
+      document.addEventListener('DOMContentLoaded', function () {
+      document.querySelectorAll('.js-typedjs').forEach(function (el) {
+      try {
+        const options = JSON.parse(el.getAttribute('data-hs-typed-options'));
+        new Typed(el, options);
+      } catch (e) {
+        console.error('Typed.js: JSON inválido en data-hs-typed-options', e);
+      }
+      });
+      });
       // INITIALIZATION OF SHOW ANIMATIONS
       // =======================================================
       new HSShowAnimation('.js-animation-link')
