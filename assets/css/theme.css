@@ -23472,7 +23472,7 @@ label.form-control,
   }
   .navbar-expand-lg.navbar-dark .navbar-nav,
   .navbar-expand-lg.navbar-dark .navbar-topbar-collapse {
-    background-color: #21325b;
+    background-color: #377dff;
   }
   .navbar-expand-lg.navbar-dark .navbar-topbar-toggler {
     border-bottom-color: rgba(255, 255, 255, 0.1);
@@ -27016,7 +27016,7 @@ a:hover .text-inherit {
 }
 
 .logo_create{
-  font-size: 3em;
+  font-size: 2.5em;
   letter-spacing: -4.5px;
   line-height: inherit;
   text-shadow: 0px 2px 1px rgb(0 0 0 / 40%), 0px 4px 2px rgb(0 0 0 / 10%), 0px 6px 3px rgb(0 0 0 / 10%);
