@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" dir="">
+
 <head>
   <!-- Required Meta Tags Always Come First -->
   <meta charset="utf-8">
@@ -22,24 +23,27 @@
 
   <!-- CSS Front Template -->
   <link rel="stylesheet" href="./assets/css/theme.min.css">
+  <link rel="stylesheet" href="./assets/css/my_style.css">
 </head>
 
 <body>
   <!-- ========== HEADER ========== -->
-  <header id="header" class="navbar navbar-expand-lg navbar-end navbar-dark bg-primary" data-hs-header-options='{
-            "fixMoment": 1000,
-            "fixEffect": "slide"
-          }'>
+  <header id="header" class="navbar navbar-expand-lg navbar-end navbar-absolute-top navbar-light navbar-show-hide"
+    data-hs-header-options='{
+              "fixMoment": 1000,
+              "fixEffect": "slide"
+            }'>
     <div class="container">
       <nav class="js-mega-menu navbar-nav-wrap">
         <!-- Default Logo -->
         <a class="navbar-brand" href="./index.html" aria-label="Front">
-          <p class="logo_create">limac</p>
+          <span class="logo_create">limac</s>
         </a>
         <!-- End Default Logo -->
 
         <!-- Toggler -->
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-default">
             <i class="bi-list"></i>
           </span>
@@ -53,9 +57,10 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <div class="navbar-absolute-top-scroller">
             <ul class="navbar-nav">
-              <!-- Demos (reemplaza a Landings) -->
+              <!-- Landings -->
               <li class="hs-has-mega-menu nav-item">
-                <a id="demosMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle active" aria-current="page" href="#" role="button">Servicios</a>
+                <a id="demosMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle active" aria-current="page"
+                  href="#" role="button">Servicios</a>
 
                 <!-- Mega Menu -->
                 <div class="hs-mega-menu dropdown-menu w-100" aria-labelledby="demosMegaMenu" style="min-width: 40rem;">
@@ -69,9 +74,14 @@
                             <div class="d-flex">
                               <div class="flex-shrink-0">
                                 <span class="svg-icon svg-icon-sm text-primary">
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M15.6 5.59998L20.9 10.9C21.3 11.3 21.3 11.9 20.9 12.3L17.6 15.6L11.6 9.59998L15.6 5.59998ZM2.3 12.3L7.59999 17.6L11.6 13.6L5.59999 7.59998L2.3 10.9C1.9 11.3 1.9 11.9 2.3 12.3Z" fill="#035A4B" />
-                                    <path opacity="0.3" d="M17.6 15.6L12.3 20.9C11.9 21.3 11.3 21.3 10.9 20.9L7.59998 17.6L13.6 11.6L17.6 15.6ZM10.9 2.3L5.59998 7.6L9.59998 11.6L15.6 5.6L12.3 2.3C11.9 1.9 11.3 1.9 10.9 2.3Z" fill="#035A4B" />
+                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                      d="M15.6 5.59998L20.9 10.9C21.3 11.3 21.3 11.9 20.9 12.3L17.6 15.6L11.6 9.59998L15.6 5.59998ZM2.3 12.3L7.59999 17.6L11.6 13.6L5.59999 7.59998L2.3 10.9C1.9 11.3 1.9 11.9 2.3 12.3Z"
+                                      fill="#035A4B" />
+                                    <path opacity="0.3"
+                                      d="M17.6 15.6L12.3 20.9C11.9 21.3 11.3 21.3 10.9 20.9L7.59998 17.6L13.6 11.6L17.6 15.6ZM10.9 2.3L5.59998 7.6L9.59998 11.6L15.6 5.6L12.3 2.3C11.9 1.9 11.3 1.9 10.9 2.3Z"
+                                      fill="#035A4B" />
                                   </svg>
 
                                 </span>
@@ -91,9 +101,14 @@
                             <div class="d-flex">
                               <div class="flex-shrink-0">
                                 <span class="svg-icon svg-icon-sm text-primary">
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M6.5 3C5.67157 3 5 3.67157 5 4.5V6H3.5C2.67157 6 2 6.67157 2 7.5C2 8.32843 2.67157 9 3.5 9H5V19.5C5 20.3284 5.67157 21 6.5 21C7.32843 21 8 20.3284 8 19.5V9H20.5C21.3284 9 22 8.32843 22 7.5C22 6.67157 21.3284 6 20.5 6H8V4.5C8 3.67157 7.32843 3 6.5 3Z" fill="#035A4B" />
-                                    <path opacity="0.3" fill-rule="evenodd" clip-rule="evenodd" d="M20.5 11H10V17.5C10 18.3284 10.6716 19 11.5 19H15.5C17.3546 19 19.0277 18.2233 20.2119 16.9775C20.1436 16.9922 20.0727 17 20 17C19.4477 17 19 16.5523 19 16V13C19 12.4477 19.4477 12 20 12C20.5523 12 21 12.4477 21 13V15.9657C21.6334 14.9626 22 13.7741 22 12.5C22 11.6716 21.3284 11 20.5 11Z" fill="#035A4B" />
+                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                      d="M6.5 3C5.67157 3 5 3.67157 5 4.5V6H3.5C2.67157 6 2 6.67157 2 7.5C2 8.32843 2.67157 9 3.5 9H5V19.5C5 20.3284 5.67157 21 6.5 21C7.32843 21 8 20.3284 8 19.5V9H20.5C21.3284 9 22 8.32843 22 7.5C22 6.67157 21.3284 6 20.5 6H8V4.5C8 3.67157 7.32843 3 6.5 3Z"
+                                      fill="#035A4B" />
+                                    <path opacity="0.3" fill-rule="evenodd" clip-rule="evenodd"
+                                      d="M20.5 11H10V17.5C10 18.3284 10.6716 19 11.5 19H15.5C17.3546 19 19.0277 18.2233 20.2119 16.9775C20.1436 16.9922 20.0727 17 20 17C19.4477 17 19 16.5523 19 16V13C19 12.4477 19.4477 12 20 12C20.5523 12 21 12.4477 21 13V15.9657C21.6334 14.9626 22 13.7741 22 12.5C22 11.6716 21.3284 11 20.5 11Z"
+                                      fill="#035A4B" />
                                   </svg>
 
                                 </span>
@@ -118,12 +133,19 @@
                             <div class="d-flex">
                               <div class="flex-shrink-0">
                                 <span class="svg-icon svg-icon-sm text-primary">
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
                                     <path d="M20 19H4C2.9 19 2 18.1 2 17H22C22 18.1 21.1 19 20 19Z" fill="#035A4B" />
-                                    <path opacity="0.3" d="M20 5H4C3.4 5 3 5.4 3 6V17H21V6C21 5.4 20.6 5 20 5Z" fill="#035A4B" />
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M14.9167 6.83334H9.91666C9.18899 6.83334 8.66666 7.37744 8.66666 8.08334V13.9167C8.66666 14.6226 9.18899 15.1667 9.91666 15.1667H14.9167C15.1841 15.1667 15.3333 15.0112 15.3333 14.75V14.3333H10.3333C10.1032 14.3333 9.91665 14.1468 9.91665 13.9167C9.91665 13.6866 10.1032 13.5 10.3333 13.5H15.3333V7.25001C15.3333 6.9888 15.1841 6.83334 14.9167 6.83334Z" fill="#035A4B" />
-                                    <mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="8" y="6" width="8" height="10">
-                                      <path fill-rule="evenodd" clip-rule="evenodd" d="M14.9167 6.83334H9.91666C9.18899 6.83334 8.66666 7.37744 8.66666 8.08334V13.9167C8.66666 14.6226 9.18899 15.1667 9.91666 15.1667H14.9167C15.1841 15.1667 15.3333 15.0112 15.3333 14.75V14.3333H10.3333C10.1032 14.3333 9.91665 14.1468 9.91665 13.9167C9.91665 13.6866 10.1032 13.5 10.3333 13.5H15.3333V7.25001C15.3333 6.9888 15.1841 6.83334 14.9167 6.83334Z" fill="white" />
+                                    <path opacity="0.3" d="M20 5H4C3.4 5 3 5.4 3 6V17H21V6C21 5.4 20.6 5 20 5Z"
+                                      fill="#035A4B" />
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                      d="M14.9167 6.83334H9.91666C9.18899 6.83334 8.66666 7.37744 8.66666 8.08334V13.9167C8.66666 14.6226 9.18899 15.1667 9.91666 15.1667H14.9167C15.1841 15.1667 15.3333 15.0112 15.3333 14.75V14.3333H10.3333C10.1032 14.3333 9.91665 14.1468 9.91665 13.9167C9.91665 13.6866 10.1032 13.5 10.3333 13.5H15.3333V7.25001C15.3333 6.9888 15.1841 6.83334 14.9167 6.83334Z"
+                                      fill="#035A4B" />
+                                    <mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="8" y="6" width="8"
+                                      height="10">
+                                      <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M14.9167 6.83334H9.91666C9.18899 6.83334 8.66666 7.37744 8.66666 8.08334V13.9167C8.66666 14.6226 9.18899 15.1667 9.91666 15.1667H14.9167C15.1841 15.1667 15.3333 15.0112 15.3333 14.75V14.3333H10.3333C10.1032 14.3333 9.91665 14.1468 9.91665 13.9167C9.91665 13.6866 10.1032 13.5 10.3333 13.5H15.3333V7.25001C15.3333 6.9888 15.1841 6.83334 14.9167 6.83334Z"
+                                        fill="white" />
                                     </mask>
                                     <g mask="url(#mask0)">
                                     </g>
@@ -146,9 +168,13 @@
                             <div class="d-flex">
                               <div class="flex-shrink-0">
                                 <span class="svg-icon svg-icon-sm text-primary">
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path opacity="0.3" d="M20 22H4C3.4 22 3 21.6 3 21V2H21V21C21 21.6 20.6 22 20 22Z" fill="#035A4B" />
-                                    <path d="M12 14C9.2 14 7 11.8 7 9V5C7 4.4 7.4 4 8 4C8.6 4 9 4.4 9 5V9C9 10.7 10.3 12 12 12C13.7 12 15 10.7 15 9V5C15 4.4 15.4 4 16 4C16.6 4 17 4.4 17 5V9C17 11.8 14.8 14 12 14Z" fill="#035A4B" />
+                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path opacity="0.3" d="M20 22H4C3.4 22 3 21.6 3 21V2H21V21C21 21.6 20.6 22 20 22Z"
+                                      fill="#035A4B" />
+                                    <path
+                                      d="M12 14C9.2 14 7 11.8 7 9V5C7 4.4 7.4 4 8 4C8.6 4 9 4.4 9 5V9C9 10.7 10.3 12 12 12C13.7 12 15 10.7 15 9V5C15 4.4 15.4 4 16 4C16.6 4 17 4.4 17 5V9C17 11.8 14.8 14 12 14Z"
+                                      fill="#035A4B" />
                                   </svg>
 
                                 </span>
@@ -173,9 +199,14 @@
                             <div class="d-flex">
                               <div class="flex-shrink-0">
                                 <span class="svg-icon svg-icon-sm text-primary">
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M22.1671 18.1421C22.4827 18.4577 23.0222 18.2331 23.0206 17.7868L23.0039 13.1053V5.52632C23.0039 4.13107 21.8729 3 20.4776 3H8.68815C7.2929 3 6.16183 4.13107 6.16183 5.52632V9H13C14.6568 9 16 10.3431 16 12V15.6316H19.6565L22.1671 18.1421Z" fill="#035A4B" />
-                                    <path opacity="0.3" fill-rule="evenodd" clip-rule="evenodd" d="M1.98508 18V13C1.98508 11.8954 2.88051 11 3.98508 11H11.9851C13.0896 11 13.9851 11.8954 13.9851 13V18C13.9851 19.1046 13.0896 20 11.9851 20H4.10081L2.85695 21.1905C2.53895 21.4949 2.01123 21.2695 2.01123 20.8293V18.3243C1.99402 18.2187 1.98508 18.1104 1.98508 18ZM5.99999 14.5C5.99999 14.2239 6.22385 14 6.49999 14H11.5C11.7761 14 12 14.2239 12 14.5C12 14.7761 11.7761 15 11.5 15H6.49999C6.22385 15 5.99999 14.7761 5.99999 14.5ZM9.49999 16C9.22385 16 8.99999 16.2239 8.99999 16.5C8.99999 16.7761 9.22385 17 9.49999 17H11.5C11.7761 17 12 16.7761 12 16.5C12 16.2239 11.7761 16 11.5 16H9.49999Z" fill="#035A4B" />
+                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                      d="M22.1671 18.1421C22.4827 18.4577 23.0222 18.2331 23.0206 17.7868L23.0039 13.1053V5.52632C23.0039 4.13107 21.8729 3 20.4776 3H8.68815C7.2929 3 6.16183 4.13107 6.16183 5.52632V9H13C14.6568 9 16 10.3431 16 12V15.6316H19.6565L22.1671 18.1421Z"
+                                      fill="#035A4B" />
+                                    <path opacity="0.3" fill-rule="evenodd" clip-rule="evenodd"
+                                      d="M1.98508 18V13C1.98508 11.8954 2.88051 11 3.98508 11H11.9851C13.0896 11 13.9851 11.8954 13.9851 13V18C13.9851 19.1046 13.0896 20 11.9851 20H4.10081L2.85695 21.1905C2.53895 21.4949 2.01123 21.2695 2.01123 20.8293V18.3243C1.99402 18.2187 1.98508 18.1104 1.98508 18ZM5.99999 14.5C5.99999 14.2239 6.22385 14 6.49999 14H11.5C11.7761 14 12 14.2239 12 14.5C12 14.7761 11.7761 15 11.5 15H6.49999C6.22385 15 5.99999 14.7761 5.99999 14.5ZM9.49999 16C9.22385 16 8.99999 16.2239 8.99999 16.5C8.99999 16.7761 9.22385 17 9.49999 17H11.5C11.7761 17 12 16.7761 12 16.5C12 16.2239 11.7761 16 11.5 16H9.49999Z"
+                                      fill="#035A4B" />
                                   </svg>
 
                                 </span>
@@ -195,18 +226,28 @@
                             <div class="d-flex">
                               <div class="flex-shrink-0">
                                 <span class="svg-icon svg-icon-sm text-primary">
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path opacity="0.3" fill-rule="evenodd" clip-rule="evenodd" d="M12 17C16.4183 17 20 13.4183 20 9C20 4.58172 16.4183 1 12 1C7.58172 1 4 4.58172 4 9C4 13.4183 7.58172 17 12 17Z" fill="#035A4B" />
-                                    <path opacity="0.3" fill-rule="evenodd" clip-rule="evenodd" d="M6.53819 9L10.568 19.3624L11.976 18.8149L13.3745 19.3674L17.4703 9H6.53819ZM9.46188 11H14.5298L11.9759 17.4645L9.46188 11Z" fill="#035A4B" />
-                                    <path opacity="0.3" d="M10 22H14V22C14 23.1046 13.1046 24 12 24V24C10.8954 24 10 23.1046 10 22V22Z" fill="#035A4B" />
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M8 17C8 16.4477 8.44772 16 9 16H15C15.5523 16 16 16.4477 16 17C16 17.5523 15.5523 18 15 18C15.5523 18 16 18.4477 16 19C16 19.5523 15.5523 20 15 20C15.5523 20 16 20.4477 16 21C16 21.5523 15.5523 22 15 22H9C8.44772 22 8 21.5523 8 21C8 20.4477 8.44772 20 9 20C8.44772 20 8 19.5523 8 19C8 18.4477 8.44772 18 9 18C8.44772 18 8 17.5523 8 17Z" fill="#035A4B" />
+                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path opacity="0.3" fill-rule="evenodd" clip-rule="evenodd"
+                                      d="M12 17C16.4183 17 20 13.4183 20 9C20 4.58172 16.4183 1 12 1C7.58172 1 4 4.58172 4 9C4 13.4183 7.58172 17 12 17Z"
+                                      fill="#035A4B" />
+                                    <path opacity="0.3" fill-rule="evenodd" clip-rule="evenodd"
+                                      d="M6.53819 9L10.568 19.3624L11.976 18.8149L13.3745 19.3674L17.4703 9H6.53819ZM9.46188 11H14.5298L11.9759 17.4645L9.46188 11Z"
+                                      fill="#035A4B" />
+                                    <path opacity="0.3"
+                                      d="M10 22H14V22C14 23.1046 13.1046 24 12 24V24C10.8954 24 10 23.1046 10 22V22Z"
+                                      fill="#035A4B" />
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                      d="M8 17C8 16.4477 8.44772 16 9 16H15C15.5523 16 16 16.4477 16 17C16 17.5523 15.5523 18 15 18C15.5523 18 16 18.4477 16 19C16 19.5523 15.5523 20 15 20C15.5523 20 16 20.4477 16 21C16 21.5523 15.5523 22 15 22H9C8.44772 22 8 21.5523 8 21C8 20.4477 8.44772 20 9 20C8.44772 20 8 19.5523 8 19C8 18.4477 8.44772 18 9 18C8.44772 18 8 17.5523 8 17Z"
+                                      fill="#035A4B" />
                                   </svg>
 
                                 </span>
                               </div>
                               <div class="flex-grow-1 ms-3">
                                 <span class="navbar-dropdown-menu-media-title">Interpr. Telefónica</span>
-                                <p class="navbar-dropdown-menu-media-desc">Próximamente<i class="bi-box-arrow-up-right ms-1"></i>
+                                <p class="navbar-dropdown-menu-media-desc">Próximamente<i
+                                    class="bi-box-arrow-up-right ms-1"></i>
                                 </p>
                               </div>
                             </div>
@@ -218,13 +259,15 @@
                     </div>
                     <div class="col-lg-6 d-none d-lg-block">
                       <!-- Banner Image -->
-                      <div class="navbar-dropdown-menu-banner" style="background-image: url(./assets/svg/components/shape-3.svg);">
+                      <div class="navbar-dropdown-menu-banner"
+                        style="background-image: url(./assets/svg/components/shape-3.svg);">
                         <div class="navbar-dropdown-menu-banner-content">
                           <div class="mb-4">
                             <span class="h2 d-block">Interp. Consecutiva</span>
                             <p>Intérpretes para grupos</p>
                           </div>
-                          <a class="btn btn-primary btn-transition" href="#">Learn more <i class="bi-chevron-right small"></i></a>
+                          <a class="btn btn-primary btn-transition" href="#">Learn more <i
+                              class="bi-chevron-right small"></i></a>
                         </div>
                       </div>
                       <!-- End Banner Image -->
@@ -234,37 +277,46 @@
 
                 <!-- End Mega Menu -->
               </li>
-              <!-- End Demos -->
+              <!-- End Landings -->
 
-              <!-- Resto del menú (Account, Pages, Blog, Portfolio) -->
-              <!-- Company -->
+              <!-- Nosotros -->
               <li class="nav-item">
-                <a class="hs-mega-menu-invoker nav-link" href="nosotros.html" role="button" aria-expanded="false">Nosotros</a>
+                <a class="hs-mega-menu-invoker nav-link" href="nosotros.html" role="button"
+                  aria-expanded="false">Nosotros</a>
               </li>
+              <!-- End Nosotros -->
 
-              <!-- Portfolio -->
+              <!-- Pagos -->
               <li class="nav-item">
                 <a class="hs-mega-menu-invoker nav-link" href="pagos.html" role="button" aria-expanded="false">Pagos</a>
               </li>
+              <!-- End Pagos -->
 
-              <!-- Portfolio -->
+              <!-- Nexus -->
               <li class="nav-item">
                 <a class="hs-mega-menu-invoker nav-link" href="nexus.html" role="button" aria-expanded="false">Nexus</a>
               </li>
+              <!-- End Nexus -->
 
-              <!-- Portfolio -->
+              <!-- Trabaje aquí -->
               <li class="nav-item">
-                <a class="hs-mega-menu-invoker nav-link" href="bolsa.html" role="button" aria-expanded="false">Trabaje aquí</a>
+                <a class="hs-mega-menu-invoker nav-link" href="bolsa.html" role="button" aria-expanded="false">Trabaje
+                  aquí</a>
               </li>
+              <!-- End trabaje aqui -->
 
-              <!-- Portfolio -->
+              <!-- contacto -->
               <li class="nav-item">
-                <a class="hs-mega-menu-invoker nav-link" href="contacto.html" role="button" aria-expanded="false">Contacto</a>
+                <a class="hs-mega-menu-invoker nav-link" href="contacto.html" role="button"
+                  aria-expanded="false">Contacto</a>
               </li>
+              <!-- End contacto -->
 
               <!-- Button -->
               <li class="nav-item">
-                <a class="btn btn-dark btn-transition" href="https://themes.getbootstrap.com/product/front-multipurpose-responsive-template/" target="_blank">Iniciar Sesión</a>
+                <a class="btn btn-primary btn-transition"
+                  href="https://themes.getbootstrap.com/product/front-multipurpose-responsive-template/"
+                  target="_blank">Iniciar Sesi&oacute;n</a>
               </li>
               <!-- End Button -->
             </ul>
@@ -278,32 +330,86 @@
 
   <!-- ========== MAIN CONTENT ========== -->
   <main id="content" role="main">
-    <!-- Thumbs Slider -->
-    <div class="">
-      <div class="">
-        <!-- Slide -->
-        <div class="sbg-img-start bg-img-start" style="background-image: url(./assets/img/nexus/bkg013.jpg);">
-          <div class="card-title d-flex align-items-center position-relative">
-            <div class="container content-space-4">
-              <div class="row align-items-md-center">
-                <div class="col-md-6">
-                </div>
-                <div class="col-md-6 pt-5 pb-5 px-5">
-                  <h2 class="card-title text-black pt-3 pb-2">Obtenga un servicio profesional esté donde esté sin importar la hora</h2>
-                  <p class="card-title text-black pt-3 pb-2">Presentamos nuestro sistema instantáneo de administración de proyectos: NEXUS</p>
-                  <a class="btn btn-primary mt-5 mb-5 px-5 py-3 fs-4" target="_blank" href="../landing-classic-corporate.html"> Empiece ahora <i class="bi-box-arrow-up-right ms-2 fs-4"></i></a>
-                </div>
-                <!-- End Col -->
+    <!-- Hero -->
+    <div class="gradient-y-gray position-relative">
+      <div class="content-space-t-3 content-space-t-lg-5 content-space-b-2 content-space-b-lg-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-5 col-xl-6">
+              <!-- Heading -->
+              <div class="mb-5">
+                <h1 class="display-4">Servicio profesional, sin límites de hora ni lugar</h1>
+                <p class="lead">Descubre NEXUS, nuestro sistema instantáneo para la administración eficiente de
+                  proyectos.</p>
               </div>
-              <!-- End Row -->
-            </div>
+              <!-- End Title & Description -->
 
+              <!-- Button -->
+              <a class="btn btn-primary p-3 btn-transition"
+                href="https://www.limac.com.pe/login/">Empiece Ahora</a>
+              <!-- End Button -->
+            </div>
             <!-- End Col -->
           </div>
+          <!-- End Row -->
         </div>
-        <!-- End Slide -->
+
+        <!-- Devices -->
+        <div class="devices-top-start-50 devices-rotated zi-2" style="width: 47rem;">
+          <div class="devices-wrap devices-rotated-body">
+            <!-- Tablet Device -->
+            <figure class="device-tablet" style="width: 27rem;">
+              <div class="device-tablet-frame">
+                <img class="device-tablet-img" src="./assets/img/nexus/nexus_traduccion.jpg" alt="Image Description">
+              </div>
+            </figure>
+            <!-- End Tablet Device -->
+
+            <!-- Vertical Tablet Device -->
+            <figure class="device-vertical-tablet" style="width: 18rem;">
+              <div class="device-vertical-tablet-frame">
+                <img class="device-vertical-tablet-img" src="./assets/img/nexus/Nexus_cliente_historial.jpg" alt="Image Description">
+              </div>
+            </figure>
+            <!-- End Vertical Tablet Device -->
+
+            <!-- Mobile Device -->
+            <figure class="device-mobile align-self-start" style="width: 10rem;">
+              <div class="device-mobile-frame">
+                <img class="device-mobile-img" src="./assets/img/nexus/Nexus_mobile.jpeg" alt="Image Description">
+              </div>
+            </figure>
+            <!-- End Mobile Device -->
+
+            <!-- Browser Device -->
+            <figure class="device-browser" style="width: 35rem;">
+              <div class="device-browser-header">
+                <div class="device-browser-header-btn-list">
+                  <span class="device-browser-header-btn-list-btn"></span>
+                  <span class="device-browser-header-btn-list-btn"></span>
+                  <span class="device-browser-header-btn-list-btn"></span>
+                </div>
+                <div class="device-browser-header-browser-bar">www.htmlstream.com/front/</div>
+              </div>
+              <div class="device-browser-frame">
+                <img class="device-browser-img" src="./assets/img/nexus/nexus_cliente.jpg" alt="Image Description">
+              </div>
+            </figure>
+            <!-- End Browser Device -->
+          </div>
+        </div>
+        <!-- End Devices -->
       </div>
+
+      <!-- Shape -->
+      <div class="shape shape-bottom zi-1" style="margin-bottom: -.125rem">
+        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 1920 100.1">
+          <path fill="#fff" d="M0,0c0,0,934.4,93.4,1920,0v100.1H0L0,0z"></path>
+        </svg>
+      </div>
+      <!-- End Shape -->
     </div>
+    <!-- End Hero -->
 
     <!-- Icon Blocks -->
     <div class="overflow-hidden">
@@ -312,7 +418,8 @@
           <div class="col-lg-4 d-none d-lg-block">
             <!-- Card -->
             <div class="position-relative pe-lg-4">
-              <a class="card card-transition shadow-none bg-img-start" href="#" style="background-image: url(./assets/img/400x500/img26.jpg); min-height: 27rem;">
+              <a class="card card-transition shadow-none bg-img-start" href="#"
+                style="background-image: url(./assets/img/400x500/img26.jpg); min-height: 27rem;">
                 <div class="card-body">
                   <h4 class="card-title">Servicio de alta calidad en tiempo récord</h4>
                 </div>
@@ -349,7 +456,8 @@
                   <img class="py-2" src="./assets/img/nexus/n02.png" alt="">
 
                   <h4>Mayores beneficios</h4>
-                  <p>Pague sólo por los proyectos que desee, con Nexus no estará sujeto a ningún contrato ni pagos periódicos.</p>
+                  <p>Pague sólo por los proyectos que desee, con Nexus no estará sujeto a ningún contrato ni pagos
+                    periódicos.</p>
                 </div>
                 <!-- End Icon Blocks -->
               </div>
@@ -360,7 +468,8 @@
                   <img class="py-2" src="./assets/img/nexus/n03.png" alt="">
 
                   <h4>Tarifas económicas</h4>
-                  <p>Nexus calcula en segundos las características de sus requerimientos y le cotiza con la mejor tarifa.</p>
+                  <p>Nexus calcula en segundos las características de sus requerimientos y le cotiza con la mejor
+                    tarifa.</p>
                 </div>
                 <!-- End Icon Blocks -->
               </div>
@@ -371,7 +480,8 @@
                   <img class="py-2" src="./assets/img/nexus/n04.png" alt="">
 
                   <h4>Entrega en formato digital</h4>
-                  <p>Solicite su proyecto de forma digital en formato MS Word, PDF, escaneada o en cualquier otro formato que desee.</p>
+                  <p>Solicite su proyecto de forma digital en formato MS Word, PDF, escaneada o en cualquier otro
+                    formato que desee.</p>
                 </div>
                 <!-- End Icon Blocks -->
               </div>
@@ -427,7 +537,8 @@
             <!-- Heading -->
             <div class="mb-5">
               <h2 class="mb-3 text-white">Nuestro secreto:<br>Profesionales de primera</h2>
-              <p>NEXUS asigna su proyecto directamente a su propio equipo de profesionales experimentados en el rubro.</p>
+              <p>NEXUS asigna su proyecto directamente a su propio equipo de profesionales experimentados en el rubro.
+              </p>
             </div>
             <!-- End Heading -->
 
@@ -456,7 +567,8 @@
               <div class="card-body">
                 <div class="mb-1">
 
-                  <h2 class="card-title text-white">Pague de forma rápida y segura con tarjetas de crédito, transferencia bancaria, depósito o en efectivo en nuestras oficinas.</h2>
+                  <h2 class="card-title text-white">Pague de forma rápida y segura con tarjetas de crédito,
+                    transferencia bancaria, depósito o en efectivo en nuestras oficinas.</h2>
                 </div>
               </div>
             </div>
@@ -467,32 +579,44 @@
           <div class="col-md-8">
             <div class="row">
               <div class="col-4 py-3" data-aos="fade-down-right" data-aos-delay="100">
-                <div class="bg-img-start" style="background-image: url(./assets/img/metodos_pago/americanexpress.png); height: 10rem; background-size: contain; background-repeat: no-repeat; background-position: center;"></div>
+                <div class="bg-img-start"
+                  style="background-image: url(./assets/img/metodos_pago/americanexpress.png); height: 10rem; background-size: contain; background-repeat: no-repeat; background-position: center;">
+                </div>
               </div>
               <!-- End Col -->
 
               <div class="col-4 py-3" data-aos="fade-down-right" data-aos-delay="200">
-                <div class="bg-img-start" style="background-image: url(./assets/img/metodos_pago/diners.png); height: 10rem; background-size: contain; background-repeat: no-repeat; background-position: center;"></div>
+                <div class="bg-img-start"
+                  style="background-image: url(./assets/img/metodos_pago/diners.png); height: 10rem; background-size: contain; background-repeat: no-repeat; background-position: center;">
+                </div>
               </div>
               <!-- End Col -->
 
               <div class="col-4 py-3" data-aos="fade-down-right" data-aos-delay="300">
-                <div class="bg-img-start" style="background-image: url(./assets/img/metodos_pago/mastercard.png); height: 10rem; background-size: contain; background-repeat: no-repeat; background-position: center;"></div>
+                <div class="bg-img-start"
+                  style="background-image: url(./assets/img/metodos_pago/mastercard.png); height: 10rem; background-size: contain; background-repeat: no-repeat; background-position: center;">
+                </div>
               </div>
               <!-- End Col -->
 
               <div class="col-4 py-3" data-aos="fade-down-right" data-aos-delay="400">
-                <div class="bg-img-start" style="background-image: url(./assets/img/metodos_pago/paypal_logo.png); height: 10rem; background-size: contain; background-repeat: no-repeat; background-position: center;"></div>
+                <div class="bg-img-start"
+                  style="background-image: url(./assets/img/metodos_pago/paypal_logo.png); height: 10rem; background-size: contain; background-repeat: no-repeat; background-position: center;">
+                </div>
               </div>
               <!-- End Col -->
 
               <div class="col-4 py-3" data-aos="fade-down-right" data-aos-delay="500">
-                <div class="bg-img-start" style="background-image: url(./assets/img/metodos_pago/visa.png); height: 10rem; background-size: contain; background-repeat: no-repeat; background-position: center;"></div>
+                <div class="bg-img-start"
+                  style="background-image: url(./assets/img/metodos_pago/visa.png); height: 10rem; background-size: contain; background-repeat: no-repeat; background-position: center;">
+                </div>
               </div>
               <!-- End Col -->
 
               <div class="col-4 py-3" data-aos="fade-down-right" data-aos-delay="600">
-                <div class="bg-img-start" style="background-image: url(./assets/img/metodos_pago/payu_logo.png); height: 10rem; background-size: contain; background-repeat: no-repeat; background-position: center;"></div>
+                <div class="bg-img-start"
+                  style="background-image: url(./assets/img/metodos_pago/payu_logo.png); height: 10rem; background-size: contain; background-repeat: no-repeat; background-position: center;">
+                </div>
               </div>
               <!-- End Col -->
 
@@ -516,8 +640,12 @@
               <div class="col-md-6 pt-2 pb-2">
               </div>
               <div class="col-md-6 content-space-2">
-                <h2 class="card-title text-primary pt-3 pb-2">Envío a domicilio con correo certificado a todo el Perú sin costo adicional</h2>
-                <p class="text-black text-justify pt-1 pb-3">Esta promoción es válida para órdenes mayores a S/ 99.00. Esta oferta no es acumulable con otras promociones u ofertas. El servicio de entrega para el mismo día/express solamente es válido para estos distritos. Los envíos a cualquier otro destino y/o provincia tienen un tiempo de despacho de 24 a 72 horas útiles.</p>
+                <h2 class="card-title text-primary pt-3 pb-2">Envío a domicilio con correo certificado a todo el Perú
+                  sin costo adicional</h2>
+                <p class="text-black text-justify pt-1 pb-3">Esta promoción es válida para órdenes mayores a S/ 99.00.
+                  Esta oferta no es acumulable con otras promociones u ofertas. El servicio de entrega para el mismo
+                  día/express solamente es válido para estos distritos. Los envíos a cualquier otro destino y/o
+                  provincia tienen un tiempo de despacho de 24 a 72 horas útiles.</p>
               </div>
               <!-- End Col -->
             </div>
@@ -530,7 +658,8 @@
       <!-- End Slide -->
     </div>
 
-    <div class="sbg-img-start bg-img-start pb-5 pt-5" style="background-image: url(./assets/img/nexus/nexus_bkg1500.jpg);">
+    <div class="sbg-img-start bg-img-start pb-5 pt-5"
+      style="background-image: url(./assets/img/nexus/nexus_bkg1500.jpg);">
       <div class="">
         <!-- Slide -->
         <div class=""></div>
@@ -538,9 +667,12 @@
           <div class="container content-space-2 content-space-lg-3">
             <div class="row align-items-md-center">
               <div class="col-md-6">
-                <h2 class="card-title text-primary pt-5 pb-5">Seguimiento en línea con Nexus<sup class="supNEX">TM</sup></h2>
-                <p class="text-black pt-1 pb-3 text-justify">Ahora puede visualizar cómo se desarrolla su traducción de principio a fin desde cualquier dispositivo esté donde esté. Recibirá notificaciones Push y/o
-                  correos electrónicos tan pronto su traducción avance a la siguiente etapa del proceso traductor. Deje comentarios acerca de los avances y el traductor
+                <h2 class="card-title text-primary pt-5 pb-5">Seguimiento en línea con Nexus<sup class="supNEX">TM</sup>
+                </h2>
+                <p class="text-black pt-1 pb-3 text-justify">Ahora puede visualizar cómo se desarrolla su traducción de
+                  principio a fin desde cualquier dispositivo esté donde esté. Recibirá notificaciones Push y/o
+                  correos electrónicos tan pronto su traducción avance a la siguiente etapa del proceso traductor. Deje
+                  comentarios acerca de los avances y el traductor
                   lo recibirá inmediatamente.</p>
               </div>
               <div class="col-md-6 pt-2 pb-2">
@@ -717,7 +849,8 @@
               <!-- Form -->
               <div class="mb-3">
                 <label class="form-label" for="signupModalFormLoginEmail">Your email</label>
-                <input type="email" class="form-control form-control-lg" name="email" id="signupModalFormLoginEmail" placeholder="email@site.com" aria-label="email@site.com" required>
+                <input type="email" class="form-control form-control-lg" name="email" id="signupModalFormLoginEmail"
+                  placeholder="email@site.com" aria-label="email@site.com" required>
                 <span class="invalid-feedback">Please enter a valid email address.</span>
               </div>
               <!-- End Form -->
@@ -733,7 +866,9 @@
                      }'>Forgot Password?</a>
                 </div>
 
-                <input type="password" class="form-control form-control-lg" name="password" id="signupModalFormLoginPassword" placeholder="8+ characters required" aria-label="8+ characters required" required minlength="8">
+                <input type="password" class="form-control form-control-lg" name="password"
+                  id="signupModalFormLoginPassword" placeholder="8+ characters required"
+                  aria-label="8+ characters required" required minlength="8">
                 <span class="invalid-feedback">Please enter a valid password.</span>
               </div>
               <!-- End Form -->
@@ -797,7 +932,8 @@
               <!-- Form -->
               <div class="mb-3">
                 <label class="form-label" for="signupModalFormSignupEmail">Your email</label>
-                <input type="email" class="form-control form-control-lg" name="email" id="signupModalFormSignupEmail" placeholder="email@site.com" aria-label="email@site.com" required>
+                <input type="email" class="form-control form-control-lg" name="email" id="signupModalFormSignupEmail"
+                  placeholder="email@site.com" aria-label="email@site.com" required>
                 <span class="invalid-feedback">Please enter a valid email address.</span>
               </div>
               <!-- End Form -->
@@ -805,7 +941,9 @@
               <!-- Form -->
               <div class="mb-3">
                 <label class="form-label" for="signupModalFormSignupPassword">Password</label>
-                <input type="password" class="form-control form-control-lg" name="password" id="signupModalFormSignupPassword" placeholder="8+ characters required" aria-label="8+ characters required" required>
+                <input type="password" class="form-control form-control-lg" name="password"
+                  id="signupModalFormSignupPassword" placeholder="8+ characters required"
+                  aria-label="8+ characters required" required>
                 <span class="invalid-feedback">Your password is invalid. Please try again.</span>
               </div>
               <!-- End Form -->
@@ -813,7 +951,10 @@
               <!-- Form -->
               <div class="mb-3" data-hs-validation-validate-class>
                 <label class="form-label" for="signupModalFormSignupConfirmPassword">Confirm password</label>
-                <input type="password" class="form-control form-control-lg" name="confirmPassword" id="signupModalFormSignupConfirmPassword" placeholder="8+ characters required" aria-label="8+ characters required" required data-hs-validation-equal-field="#signupModalFormSignupPassword">
+                <input type="password" class="form-control form-control-lg" name="confirmPassword"
+                  id="signupModalFormSignupConfirmPassword" placeholder="8+ characters required"
+                  aria-label="8+ characters required" required
+                  data-hs-validation-equal-field="#signupModalFormSignupPassword">
                 <span class="invalid-feedback">Password does not match the confirm password.</span>
               </div>
               <!-- End Form -->
@@ -834,7 +975,8 @@
             <!-- Heading -->
             <div class="text-center mb-7">
               <h2>Forgot password?</h2>
-              <p>Enter the email address you used when you joined and we'll send you instructions to reset your password.</p>
+              <p>Enter the email address you used when you joined and we'll send you instructions to reset your
+                password.</p>
             </div>
             <!-- En dHeading -->
 
@@ -852,7 +994,9 @@
                   </a>
                 </div>
 
-                <input type="email" class="form-control form-control-lg" name="email" id="signupModalFormResetPasswordEmail" tabindex="1" placeholder="Enter your email address" aria-label="Enter your email address" required>
+                <input type="email" class="form-control form-control-lg" name="email"
+                  id="signupModalFormResetPasswordEmail" tabindex="1" placeholder="Enter your email address"
+                  aria-label="Enter your email address" required>
                 <span class="invalid-feedback">Please enter a valid email address.</span>
                 <!-- End Form -->
               </div>
@@ -938,7 +1082,7 @@
 
   <!-- JS Plugins Init. -->
   <script>
-    (function() {
+    (function () {
       // INITIALIZATION OF HEADER
       // =======================================================
       new HSHeader('#header').init()
@@ -947,10 +1091,10 @@
       // INITIALIZATION OF MEGA MENU
       // =======================================================
       new HSMegaMenu('.js-mega-menu', {
-          desktop: {
-            position: 'left'
-          }
-        })
+        desktop: {
+          position: 'left'
+        }
+      })
 
 
       // INITIALIZATION OF SHOW ANIMATIONS
@@ -1025,7 +1169,7 @@
       })
 
       // Clients
-      var swiper = new Swiper('.js-swiper-clients',{
+      var swiper = new Swiper('.js-swiper-clients', {
         slidesPerView: 2,
         breakpoints: {
           380: {
@@ -1044,7 +1188,7 @@
       });
 
       // Card Grid
-      var swiper = new Swiper('.js-swiper-card-blocks',{
+      var swiper = new Swiper('.js-swiper-card-blocks', {
         slidesPerView: 1,
         pagination: {
           el: '.js-swiper-card-blocks-pagination',
@@ -1065,4 +1209,5 @@
     })()
   </script>
 </body>
+
 </html>
