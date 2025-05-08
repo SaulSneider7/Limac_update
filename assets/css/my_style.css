@@ -6,3 +6,8 @@
     color: #377dff;
     font-family: 'Maven Pro', sans-serif
 }
+
+.bg_img_card_nexus{
+    background-repeat: no-repeat;
+    background-position: center;
+}

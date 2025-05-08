@@ -23,6 +23,8 @@
 
   <!-- CSS Front Template -->
   <link rel="stylesheet" href="./assets/css/theme.min.css">
+
+  <!-- CSS My Style -->
   <link rel="stylesheet" href="./assets/css/my_style.css">
 </head>
 
@@ -37,7 +39,8 @@
       <nav class="js-mega-menu navbar-nav-wrap">
         <!-- Default Logo -->
         <a class="navbar-brand" href="./index.html" aria-label="Front">
-          <span class="logo_create">limac</s>
+          <span class="logo_create">limac</span>
+          <sub class="c-blue">&reg;</sub>
         </a>
         <!-- End Default Logo -->
 
@@ -329,7 +332,7 @@
   <!-- ========== END HEADER ========== -->
 
   <!-- ========== MAIN CONTENT ========== -->
-  <main id="content" role="main">
+  <main id="content" role="main" class="overflow-hidden">
     <!-- Hero -->
     <div class="gradient-y-gray position-relative">
       <div class="content-space-t-3 content-space-t-lg-5 content-space-b-2 content-space-b-lg-5">
@@ -345,8 +348,7 @@
               <!-- End Title & Description -->
 
               <!-- Button -->
-              <a class="btn btn-primary p-3 btn-transition"
-                href="https://www.limac.com.pe/login/">Empiece Ahora</a>
+              <a class="btn btn-primary p-3 btn-transition" href="https://www.limac.com.pe/login/">Empiece Ahora</a>
               <!-- End Button -->
             </div>
             <!-- End Col -->
@@ -368,7 +370,8 @@
             <!-- Vertical Tablet Device -->
             <figure class="device-vertical-tablet" style="width: 18rem;">
               <div class="device-vertical-tablet-frame">
-                <img class="device-vertical-tablet-img" src="./assets/img/nexus/Nexus_cliente_historial.jpg" alt="Image Description">
+                <img class="device-vertical-tablet-img" src="./assets/img/nexus/Nexus_cliente_historial.jpg"
+                  alt="Image Description">
               </div>
             </figure>
             <!-- End Vertical Tablet Device -->
@@ -411,110 +414,147 @@
     </div>
     <!-- End Hero -->
 
-    <!-- Icon Blocks -->
-    <div class="overflow-hidden">
-      <div class="container content-space-t-2 content-space-t-lg-3 content-space-b-1 content-space-b-lg-3">
-        <div class="row">
-          <div class="col-lg-4 d-none d-lg-block">
-            <!-- Card -->
-            <div class="position-relative pe-lg-4">
-              <a class="card card-transition shadow-none bg-img-start" href="#"
-                style="background-image: url(./assets/img/400x500/img26.jpg); min-height: 27rem;">
-                <div class="card-body">
-                  <h4 class="card-title">Servicio de alta calidad en tiempo récord</h4>
-                </div>
-                <div class="card-footer pt-0">
-                  <span class="card-link">Simple y sin papeleo</span>
-                </div>
-              </a>
-
-              <!-- SVG Shape -->
-              <div class="position-absolute bottom-0 start-0 zi-n1 mb-n7 ms-n7" style="width: 12rem;">
-                <img class="w-100" src="./assets/svg/components/dots-lg.svg" alt="SVG">
-              </div>
-              <!-- End SVG Shape -->
-            </div>
-            <!-- End Card -->
-          </div>
-          <!-- End Col -->
-
-          <div class="col-lg-8">
-            <div class="row">
-              <div class="col-sm-4 mb-3 mb-sm-7">
-                <!-- Icon Blocks -->
-                <div class="pe-lg-6">
-                  <img class="py-2" src="./assets/img/nexus/n01.png" alt="">
-                  <h3 class="h4">Conozca el estado del proceso</h3>
-                  <p>Sepa cuál es el estado de su pedido en tiempo real de inicio a fin.</p>
-                </div>
-                <!-- End Icon Blocks -->
-              </div>
-
-              <div class="col-sm-4 mb-3 mb-sm-7">
-                <!-- Icon Blocks -->
-                <div class="pe-lg-6">
-                  <img class="py-2" src="./assets/img/nexus/n02.png" alt="">
-
-                  <h4>Mayores beneficios</h4>
-                  <p>Pague sólo por los proyectos que desee, con Nexus no estará sujeto a ningún contrato ni pagos
-                    periódicos.</p>
-                </div>
-                <!-- End Icon Blocks -->
-              </div>
-
-              <div class="col-sm-4 mb-3 mb-sm-0">
-                <!-- Icon Blocks -->
-                <div class="pe-lg-6">
-                  <img class="py-2" src="./assets/img/nexus/n03.png" alt="">
-
-                  <h4>Tarifas económicas</h4>
-                  <p>Nexus calcula en segundos las características de sus requerimientos y le cotiza con la mejor
-                    tarifa.</p>
-                </div>
-                <!-- End Icon Blocks -->
-              </div>
-
-              <div class="col-sm-4">
-                <!-- Icon Blocks -->
-                <div class="pe-lg-6">
-                  <img class="py-2" src="./assets/img/nexus/n04.png" alt="">
-
-                  <h4>Entrega en formato digital</h4>
-                  <p>Solicite su proyecto de forma digital en formato MS Word, PDF, escaneada o en cualquier otro
-                    formato que desee.</p>
-                </div>
-                <!-- End Icon Blocks -->
-              </div>
-
-              <div class="col-sm-4">
-                <!-- Icon Blocks -->
-                <div class="pe-lg-6">
-                  <img class="py-2" src="./assets/img/nexus/n05.png" alt="">
-
-                  <h4>Seguridad</h4>
-                  <p>Sus pedidos siempre viajan asegurados y son entregados por mensajeros calificados.</p>
-                </div>
-                <!-- End Icon Blocks -->
-              </div>
-
-              <div class="col-sm-4">
-                <!-- Icon Blocks -->
-                <div class="pe-lg-6">
-                  <img class="py-2" src="./assets/img/nexus/n06.png" alt="">
-
-                  <h4>Facturación electrónica</h4>
-                  <p>Reciba su boleta o factura de manera electrónica directamente en su correo electrónico.</p>
-                </div>
-                <!-- End Icon Blocks -->
-              </div>
-            </div>
-          </div>
-          <!-- End Col -->
-        </div>
-        <!-- End Row -->
+    <!-- Card Grid -->
+    <div class="container content-space-t-2 content-space-t-lg-3 content-space-b-2 content-space-b-lg-3 mb-8">
+      <!-- Heading -->
+      <div class="w-md-75 w-lg-50 text-center mx-md-auto mb-5 mb-md-9">
+        <img class="img-fluid mb-5" src="./assets/img/nexus/logo_nexus.png" alt="logo nexus">
+        <h2>Servicio de alta calidad en tiempo récord Simple y sin papeleo</h2>
       </div>
+      <!-- End Heading -->
+
+      <div class="row">
+        <div class="col-sm-6 col-lg-4 mb-3 mb-lg-6">
+          <!-- Card -->
+          <a class="card card-transition bg-light h-100 shadow-none overflow-hidden" href="#">
+            <div class="row align-items-center">
+              <div class="col-8 col-md-8">
+                <div class="card-body">
+                  <h4 class="card-title">Conozca el estado del proceso</h4>
+                  <p class="card-text">Sepa cuál es el estado de su pedido en tiempo real de inicio a fin.</p>
+                </div>
+              </div>
+              <!-- End Col -->
+
+              <div class="col-4 col-md-4 bg_img_card_nexus h-100 px-0"
+                style="background-image: url(./assets/img/nexus/n01.png);"></div>
+              <!-- End Col -->
+            </div>
+            <!-- End Row -->
+          </a>
+          <!-- End Card -->
+        </div>
+        <!-- End Col -->
+
+        <div class="col-sm-6 col-lg-4 mb-3 mb-lg-6">
+          <!-- Card -->
+          <a class="card card-transition bg-light h-100 shadow-none overflow-hidden" href="#">
+            <div class="row align-items-center">
+              <div class="col-8 col-md-8">
+                <div class="card-body">
+                  <h4 class="card-title">Mayores beneficios</h4>
+                  <p class="card-text">Paga solo por los proyectos que elijas, sin contratos ni cuotas con Nexus.</p>
+                </div>
+              </div>
+              <!-- End Col -->
+
+              <div class="col-4 col-md-4 bg_img_card_nexus h-100 px-0"
+                style="background-image: url(./assets/img/nexus/n02.png);"></div>
+              <!-- End Col -->
+            </div>
+            <!-- End Row -->
+          </a>
+          <!-- End Card -->
+        </div>
+        <!-- End Col -->
+
+        <div class="col-sm-6 col-lg-4 mb-3 mb-lg-6">
+          <!-- Card -->
+          <a class="card card-transition bg-light h-100 shadow-none overflow-hidden" href="#">
+            <div class="row align-items-center">
+              <div class="col-9 col-md-8">
+                <div class="card-body">
+                  <h4 class="card-title">Tarifas econ&oacute;micas</h4>
+                  <p class="card-text">Nexus cotiza al instante sus requerimientos con la mejor tarifa.</p>
+                </div>
+              </div>
+              <div class="col-3 col-md-4 bg_img_card_nexus h-100 px-0"
+                style="background-image: url(./assets/img/nexus/n03.png);"></div>
+            </div>
+            <!-- End Row -->
+          </a>
+          <!-- End Card -->
+        </div>
+        <!-- End Col -->
+
+        <div class="col-sm-6 col-lg-4 mb-3 mb-lg-0">
+          <!-- Card -->
+          <a class="card card-transition bg-light h-100 shadow-none overflow-hidden" href="#">
+            <div class="row align-items-center">
+              <div class="col-8 col-md-8">
+                <div class="card-body">
+                  <h4 class="card-title">Entrega en formato digital</h4>
+                  <p class="card-text">Solicite su proyecto en Word, PDF, escaneado u otro formato digital.</p>
+                </div>
+              </div>
+              <!-- End Col -->
+
+              <div class="col-4 col-md-4 bg_img_card_nexus h-100 px-0"
+                style="background-image: url(./assets/img/nexus/n04.png);"></div>
+              <!-- End Col -->
+            </div>
+            <!-- End Row -->
+          </a>
+          <!-- End Card -->
+        </div>
+        <!-- End Col -->
+
+        <div class="col-sm-6 col-lg-4 mb-3 mb-lg-0">
+          <!-- Card -->
+          <a class="card card-transition bg-light h-100 shadow-none overflow-hidden" href="#">
+            <div class="row align-items-center">
+              <div class="col-8 col-md-8">
+                <div class="card-body">
+                  <h4 class="card-title">Seguridad y confianza</h4>
+                  <p class="card-text">Sus pedidos viajan asegurados y con mensajeros calificados.</p>
+                </div>
+              </div>
+              <!-- End Col -->
+
+              <div class="col-4 col-md-4 bg_img_card_nexus h-100 px-0"
+                style="background-image: url(./assets/img/nexus/n05.png);"></div>
+              <!-- End Col -->
+            </div>
+            <!-- End Row -->
+          </a>
+          <!-- End Card -->
+        </div>
+        <!-- End Col -->
+
+        <div class="col-sm-6 col-lg-4">
+          <!-- Card -->
+          <a class="card card-transition bg-light h-100 shadow-none overflow-hidden" href="#">
+            <div class="row align-items-center">
+              <div class="col-8 col-md-8">
+                <div class="card-body">
+                  <h4 class="card-title">Facturaci&oacute;n electr&oacute;nica</h4>
+                  <p class="card-text">Reciba su boleta o factura directamente en su correo electr&oacute;nico.</p>
+                </div>
+              </div>
+              <div class="col-4 col-md-4 bg_img_card_nexus h-100 px-0"
+                style="background-image: url(./assets/img/nexus/n06.png);"></div>
+            </div>
+            <!-- End Row -->
+          </a>
+          <!-- End Card -->
+        </div>
+        <!-- End Col -->
+      </div>
+      <!-- End Row -->
     </div>
-    <!-- End Icon Blocks -->
+    <!-- End Card Grid -->
+
+
 
     <!-- Features -->
     <div class="bg-primary">
@@ -567,8 +607,8 @@
               <div class="card-body">
                 <div class="mb-1">
 
-                  <h2 class="card-title text-white">Pague de forma rápida y segura con tarjetas de crédito,
-                    transferencia bancaria, depósito o en efectivo en nuestras oficinas.</h2>
+                  <p class="card-title fs-4 text-white">Pague de forma rápida y segura con tarjetas de crédito,
+                    transferencia bancaria, depósito o en efectivo en nuestras oficinas.</p>
                 </div>
               </div>
             </div>
@@ -631,32 +671,100 @@
 
     </div>
 
-    <div class="">
-      <!-- Slide -->
-      <div class="sbg-img-start bg-img-start" style="background-image: url(./assets/img/nexus/bkg003_1500.jpg);">
-        <div class="d-flex align-items-center position-relative">
-          <div class="container content-space-2">
-            <div class="row align-items-md-center">
-              <div class="col-md-6 pt-2 pb-2">
-              </div>
-              <div class="col-md-6 content-space-2">
-                <h2 class="card-title text-primary pt-3 pb-2">Envío a domicilio con correo certificado a todo el Perú
-                  sin costo adicional</h2>
-                <p class="text-black text-justify pt-1 pb-3">Esta promoción es válida para órdenes mayores a S/ 99.00.
-                  Esta oferta no es acumulable con otras promociones u ofertas. El servicio de entrega para el mismo
-                  día/express solamente es válido para estos distritos. Los envíos a cualquier otro destino y/o
-                  provincia tienen un tiempo de despacho de 24 a 72 horas útiles.</p>
-              </div>
-              <!-- End Col -->
-            </div>
-            <!-- End Row -->
-          </div>
+    <!-- Features -->
+    <div class="overflow-hidden">
+      <div class="container content-space-2 content-space-lg-3">
+        <div class="row justify-content-lg-between align-items-lg-center">
+          <div class="col-lg-6 mb-9 mb-lg-0">
+            <div class="position-relative mx-auto" style="max-width: 20rem;">
+              <!-- Mobile Device -->
+              <figure class="device-mobile mx-auto">
+                <div class="device-mobile-frame">
+                  <img class="device-mobile-img" src="./assets/img/nexus/Nexus_mobile_historial.jpeg" alt="Image Description">
+                </div>
+              </figure>
+              <!-- End Mobile Device -->
 
+              <!-- Image -->
+              <!-- <div class="position-absolute top-0 end-0 zi-2 me-n10 mt-9" style="width: 16rem;">
+                <img class="img-fluid shadow-lg rounded-2" src="./assets/img/407x115/img1.jpg" alt="Image Description">
+              </div> -->
+              <!-- End Image -->
+
+              <!-- Image -->
+              <!-- <div class="position-absolute bottom-0 start-0 zi-2 ms-n10 mb-10" style="width: 16rem;">
+                <img class="img-fluid shadow-lg rounded-2" src="./assets/img/480x320/img26.jpg" alt="Image Description">
+              </div> -->
+              <!-- End Image -->
+
+              <!-- SVG Shape -->
+              <!-- <div class="position-absolute bottom-0 end-0 zi-n1 mx-auto" style="width: 20rem;">
+                <img class="img-fluid" src="./assets/svg/components/shape-1.svg" alt="SVG">
+              </div> -->
+              <!-- End SVG Shape -->
+            </div>
+          </div>
+          <!-- End Col -->
+
+          <div class="col-lg-5">
+            <!-- Heading -->
+            <div class="mb-5">
+              <h2>Seguimiento en línea con Nexus</h2>
+            </div>
+            <!-- End Heading -->
+
+            <!-- Step -->
+            <ul class="step step-dashed mb-7">
+              <li class="step-item">
+                <div class="step-content-wrapper">
+                  <span class="step-icon step-icon-xs step-icon-soft-primary">1</span>
+                  <div class="step-content">
+                    <h4 class="step-title">Recepci&oacute;n de documentos</h4>
+                    <p>Env&iacute;anos tus archivos en el formato que prefieras para iniciar el proceso.</p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="step-item mb-7">
+                <div class="step-content-wrapper">
+                  <span class="step-icon step-icon-xs step-icon-soft-primary">2</span>
+                  <div class="step-content">
+                    <h4 class="step-title">Traducci&oacute;n especializada</h4>
+                    <p>Nuestros traductores profesionales realizan la traducci&oacute;n con precisi&oacute;n y calidad.</p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="step-item mb-7">
+                <div class="step-content-wrapper">
+                  <span class="step-icon step-icon-xs step-icon-soft-primary">3</span>
+                  <div class="step-content">
+                    <h4 class="step-title">Revisi&oacute;n del cliente</h4>
+                    <p class="mb-0">Te enviamos el documento preliminar para que puedas revisar o hacer observaciones.</p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="step-item mb-0">
+                <div class="step-content-wrapper">
+                  <span class="step-icon step-icon-xs step-icon-soft-primary">4</span>
+                  <div class="step-content">
+                    <h4 class="step-title">Entrega final y seguimiento</h4>
+                    <p>Recibe el archivo final en tu correo y accede a un historial con todo el proceso realizado.</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <!-- End Step -->
+
+            <!-- <a class="btn btn-primary btn-transition" href="#">Request demo</a> -->
+          </div>
           <!-- End Col -->
         </div>
+        <!-- End Row -->
       </div>
-      <!-- End Slide -->
     </div>
+    <!-- End Features -->
 
     <div class="sbg-img-start bg-img-start pb-5 pt-5"
       style="background-image: url(./assets/img/nexus/nexus_bkg1500.jpg);">
@@ -699,7 +807,8 @@
           <!-- Logo -->
           <div class="mb-5">
             <a class="navbar-brand" href="./index.html" aria-label="Space">
-              <img class="navbar-brand-logo" src="./assets/svg/logos/logo-white.svg" alt="Image Description">
+              <span class="logo_create text-white display-1">limac</span>
+              <sub class="text-white">&reg;</sub>
             </a>
           </div>
           <!-- End Logo -->
@@ -788,279 +897,7 @@
 
   <!-- ========== END FOOTER ========== -->
 
-  <!-- ========== SECONDARY CONTENTS ========== -->
-  <!-- Sign Up -->
-  <div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <!-- Header -->
-        <div class="modal-close">
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <!-- End Header -->
 
-        <!-- Body -->
-        <div class="modal-body">
-          <!-- Log in -->
-          <div id="signupModalFormLogin" style="display: none; opacity: 0;">
-            <!-- Heading -->
-            <div class="text-center mb-7">
-              <h2>Log in</h2>
-              <p>Don't have an account yet?
-                <a class="js-animation-link link" href="javascript:;" role="button" data-hs-show-animation-options='{
-                         "targetSelector": "#signupModalFormSignup",
-                         "groupName": "idForm"
-                       }'>Sign up</a>
-              </p>
-            </div>
-            <!-- End Heading -->
-
-            <div class="d-grid gap-2">
-              <a class="btn btn-white btn-lg" href="#">
-                <span class="d-flex justify-content-center align-items-center">
-                  <img class="avatar avatar-xss me-2" src="./assets/svg/brands/google-icon.svg" alt="Image Description">
-                  Log in with Google
-                </span>
-              </a>
-
-              <a class="js-animation-link btn btn-primary btn-lg" href="#" data-hs-show-animation-options='{
-                       "targetSelector": "#signupModalFormLoginWithEmail",
-                       "groupName": "idForm"
-                     }'>Log in with Email</a>
-            </div>
-          </div>
-          <!-- End Log in -->
-
-          <!-- Log in with Modal -->
-          <div id="signupModalFormLoginWithEmail" style="display: none; opacity: 0;">
-            <!-- Heading -->
-            <div class="text-center mb-7">
-              <h2>Log in</h2>
-              <p>Don't have an account yet?
-                <a class="js-animation-link link" href="javascript:;" role="button" data-hs-show-animation-options='{
-                         "targetSelector": "#signupModalFormSignup",
-                         "groupName": "idForm"
-                       }'>Sign up</a>
-              </p>
-            </div>
-            <!-- End Heading -->
-
-            <form class="js-validate needs-validation" novalidate>
-              <!-- Form -->
-              <div class="mb-3">
-                <label class="form-label" for="signupModalFormLoginEmail">Your email</label>
-                <input type="email" class="form-control form-control-lg" name="email" id="signupModalFormLoginEmail"
-                  placeholder="email@site.com" aria-label="email@site.com" required>
-                <span class="invalid-feedback">Please enter a valid email address.</span>
-              </div>
-              <!-- End Form -->
-
-              <!-- Form -->
-              <div class="mb-3">
-                <div class="d-flex justify-content-between align-items-center">
-                  <label class="form-label" for="signupModalFormLoginPassword">Password</label>
-
-                  <a class="js-animation-link form-label-link" href="javascript:;" data-hs-show-animation-options='{
-                       "targetSelector": "#signupModalFormResetPassword",
-                       "groupName": "idForm"
-                     }'>Forgot Password?</a>
-                </div>
-
-                <input type="password" class="form-control form-control-lg" name="password"
-                  id="signupModalFormLoginPassword" placeholder="8+ characters required"
-                  aria-label="8+ characters required" required minlength="8">
-                <span class="invalid-feedback">Please enter a valid password.</span>
-              </div>
-              <!-- End Form -->
-
-              <div class="d-grid mb-3">
-                <button type="submit" class="btn btn-primary form-control-lg">Log in</button>
-              </div>
-            </form>
-          </div>
-          <!-- End Log in with Modal -->
-
-          <!-- Sign up -->
-          <div id="signupModalFormSignup">
-            <!-- Heading -->
-            <div class="text-center mb-7">
-              <h2>Sign up</h2>
-              <p>Already have an account?
-                <a class="js-animation-link link" href="javascript:;" role="button" data-hs-show-animation-options='{
-                         "targetSelector": "#signupModalFormLogin",
-                         "groupName": "idForm"
-                       }'>Log in</a>
-              </p>
-            </div>
-            <!-- End Heading -->
-
-            <div class="d-grid gap-3">
-              <a class="btn btn-white btn-lg" href="#">
-                <span class="d-flex justify-content-center align-items-center">
-                  <img class="avatar avatar-xss me-2" src="./assets/svg/brands/google-icon.svg" alt="Image Description">
-                  Sign up with Google
-                </span>
-              </a>
-
-              <a class="js-animation-link btn btn-primary btn-lg" href="#" data-hs-show-animation-options='{
-                       "targetSelector": "#signupModalFormSignupWithEmail",
-                       "groupName": "idForm"
-                     }'>Sign up with Email</a>
-
-              <div class="text-center">
-                <p class="small mb-0">By continuing you agree to our <a href="#">Terms and Conditions</a></p>
-              </div>
-            </div>
-          </div>
-          <!-- End Sign up -->
-
-          <!-- Sign up with Modal -->
-          <div id="signupModalFormSignupWithEmail" style="display: none; opacity: 0;">
-            <!-- Heading -->
-            <div class="text-center mb-7">
-              <h2>Sign up</h2>
-              <p>Already have an account?
-                <a class="js-animation-link link" href="javascript:;" role="button" data-hs-show-animation-options='{
-                         "targetSelector": "#signupModalFormLogin",
-                         "groupName": "idForm"
-                       }'>Log in</a>
-              </p>
-            </div>
-            <!-- End Heading -->
-
-            <form class="js-validate need-validate" novalidate>
-              <!-- Form -->
-              <div class="mb-3">
-                <label class="form-label" for="signupModalFormSignupEmail">Your email</label>
-                <input type="email" class="form-control form-control-lg" name="email" id="signupModalFormSignupEmail"
-                  placeholder="email@site.com" aria-label="email@site.com" required>
-                <span class="invalid-feedback">Please enter a valid email address.</span>
-              </div>
-              <!-- End Form -->
-
-              <!-- Form -->
-              <div class="mb-3">
-                <label class="form-label" for="signupModalFormSignupPassword">Password</label>
-                <input type="password" class="form-control form-control-lg" name="password"
-                  id="signupModalFormSignupPassword" placeholder="8+ characters required"
-                  aria-label="8+ characters required" required>
-                <span class="invalid-feedback">Your password is invalid. Please try again.</span>
-              </div>
-              <!-- End Form -->
-
-              <!-- Form -->
-              <div class="mb-3" data-hs-validation-validate-class>
-                <label class="form-label" for="signupModalFormSignupConfirmPassword">Confirm password</label>
-                <input type="password" class="form-control form-control-lg" name="confirmPassword"
-                  id="signupModalFormSignupConfirmPassword" placeholder="8+ characters required"
-                  aria-label="8+ characters required" required
-                  data-hs-validation-equal-field="#signupModalFormSignupPassword">
-                <span class="invalid-feedback">Password does not match the confirm password.</span>
-              </div>
-              <!-- End Form -->
-
-              <div class="d-grid mb-3">
-                <button type="submit" class="btn btn-primary form-control-lg">Sign up</button>
-              </div>
-
-              <div class="text-center">
-                <p class="small mb-0">By continuing you agree to our <a href="#">Terms and Conditions</a></p>
-              </div>
-            </form>
-          </div>
-          <!-- End Sign up with Modal -->
-
-          <!-- Reset Password -->
-          <div id="signupModalFormResetPassword" style="display: none; opacity: 0;">
-            <!-- Heading -->
-            <div class="text-center mb-7">
-              <h2>Forgot password?</h2>
-              <p>Enter the email address you used when you joined and we'll send you instructions to reset your
-                password.</p>
-            </div>
-            <!-- En dHeading -->
-
-            <form class="js-validate need-validate" novalidate>
-              <div class="mb-3">
-                <!-- Form -->
-                <div class="d-flex justify-content-between align-items-center">
-                  <label class="form-label" for="signupModalFormResetPasswordEmail" tabindex="0">Your email</label>
-
-                  <a class="js-animation-link form-label-link" href="javascript:;" data-hs-show-animation-options='{
-                         "targetSelector": "#signupModalFormLogin",
-                         "groupName": "idForm"
-                       }'>
-                    <i class="bi-chevron-left small"></i> Back to Log in
-                  </a>
-                </div>
-
-                <input type="email" class="form-control form-control-lg" name="email"
-                  id="signupModalFormResetPasswordEmail" tabindex="1" placeholder="Enter your email address"
-                  aria-label="Enter your email address" required>
-                <span class="invalid-feedback">Please enter a valid email address.</span>
-                <!-- End Form -->
-              </div>
-
-              <div class="d-grid">
-                <button type="submit" class="btn btn-primary form-control-lg">Submit</button>
-              </div>
-            </form>
-          </div>
-          <!-- End Reset Password -->
-        </div>
-        <!-- End Body -->
-
-        <!-- Footer -->
-        <div class="modal-footer d-block text-center py-sm-5">
-          <small class="text-cap mb-4">Trusted by the world's best teams</small>
-
-          <div class="w-85 mx-auto">
-            <div class="row justify-content-between">
-              <div class="col">
-                <img class="img-fluid" src="./assets/svg/brands/gitlab-gray.svg" alt="Logo">
-              </div>
-              <!-- End Col -->
-
-              <div class="col">
-                <img class="img-fluid" src="./assets/svg/brands/fitbit-gray.svg" alt="Logo">
-              </div>
-              <!-- End Col -->
-
-              <div class="col">
-                <img class="img-fluid" src="./assets/svg/brands/flow-xo-gray.svg" alt="Logo">
-              </div>
-              <!-- End Col -->
-
-              <div class="col">
-                <img class="img-fluid" src="./assets/svg/brands/layar-gray.svg" alt="Logo">
-              </div>
-              <!-- End Col -->
-            </div>
-          </div>
-          <!-- End Row -->
-        </div>
-        <!-- End Footer -->
-      </div>
-    </div>
-  </div>
-
-  <!-- Go To -->
-  <a class="js-go-to go-to position-fixed" href="javascript:;" style="visibility: hidden;" data-hs-go-to-options='{
-       "offsetTop": 700,
-       "position": {
-         "init": {
-           "right": "2rem"
-         },
-         "show": {
-           "bottom": "2rem"
-         },
-         "hide": {
-           "bottom": "-2rem"
-         }
-       }
-     }'>
-    <i class="bi-chevron-up"></i>
-  </a>
 
   <!-- Cookie Alert -->
 

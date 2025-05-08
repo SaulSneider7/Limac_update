@@ -23,11 +23,15 @@
 
   <!-- CSS Front Template -->
   <link rel="stylesheet" href="./assets/css/theme.min.css">
+
+  <!-- CSS My Style -->
+  <link rel="stylesheet" href="./assets/css/my_style.css">
 </head>
 
 <body>
   <!-- ========== HEADER ========== -->
-  <header id="header" class="navbar navbar-expand-lg navbar-end navbar-absolute-top navbar-dark navbar-show-hide" data-hs-header-options='{
+  <header id="header" class="navbar navbar-expand-lg navbar-end navbar-absolute-top navbar-dark navbar-show-hide"
+    data-hs-header-options='{
             "fixMoment": 1000,
             "fixEffect": "slide"
           }'>
@@ -35,12 +39,14 @@
       <nav class="js-mega-menu navbar-nav-wrap">
         <!-- Default Logo -->
         <a class="navbar-brand" href="./index.html" aria-label="Front">
-          <p class="logo_create">limac</p>
+          <span class="logo_create text-white">limac</span>
+          <sub class="text-white">&reg;</sub>
         </a>
         <!-- End Default Logo -->
 
         <!-- Toggler -->
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-default">
             <i class="bi-list"></i>
           </span>
@@ -56,7 +62,8 @@
             <ul class="navbar-nav">
               <!-- Demos (reemplaza a Landings) -->
               <li class="hs-has-mega-menu nav-item">
-                <a id="demosMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle active" aria-current="page" href="#" role="button">Servicios</a>
+                <a id="demosMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle active" aria-current="page"
+                  href="#" role="button">Servicios</a>
 
                 <!-- Mega Menu -->
                 <div class="hs-mega-menu dropdown-menu w-100" aria-labelledby="demosMegaMenu" style="min-width: 40rem;">
@@ -70,9 +77,14 @@
                             <div class="d-flex">
                               <div class="flex-shrink-0">
                                 <span class="svg-icon svg-icon-sm text-primary">
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M15.6 5.59998L20.9 10.9C21.3 11.3 21.3 11.9 20.9 12.3L17.6 15.6L11.6 9.59998L15.6 5.59998ZM2.3 12.3L7.59999 17.6L11.6 13.6L5.59999 7.59998L2.3 10.9C1.9 11.3 1.9 11.9 2.3 12.3Z" fill="#035A4B" />
-                                    <path opacity="0.3" d="M17.6 15.6L12.3 20.9C11.9 21.3 11.3 21.3 10.9 20.9L7.59998 17.6L13.6 11.6L17.6 15.6ZM10.9 2.3L5.59998 7.6L9.59998 11.6L15.6 5.6L12.3 2.3C11.9 1.9 11.3 1.9 10.9 2.3Z" fill="#035A4B" />
+                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                      d="M15.6 5.59998L20.9 10.9C21.3 11.3 21.3 11.9 20.9 12.3L17.6 15.6L11.6 9.59998L15.6 5.59998ZM2.3 12.3L7.59999 17.6L11.6 13.6L5.59999 7.59998L2.3 10.9C1.9 11.3 1.9 11.9 2.3 12.3Z"
+                                      fill="#035A4B" />
+                                    <path opacity="0.3"
+                                      d="M17.6 15.6L12.3 20.9C11.9 21.3 11.3 21.3 10.9 20.9L7.59998 17.6L13.6 11.6L17.6 15.6ZM10.9 2.3L5.59998 7.6L9.59998 11.6L15.6 5.6L12.3 2.3C11.9 1.9 11.3 1.9 10.9 2.3Z"
+                                      fill="#035A4B" />
                                   </svg>
 
                                 </span>
@@ -92,9 +104,14 @@
                             <div class="d-flex">
                               <div class="flex-shrink-0">
                                 <span class="svg-icon svg-icon-sm text-primary">
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M6.5 3C5.67157 3 5 3.67157 5 4.5V6H3.5C2.67157 6 2 6.67157 2 7.5C2 8.32843 2.67157 9 3.5 9H5V19.5C5 20.3284 5.67157 21 6.5 21C7.32843 21 8 20.3284 8 19.5V9H20.5C21.3284 9 22 8.32843 22 7.5C22 6.67157 21.3284 6 20.5 6H8V4.5C8 3.67157 7.32843 3 6.5 3Z" fill="#035A4B" />
-                                    <path opacity="0.3" fill-rule="evenodd" clip-rule="evenodd" d="M20.5 11H10V17.5C10 18.3284 10.6716 19 11.5 19H15.5C17.3546 19 19.0277 18.2233 20.2119 16.9775C20.1436 16.9922 20.0727 17 20 17C19.4477 17 19 16.5523 19 16V13C19 12.4477 19.4477 12 20 12C20.5523 12 21 12.4477 21 13V15.9657C21.6334 14.9626 22 13.7741 22 12.5C22 11.6716 21.3284 11 20.5 11Z" fill="#035A4B" />
+                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                      d="M6.5 3C5.67157 3 5 3.67157 5 4.5V6H3.5C2.67157 6 2 6.67157 2 7.5C2 8.32843 2.67157 9 3.5 9H5V19.5C5 20.3284 5.67157 21 6.5 21C7.32843 21 8 20.3284 8 19.5V9H20.5C21.3284 9 22 8.32843 22 7.5C22 6.67157 21.3284 6 20.5 6H8V4.5C8 3.67157 7.32843 3 6.5 3Z"
+                                      fill="#035A4B" />
+                                    <path opacity="0.3" fill-rule="evenodd" clip-rule="evenodd"
+                                      d="M20.5 11H10V17.5C10 18.3284 10.6716 19 11.5 19H15.5C17.3546 19 19.0277 18.2233 20.2119 16.9775C20.1436 16.9922 20.0727 17 20 17C19.4477 17 19 16.5523 19 16V13C19 12.4477 19.4477 12 20 12C20.5523 12 21 12.4477 21 13V15.9657C21.6334 14.9626 22 13.7741 22 12.5C22 11.6716 21.3284 11 20.5 11Z"
+                                      fill="#035A4B" />
                                   </svg>
 
                                 </span>
@@ -119,12 +136,19 @@
                             <div class="d-flex">
                               <div class="flex-shrink-0">
                                 <span class="svg-icon svg-icon-sm text-primary">
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
                                     <path d="M20 19H4C2.9 19 2 18.1 2 17H22C22 18.1 21.1 19 20 19Z" fill="#035A4B" />
-                                    <path opacity="0.3" d="M20 5H4C3.4 5 3 5.4 3 6V17H21V6C21 5.4 20.6 5 20 5Z" fill="#035A4B" />
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M14.9167 6.83334H9.91666C9.18899 6.83334 8.66666 7.37744 8.66666 8.08334V13.9167C8.66666 14.6226 9.18899 15.1667 9.91666 15.1667H14.9167C15.1841 15.1667 15.3333 15.0112 15.3333 14.75V14.3333H10.3333C10.1032 14.3333 9.91665 14.1468 9.91665 13.9167C9.91665 13.6866 10.1032 13.5 10.3333 13.5H15.3333V7.25001C15.3333 6.9888 15.1841 6.83334 14.9167 6.83334Z" fill="#035A4B" />
-                                    <mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="8" y="6" width="8" height="10">
-                                      <path fill-rule="evenodd" clip-rule="evenodd" d="M14.9167 6.83334H9.91666C9.18899 6.83334 8.66666 7.37744 8.66666 8.08334V13.9167C8.66666 14.6226 9.18899 15.1667 9.91666 15.1667H14.9167C15.1841 15.1667 15.3333 15.0112 15.3333 14.75V14.3333H10.3333C10.1032 14.3333 9.91665 14.1468 9.91665 13.9167C9.91665 13.6866 10.1032 13.5 10.3333 13.5H15.3333V7.25001C15.3333 6.9888 15.1841 6.83334 14.9167 6.83334Z" fill="white" />
+                                    <path opacity="0.3" d="M20 5H4C3.4 5 3 5.4 3 6V17H21V6C21 5.4 20.6 5 20 5Z"
+                                      fill="#035A4B" />
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                      d="M14.9167 6.83334H9.91666C9.18899 6.83334 8.66666 7.37744 8.66666 8.08334V13.9167C8.66666 14.6226 9.18899 15.1667 9.91666 15.1667H14.9167C15.1841 15.1667 15.3333 15.0112 15.3333 14.75V14.3333H10.3333C10.1032 14.3333 9.91665 14.1468 9.91665 13.9167C9.91665 13.6866 10.1032 13.5 10.3333 13.5H15.3333V7.25001C15.3333 6.9888 15.1841 6.83334 14.9167 6.83334Z"
+                                      fill="#035A4B" />
+                                    <mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="8" y="6" width="8"
+                                      height="10">
+                                      <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M14.9167 6.83334H9.91666C9.18899 6.83334 8.66666 7.37744 8.66666 8.08334V13.9167C8.66666 14.6226 9.18899 15.1667 9.91666 15.1667H14.9167C15.1841 15.1667 15.3333 15.0112 15.3333 14.75V14.3333H10.3333C10.1032 14.3333 9.91665 14.1468 9.91665 13.9167C9.91665 13.6866 10.1032 13.5 10.3333 13.5H15.3333V7.25001C15.3333 6.9888 15.1841 6.83334 14.9167 6.83334Z"
+                                        fill="white" />
                                     </mask>
                                     <g mask="url(#mask0)">
                                     </g>
@@ -147,9 +171,13 @@
                             <div class="d-flex">
                               <div class="flex-shrink-0">
                                 <span class="svg-icon svg-icon-sm text-primary">
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path opacity="0.3" d="M20 22H4C3.4 22 3 21.6 3 21V2H21V21C21 21.6 20.6 22 20 22Z" fill="#035A4B" />
-                                    <path d="M12 14C9.2 14 7 11.8 7 9V5C7 4.4 7.4 4 8 4C8.6 4 9 4.4 9 5V9C9 10.7 10.3 12 12 12C13.7 12 15 10.7 15 9V5C15 4.4 15.4 4 16 4C16.6 4 17 4.4 17 5V9C17 11.8 14.8 14 12 14Z" fill="#035A4B" />
+                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path opacity="0.3" d="M20 22H4C3.4 22 3 21.6 3 21V2H21V21C21 21.6 20.6 22 20 22Z"
+                                      fill="#035A4B" />
+                                    <path
+                                      d="M12 14C9.2 14 7 11.8 7 9V5C7 4.4 7.4 4 8 4C8.6 4 9 4.4 9 5V9C9 10.7 10.3 12 12 12C13.7 12 15 10.7 15 9V5C15 4.4 15.4 4 16 4C16.6 4 17 4.4 17 5V9C17 11.8 14.8 14 12 14Z"
+                                      fill="#035A4B" />
                                   </svg>
 
                                 </span>
@@ -174,9 +202,14 @@
                             <div class="d-flex">
                               <div class="flex-shrink-0">
                                 <span class="svg-icon svg-icon-sm text-primary">
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M22.1671 18.1421C22.4827 18.4577 23.0222 18.2331 23.0206 17.7868L23.0039 13.1053V5.52632C23.0039 4.13107 21.8729 3 20.4776 3H8.68815C7.2929 3 6.16183 4.13107 6.16183 5.52632V9H13C14.6568 9 16 10.3431 16 12V15.6316H19.6565L22.1671 18.1421Z" fill="#035A4B" />
-                                    <path opacity="0.3" fill-rule="evenodd" clip-rule="evenodd" d="M1.98508 18V13C1.98508 11.8954 2.88051 11 3.98508 11H11.9851C13.0896 11 13.9851 11.8954 13.9851 13V18C13.9851 19.1046 13.0896 20 11.9851 20H4.10081L2.85695 21.1905C2.53895 21.4949 2.01123 21.2695 2.01123 20.8293V18.3243C1.99402 18.2187 1.98508 18.1104 1.98508 18ZM5.99999 14.5C5.99999 14.2239 6.22385 14 6.49999 14H11.5C11.7761 14 12 14.2239 12 14.5C12 14.7761 11.7761 15 11.5 15H6.49999C6.22385 15 5.99999 14.7761 5.99999 14.5ZM9.49999 16C9.22385 16 8.99999 16.2239 8.99999 16.5C8.99999 16.7761 9.22385 17 9.49999 17H11.5C11.7761 17 12 16.7761 12 16.5C12 16.2239 11.7761 16 11.5 16H9.49999Z" fill="#035A4B" />
+                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                      d="M22.1671 18.1421C22.4827 18.4577 23.0222 18.2331 23.0206 17.7868L23.0039 13.1053V5.52632C23.0039 4.13107 21.8729 3 20.4776 3H8.68815C7.2929 3 6.16183 4.13107 6.16183 5.52632V9H13C14.6568 9 16 10.3431 16 12V15.6316H19.6565L22.1671 18.1421Z"
+                                      fill="#035A4B" />
+                                    <path opacity="0.3" fill-rule="evenodd" clip-rule="evenodd"
+                                      d="M1.98508 18V13C1.98508 11.8954 2.88051 11 3.98508 11H11.9851C13.0896 11 13.9851 11.8954 13.9851 13V18C13.9851 19.1046 13.0896 20 11.9851 20H4.10081L2.85695 21.1905C2.53895 21.4949 2.01123 21.2695 2.01123 20.8293V18.3243C1.99402 18.2187 1.98508 18.1104 1.98508 18ZM5.99999 14.5C5.99999 14.2239 6.22385 14 6.49999 14H11.5C11.7761 14 12 14.2239 12 14.5C12 14.7761 11.7761 15 11.5 15H6.49999C6.22385 15 5.99999 14.7761 5.99999 14.5ZM9.49999 16C9.22385 16 8.99999 16.2239 8.99999 16.5C8.99999 16.7761 9.22385 17 9.49999 17H11.5C11.7761 17 12 16.7761 12 16.5C12 16.2239 11.7761 16 11.5 16H9.49999Z"
+                                      fill="#035A4B" />
                                   </svg>
 
                                 </span>
@@ -196,18 +229,28 @@
                             <div class="d-flex">
                               <div class="flex-shrink-0">
                                 <span class="svg-icon svg-icon-sm text-primary">
-                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path opacity="0.3" fill-rule="evenodd" clip-rule="evenodd" d="M12 17C16.4183 17 20 13.4183 20 9C20 4.58172 16.4183 1 12 1C7.58172 1 4 4.58172 4 9C4 13.4183 7.58172 17 12 17Z" fill="#035A4B" />
-                                    <path opacity="0.3" fill-rule="evenodd" clip-rule="evenodd" d="M6.53819 9L10.568 19.3624L11.976 18.8149L13.3745 19.3674L17.4703 9H6.53819ZM9.46188 11H14.5298L11.9759 17.4645L9.46188 11Z" fill="#035A4B" />
-                                    <path opacity="0.3" d="M10 22H14V22C14 23.1046 13.1046 24 12 24V24C10.8954 24 10 23.1046 10 22V22Z" fill="#035A4B" />
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M8 17C8 16.4477 8.44772 16 9 16H15C15.5523 16 16 16.4477 16 17C16 17.5523 15.5523 18 15 18C15.5523 18 16 18.4477 16 19C16 19.5523 15.5523 20 15 20C15.5523 20 16 20.4477 16 21C16 21.5523 15.5523 22 15 22H9C8.44772 22 8 21.5523 8 21C8 20.4477 8.44772 20 9 20C8.44772 20 8 19.5523 8 19C8 18.4477 8.44772 18 9 18C8.44772 18 8 17.5523 8 17Z" fill="#035A4B" />
+                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path opacity="0.3" fill-rule="evenodd" clip-rule="evenodd"
+                                      d="M12 17C16.4183 17 20 13.4183 20 9C20 4.58172 16.4183 1 12 1C7.58172 1 4 4.58172 4 9C4 13.4183 7.58172 17 12 17Z"
+                                      fill="#035A4B" />
+                                    <path opacity="0.3" fill-rule="evenodd" clip-rule="evenodd"
+                                      d="M6.53819 9L10.568 19.3624L11.976 18.8149L13.3745 19.3674L17.4703 9H6.53819ZM9.46188 11H14.5298L11.9759 17.4645L9.46188 11Z"
+                                      fill="#035A4B" />
+                                    <path opacity="0.3"
+                                      d="M10 22H14V22C14 23.1046 13.1046 24 12 24V24C10.8954 24 10 23.1046 10 22V22Z"
+                                      fill="#035A4B" />
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                      d="M8 17C8 16.4477 8.44772 16 9 16H15C15.5523 16 16 16.4477 16 17C16 17.5523 15.5523 18 15 18C15.5523 18 16 18.4477 16 19C16 19.5523 15.5523 20 15 20C15.5523 20 16 20.4477 16 21C16 21.5523 15.5523 22 15 22H9C8.44772 22 8 21.5523 8 21C8 20.4477 8.44772 20 9 20C8.44772 20 8 19.5523 8 19C8 18.4477 8.44772 18 9 18C8.44772 18 8 17.5523 8 17Z"
+                                      fill="#035A4B" />
                                   </svg>
 
                                 </span>
                               </div>
                               <div class="flex-grow-1 ms-3">
                                 <span class="navbar-dropdown-menu-media-title">Interpr. Telefónica</span>
-                                <p class="navbar-dropdown-menu-media-desc">Próximamente<i class="bi-box-arrow-up-right ms-1"></i>
+                                <p class="navbar-dropdown-menu-media-desc">Próximamente<i
+                                    class="bi-box-arrow-up-right ms-1"></i>
                                 </p>
                               </div>
                             </div>
@@ -219,13 +262,15 @@
                     </div>
                     <div class="col-lg-6 d-none d-lg-block">
                       <!-- Banner Image -->
-                      <div class="navbar-dropdown-menu-banner" style="background-image: url(./assets/svg/components/shape-3.svg);">
+                      <div class="navbar-dropdown-menu-banner"
+                        style="background-image: url(./assets/svg/components/shape-3.svg);">
                         <div class="navbar-dropdown-menu-banner-content">
                           <div class="mb-4">
                             <span class="h2 d-block">Interp. Consecutiva</span>
                             <p>Intérpretes para grupos</p>
                           </div>
-                          <a class="btn btn-primary btn-transition" href="#">Learn more <i class="bi-chevron-right small"></i></a>
+                          <a class="btn btn-primary btn-transition" href="#">Learn more <i
+                              class="bi-chevron-right small"></i></a>
                         </div>
                       </div>
                       <!-- End Banner Image -->
@@ -240,7 +285,8 @@
               <!-- Resto del menú (Account, Pages, Blog, Portfolio) -->
               <!-- Company -->
               <li class="nav-item">
-                <a class="hs-mega-menu-invoker nav-link" href="nosotros.html" role="button" aria-expanded="false">Nosotros</a>
+                <a class="hs-mega-menu-invoker nav-link" href="nosotros.html" role="button"
+                  aria-expanded="false">Nosotros</a>
               </li>
 
               <!-- Portfolio -->
@@ -255,17 +301,21 @@
 
               <!-- Portfolio -->
               <li class="nav-item">
-                <a class="hs-mega-menu-invoker nav-link" href="bolsa.html" role="button" aria-expanded="false">Trabaje aquí</a>
+                <a class="hs-mega-menu-invoker nav-link" href="bolsa.html" role="button" aria-expanded="false">Trabaje
+                  aquí</a>
               </li>
 
               <!-- Portfolio -->
               <li class="nav-item">
-                <a class="hs-mega-menu-invoker nav-link" href="contacto.html" role="button" aria-expanded="false">Contacto</a>
+                <a class="hs-mega-menu-invoker nav-link" href="contacto.html" role="button"
+                  aria-expanded="false">Contacto</a>
               </li>
 
               <!-- Button -->
               <li class="nav-item">
-                <a class="btn btn-dark btn-transition" href="https://themes.getbootstrap.com/product/front-multipurpose-responsive-template/" target="_blank">Iniciar Sesión</a>
+                <a class="btn btn-dark btn-transition"
+                  href="https://themes.getbootstrap.com/product/front-multipurpose-responsive-template/"
+                  target="_blank">Iniciar Sesión</a>
               </li>
               <!-- End Button -->
             </ul>
@@ -282,7 +332,8 @@
       <!-- Swiper Main Slider -->
       <div class="js-swiper-blog-journal-hero swiper">
         <div class="swiper-wrapper">
-          <div class="js-swiper-slide-preload swiper-slide d-flex gradient-x-overlay-sm-dark bg-img-start" style="background-image: url(./assets/img/index/miraflores.jpeg); min-height: 40rem;">
+          <div class="js-swiper-slide-preload swiper-slide d-flex gradient-x-overlay-sm-dark bg-img-start"
+            style="background-image: url(./assets/img/index/miraflores.jpeg); min-height: 40rem;">
             <!-- Container -->
             <div class="container d-flex align-items-center" style="min-height: 40rem;">
               <div class="w-lg-50 me-3">
@@ -293,13 +344,15 @@
                   <a class="text-white">Nuestros traductores e intérpretes conocen la terminología y cultura de su
                     mercado objetivo.</a>
                 </div>
-                <a class="btn btn-primary btn-transition" href="./blog-article.html">Hablemos de Negocios<i class="bi-chevron-right small ms-1"></i></a>
+                <a class="btn btn-primary btn-transition" href="./blog-article.html">Hablemos de Negocios<i
+                    class="bi-chevron-right small ms-1"></i></a>
               </div>
             </div>
             <!-- End Container -->
           </div>
 
-          <div class="js-swiper-slide-preload swiper-slide d-flex gradient-x-overlay-sm-dark bg-img-start" style="background-image: url(./assets/img/index/uppsala.jpeg); min-height: 40rem;">
+          <div class="js-swiper-slide-preload swiper-slide d-flex gradient-x-overlay-sm-dark bg-img-start"
+            style="background-image: url(./assets/img/index/uppsala.jpeg); min-height: 40rem;">
             <!-- Container -->
             <div class="container d-flex align-items-center" style="min-height: 40rem;">
               <div class="w-lg-50 me-3">
@@ -309,13 +362,15 @@
                 <div class="media align-items-center mb-3 animated fadeInUp">
                   <a class="text-white">Asesoría gratis y sin compromisos.</a>
                 </div>
-                <a class="btn btn-primary btn-transition" href="./blog-article.html">Hablemos de Negocios<i class="bi-chevron-right small ms-1"></i></a>
+                <a class="btn btn-primary btn-transition" href="./blog-article.html">Hablemos de Negocios<i
+                    class="bi-chevron-right small ms-1"></i></a>
               </div>
             </div>
             <!-- End Container -->
           </div>
 
-          <div class="js-swiper-slide-preload swiper-slide d-flex gradient-x-overlay-sm-dark bg-img-start" style="background-image: url(./assets/img/index/bg5.jpg); min-height: 40rem;">
+          <div class="js-swiper-slide-preload swiper-slide d-flex gradient-x-overlay-sm-dark bg-img-start"
+            style="background-image: url(./assets/img/index/bg5.jpg); min-height: 40rem;">
             <!-- Container -->
             <div class="container d-flex align-items-center" style="min-height: 40rem;">
               <div class="w-lg-50 me-3">
@@ -325,7 +380,8 @@
                 <div class="media align-items-center mb-3 animated fadeInUp">
                   <a class="text-white">Trabajamos con la PCM, el Congreso y Ministerio de Cultura desde 2013.</a>
                 </div>
-                <a class="btn btn-primary btn-transition" href="./blog-article.html">Hablemos de Negocios<i class="bi-chevron-right small ms-1"></i></a>
+                <a class="btn btn-primary btn-transition" href="./blog-article.html">Hablemos de Negocios<i
+                    class="bi-chevron-right small ms-1"></i></a>
               </div>
             </div>
             <!-- End Container -->
@@ -333,10 +389,12 @@
         </div>
 
         <!-- Swiper Pagination -->
-        <div class="js-swiper-blog-journal-hero-pagination swiper-pagination swiper-pagination-light swiper-pagination-vertical swiper-pagination-middle-y-end me-3 d-lg-none">
+        <div
+          class="js-swiper-blog-journal-hero-pagination swiper-pagination swiper-pagination-light swiper-pagination-vertical swiper-pagination-middle-y-end me-3 d-lg-none">
         </div>
 
-        <div class="js-swiper-preloader d-flex align-items-center justify-content-center top-0 position-absolute w-100 h-100 bg-white zi-1">
+        <div
+          class="js-swiper-preloader d-flex align-items-center justify-content-center top-0 position-absolute w-100 h-100 bg-white zi-1">
           <div class="spinner spinner-border text-primary"></div>
         </div>
       </div>
@@ -389,7 +447,8 @@
       <div class="w-lg-65 text-center mx-lg-auto mb-5 mb-md-9">
         <h1>Confie su próximo proyecto<br>A un equipo altamente calificado</h1>
         <h2 class="py-2">¿Es la primera vez que necesita un servicio de idiomas?<br>Con Limac es facil y rápido.</h2>
-        <a class="btn btn-lg btn-link card-transition" href="#">Empiece ahora <i class="bi-chevron-right strong ms-1"></i></a>
+        <a class="btn btn-lg btn-link card-transition" href="#">Empiece ahora <i
+            class="bi-chevron-right strong ms-1"></i></a>
       </div>
     </div>
 
@@ -469,7 +528,9 @@
           </div> -->
           <div class="col-sm-6 col-lg-6 mb-4 mb-sm-0">
             <!-- Card -->
-            <a class="card card-transition align-items-end flex-wrap flex-row bg-img-start h-100 aos-init aos-animate" href="#" style="background-image: url(./assets/img/index/bnn_nosotros.jpg); min-height: 25rem;" data-aos="fade-up" data-aos-delay="100">
+            <a class="card card-transition align-items-end flex-wrap flex-row bg-img-start h-100 aos-init aos-animate"
+              href="#" style="background-image: url(./assets/img/index/bnn_nosotros.jpg); min-height: 25rem;"
+              data-aos="fade-up" data-aos-delay="100">
               <div class="card-body">
               </div>
             </a>
@@ -557,8 +618,12 @@
                   <div class="col-sm-12 col-lg-6 mb-3" data-aos="fade-left" data-aos-duration="750">
                     <span class="svg-icon text-primary mb-3">
                       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path opacity="0.3" d="M21.25 18.525L13.05 21.825C12.35 22.125 11.65 22.125 10.95 21.825L2.75 18.525C1.75 18.125 1.75 16.725 2.75 16.325L4.04999 15.825L10.25 18.325C10.85 18.525 11.45 18.625 12.05 18.625C12.65 18.625 13.25 18.525 13.85 18.325L20.05 15.825L21.35 16.325C22.35 16.725 22.35 18.125 21.25 18.525ZM13.05 16.425L21.25 13.125C22.25 12.725 22.25 11.325 21.25 10.925L13.05 7.62502C12.35 7.32502 11.65 7.32502 10.95 7.62502L2.75 10.925C1.75 11.325 1.75 12.725 2.75 13.125L10.95 16.425C11.65 16.725 12.45 16.725 13.05 16.425Z" fill="#035A4B" />
-                        <path d="M11.05 11.025L2.84998 7.725C1.84998 7.325 1.84998 5.925 2.84998 5.525L11.05 2.225C11.75 1.925 12.45 1.925 13.15 2.225L21.35 5.525C22.35 5.925 22.35 7.325 21.35 7.725L13.05 11.025C12.45 11.325 11.65 11.325 11.05 11.025Z" fill="#035A4B" />
+                        <path opacity="0.3"
+                          d="M21.25 18.525L13.05 21.825C12.35 22.125 11.65 22.125 10.95 21.825L2.75 18.525C1.75 18.125 1.75 16.725 2.75 16.325L4.04999 15.825L10.25 18.325C10.85 18.525 11.45 18.625 12.05 18.625C12.65 18.625 13.25 18.525 13.85 18.325L20.05 15.825L21.35 16.325C22.35 16.725 22.35 18.125 21.25 18.525ZM13.05 16.425L21.25 13.125C22.25 12.725 22.25 11.325 21.25 10.925L13.05 7.62502C12.35 7.32502 11.65 7.32502 10.95 7.62502L2.75 10.925C1.75 11.325 1.75 12.725 2.75 13.125L10.95 16.425C11.65 16.725 12.45 16.725 13.05 16.425Z"
+                          fill="#035A4B" />
+                        <path
+                          d="M11.05 11.025L2.84998 7.725C1.84998 7.325 1.84998 5.925 2.84998 5.525L11.05 2.225C11.75 1.925 12.45 1.925 13.15 2.225L21.35 5.525C22.35 5.925 22.35 7.325 21.35 7.725L13.05 11.025C12.45 11.325 11.65 11.325 11.05 11.025Z"
+                          fill="#035A4B" />
                       </svg>
 
                     </span>
@@ -571,8 +636,12 @@
                   <div class="col-sm-12 col-lg-6 mb-3" data-aos="fade-left" data-aos-duration="750">
                     <span class="svg-icon text-primary mb-3">
                       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path opacity="0.3" d="M22 5V19C22 19.6 21.6 20 21 20H19.5L11.9 12.4C11.5 12 10.9 12 10.5 12.4L3 20C2.5 20 2 19.5 2 19V5C2 4.4 2.4 4 3 4H21C21.6 4 22 4.4 22 5ZM7.5 7C6.7 7 6 7.7 6 8.5C6 9.3 6.7 10 7.5 10C8.3 10 9 9.3 9 8.5C9 7.7 8.3 7 7.5 7Z" fill="#035A4B" />
-                        <path d="M19.1 10C18.7 9.60001 18.1 9.60001 17.7 10L10.7 17H2V19C2 19.6 2.4 20 3 20H21C21.6 20 22 19.6 22 19V12.9L19.1 10Z" fill="#035A4B" />
+                        <path opacity="0.3"
+                          d="M22 5V19C22 19.6 21.6 20 21 20H19.5L11.9 12.4C11.5 12 10.9 12 10.5 12.4L3 20C2.5 20 2 19.5 2 19V5C2 4.4 2.4 4 3 4H21C21.6 4 22 4.4 22 5ZM7.5 7C6.7 7 6 7.7 6 8.5C6 9.3 6.7 10 7.5 10C8.3 10 9 9.3 9 8.5C9 7.7 8.3 7 7.5 7Z"
+                          fill="#035A4B" />
+                        <path
+                          d="M19.1 10C18.7 9.60001 18.1 9.60001 17.7 10L10.7 17H2V19C2 19.6 2.4 20 3 20H21C21.6 20 22 19.6 22 19V12.9L19.1 10Z"
+                          fill="#035A4B" />
                       </svg>
 
                     </span>
@@ -585,8 +654,12 @@
                   <div class="col-sm-12 col-lg-6 mb-3 mb-sm-0" data-aos="fade-left" data-aos-duration="750">
                     <span class="svg-icon text-primary mb-3">
                       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path opacity="0.3" d="M12 10.6L14.8 7.8C15.2 7.4 15.8 7.4 16.2 7.8C16.6 8.2 16.6 8.80002 16.2 9.20002L13.4 12L12 10.6ZM10.6 12L7.8 14.8C7.4 15.2 7.4 15.8 7.8 16.2C8 16.4 8.3 16.5 8.5 16.5C8.7 16.5 8.99999 16.4 9.19999 16.2L12 13.4L10.6 12Z" fill="#035A4B" />
-                        <path d="M22 12C22 17.5 17.5 22 12 22C6.5 22 2 17.5 2 12C2 6.5 6.5 2 12 2C17.5 2 22 6.5 22 12ZM13.4 12L16.2 9.20001C16.6 8.80001 16.6 8.19999 16.2 7.79999C15.8 7.39999 15.2 7.39999 14.8 7.79999L12 10.6L9.2 7.79999C8.8 7.39999 8.2 7.39999 7.8 7.79999C7.4 8.19999 7.4 8.80001 7.8 9.20001L10.6 12L7.8 14.8C7.4 15.2 7.4 15.8 7.8 16.2C8 16.4 8.3 16.5 8.5 16.5C8.7 16.5 9 16.4 9.2 16.2L12 13.4L14.8 16.2C15 16.4 15.3 16.5 15.5 16.5C15.7 16.5 16 16.4 16.2 16.2C16.6 15.8 16.6 15.2 16.2 14.8L13.4 12Z" fill="#035A4B" />
+                        <path opacity="0.3"
+                          d="M12 10.6L14.8 7.8C15.2 7.4 15.8 7.4 16.2 7.8C16.6 8.2 16.6 8.80002 16.2 9.20002L13.4 12L12 10.6ZM10.6 12L7.8 14.8C7.4 15.2 7.4 15.8 7.8 16.2C8 16.4 8.3 16.5 8.5 16.5C8.7 16.5 8.99999 16.4 9.19999 16.2L12 13.4L10.6 12Z"
+                          fill="#035A4B" />
+                        <path
+                          d="M22 12C22 17.5 17.5 22 12 22C6.5 22 2 17.5 2 12C2 6.5 6.5 2 12 2C17.5 2 22 6.5 22 12ZM13.4 12L16.2 9.20001C16.6 8.80001 16.6 8.19999 16.2 7.79999C15.8 7.39999 15.2 7.39999 14.8 7.79999L12 10.6L9.2 7.79999C8.8 7.39999 8.2 7.39999 7.8 7.79999C7.4 8.19999 7.4 8.80001 7.8 9.20001L10.6 12L7.8 14.8C7.4 15.2 7.4 15.8 7.8 16.2C8 16.4 8.3 16.5 8.5 16.5C8.7 16.5 9 16.4 9.2 16.2L12 13.4L14.8 16.2C15 16.4 15.3 16.5 15.5 16.5C15.7 16.5 16 16.4 16.2 16.2C16.6 15.8 16.6 15.2 16.2 14.8L13.4 12Z"
+                          fill="#035A4B" />
                       </svg>
 
                     </span>
@@ -599,8 +672,12 @@
                   <div class="col-sm-12 col-lg-6" data-aos="fade-left" data-aos-duration="750">
                     <span class="svg-icon text-primary mb-3">
                       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path opacity="0.3" d="M12.5 22C11.9 22 11.5 21.6 11.5 21V3C11.5 2.4 11.9 2 12.5 2C13.1 2 13.5 2.4 13.5 3V21C13.5 21.6 13.1 22 12.5 22Z" fill="#035A4B" />
-                        <path d="M17.8 14.7C17.8 15.5 17.6 16.3 17.2 16.9C16.8 17.6 16.2 18.1 15.3 18.4C14.5 18.8 13.5 19 12.4 19C11.1 19 10 18.7 9.10001 18.2C8.50001 17.8 8.00001 17.4 7.60001 16.7C7.20001 16.1 7 15.5 7 14.9C7 14.6 7.09999 14.3 7.29999 14C7.49999 13.8 7.80001 13.6 8.20001 13.6C8.50001 13.6 8.69999 13.7 8.89999 13.9C9.09999 14.1 9.29999 14.4 9.39999 14.7C9.59999 15.1 9.8 15.5 10 15.8C10.2 16.1 10.5 16.3 10.8 16.5C11.2 16.7 11.6 16.8 12.2 16.8C13 16.8 13.7 16.6 14.2 16.2C14.7 15.8 15 15.3 15 14.8C15 14.4 14.9 14 14.6 13.7C14.3 13.4 14 13.2 13.5 13.1C13.1 13 12.5 12.8 11.8 12.6C10.8 12.4 9.99999 12.1 9.39999 11.8C8.69999 11.5 8.19999 11.1 7.79999 10.6C7.39999 10.1 7.20001 9.39998 7.20001 8.59998C7.20001 7.89998 7.39999 7.19998 7.79999 6.59998C8.19999 5.99998 8.80001 5.60005 9.60001 5.30005C10.4 5.00005 11.3 4.80005 12.3 4.80005C13.1 4.80005 13.8 4.89998 14.5 5.09998C15.1 5.29998 15.6 5.60002 16 5.90002C16.4 6.20002 16.7 6.6 16.9 7C17.1 7.4 17.2 7.69998 17.2 8.09998C17.2 8.39998 17.1 8.7 16.9 9C16.7 9.3 16.4 9.40002 16 9.40002C15.7 9.40002 15.4 9.29995 15.3 9.19995C15.2 9.09995 15 8.80002 14.8 8.40002C14.6 7.90002 14.3 7.49995 13.9 7.19995C13.5 6.89995 13 6.80005 12.2 6.80005C11.5 6.80005 10.9 7.00005 10.5 7.30005C10.1 7.60005 9.79999 8.00002 9.79999 8.40002C9.79999 8.70002 9.9 8.89998 10 9.09998C10.1 9.29998 10.4 9.49998 10.6 9.59998C10.8 9.69998 11.1 9.90002 11.4 9.90002C11.7 10 12.1 10.1 12.7 10.3C13.5 10.5 14.2 10.7 14.8 10.9C15.4 11.1 15.9 11.4 16.4 11.7C16.8 12 17.2 12.4 17.4 12.9C17.6 13.4 17.8 14 17.8 14.7Z" fill="#035A4B" />
+                        <path opacity="0.3"
+                          d="M12.5 22C11.9 22 11.5 21.6 11.5 21V3C11.5 2.4 11.9 2 12.5 2C13.1 2 13.5 2.4 13.5 3V21C13.5 21.6 13.1 22 12.5 22Z"
+                          fill="#035A4B" />
+                        <path
+                          d="M17.8 14.7C17.8 15.5 17.6 16.3 17.2 16.9C16.8 17.6 16.2 18.1 15.3 18.4C14.5 18.8 13.5 19 12.4 19C11.1 19 10 18.7 9.10001 18.2C8.50001 17.8 8.00001 17.4 7.60001 16.7C7.20001 16.1 7 15.5 7 14.9C7 14.6 7.09999 14.3 7.29999 14C7.49999 13.8 7.80001 13.6 8.20001 13.6C8.50001 13.6 8.69999 13.7 8.89999 13.9C9.09999 14.1 9.29999 14.4 9.39999 14.7C9.59999 15.1 9.8 15.5 10 15.8C10.2 16.1 10.5 16.3 10.8 16.5C11.2 16.7 11.6 16.8 12.2 16.8C13 16.8 13.7 16.6 14.2 16.2C14.7 15.8 15 15.3 15 14.8C15 14.4 14.9 14 14.6 13.7C14.3 13.4 14 13.2 13.5 13.1C13.1 13 12.5 12.8 11.8 12.6C10.8 12.4 9.99999 12.1 9.39999 11.8C8.69999 11.5 8.19999 11.1 7.79999 10.6C7.39999 10.1 7.20001 9.39998 7.20001 8.59998C7.20001 7.89998 7.39999 7.19998 7.79999 6.59998C8.19999 5.99998 8.80001 5.60005 9.60001 5.30005C10.4 5.00005 11.3 4.80005 12.3 4.80005C13.1 4.80005 13.8 4.89998 14.5 5.09998C15.1 5.29998 15.6 5.60002 16 5.90002C16.4 6.20002 16.7 6.6 16.9 7C17.1 7.4 17.2 7.69998 17.2 8.09998C17.2 8.39998 17.1 8.7 16.9 9C16.7 9.3 16.4 9.40002 16 9.40002C15.7 9.40002 15.4 9.29995 15.3 9.19995C15.2 9.09995 15 8.80002 14.8 8.40002C14.6 7.90002 14.3 7.49995 13.9 7.19995C13.5 6.89995 13 6.80005 12.2 6.80005C11.5 6.80005 10.9 7.00005 10.5 7.30005C10.1 7.60005 9.79999 8.00002 9.79999 8.40002C9.79999 8.70002 9.9 8.89998 10 9.09998C10.1 9.29998 10.4 9.49998 10.6 9.59998C10.8 9.69998 11.1 9.90002 11.4 9.90002C11.7 10 12.1 10.1 12.7 10.3C13.5 10.5 14.2 10.7 14.8 10.9C15.4 11.1 15.9 11.4 16.4 11.7C16.8 12 17.2 12.4 17.4 12.9C17.6 13.4 17.8 14 17.8 14.7Z"
+                          fill="#035A4B" />
                       </svg>
 
                     </span>
@@ -616,7 +693,9 @@
             <div class="col-md-4 order-md-2 mb-10 mb-md-0" data-aos="fade-right" data-aos-duration="1000">
               <div class="position-relative">
                 <!-- Card -->
-                <a class="card card-transition align-items-end flex-wrap flex-row bg-img-start h-100" href="#" style="background-image: url(./assets/svg/components/card-6.svg); min-height: 25rem;" data-aos-delay="150">
+                <a class="card card-transition align-items-end flex-wrap flex-row bg-img-start h-100" href="#"
+                  style="background-image: url(./assets/svg/components/card-6.svg); min-height: 25rem;"
+                  data-aos-delay="150">
                   <div class="card-body">
                     <h3 class="card-title text-white">limac | nexus</h3>
                     <h3 class="card-title text-white">Acceda a una traducción desde la comunidad</h3>
@@ -812,8 +891,12 @@
                     <div class="card-body">
                       <span class="svg-icon text-primary mb-4">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path opacity="0.3" d="M22.0318 8.59998C22.0318 10.4 21.4318 12.2 20.0318 13.5C18.4318 15.1 16.3318 15.7 14.2318 15.4C13.3318 15.3 12.3318 15.6 11.7318 16.3L6.93177 21.1C5.73177 22.3 3.83179 22.2 2.73179 21C1.63179 19.8 1.83177 18 2.93177 16.9L7.53178 12.3C8.23178 11.6 8.53177 10.7 8.43177 9.80005C8.13177 7.80005 8.73176 5.6 10.3318 4C11.7318 2.6 13.5318 2 15.2318 2C16.1318 2 16.6318 3.20005 15.9318 3.80005L13.0318 6.70007C12.5318 7.20007 12.4318 7.9 12.7318 8.5C13.3318 9.7 14.2318 10.6001 15.4318 11.2001C16.0318 11.5001 16.7318 11.3 17.2318 10.9L20.1318 8C20.8318 7.2 22.0318 7.59998 22.0318 8.59998Z" fill="#035A4B" />
-                          <path d="M4.23179 19.7C3.83179 19.3 3.83179 18.7 4.23179 18.3L9.73179 12.8C10.1318 12.4 10.7318 12.4 11.1318 12.8C11.5318 13.2 11.5318 13.8 11.1318 14.2L5.63179 19.7C5.23179 20.1 4.53179 20.1 4.23179 19.7Z" fill="#035A4B" />
+                          <path opacity="0.3"
+                            d="M22.0318 8.59998C22.0318 10.4 21.4318 12.2 20.0318 13.5C18.4318 15.1 16.3318 15.7 14.2318 15.4C13.3318 15.3 12.3318 15.6 11.7318 16.3L6.93177 21.1C5.73177 22.3 3.83179 22.2 2.73179 21C1.63179 19.8 1.83177 18 2.93177 16.9L7.53178 12.3C8.23178 11.6 8.53177 10.7 8.43177 9.80005C8.13177 7.80005 8.73176 5.6 10.3318 4C11.7318 2.6 13.5318 2 15.2318 2C16.1318 2 16.6318 3.20005 15.9318 3.80005L13.0318 6.70007C12.5318 7.20007 12.4318 7.9 12.7318 8.5C13.3318 9.7 14.2318 10.6001 15.4318 11.2001C16.0318 11.5001 16.7318 11.3 17.2318 10.9L20.1318 8C20.8318 7.2 22.0318 7.59998 22.0318 8.59998Z"
+                            fill="#035A4B" />
+                          <path
+                            d="M4.23179 19.7C3.83179 19.3 3.83179 18.7 4.23179 18.3L9.73179 12.8C10.1318 12.4 10.7318 12.4 11.1318 12.8C11.5318 13.2 11.5318 13.8 11.1318 14.2L5.63179 19.7C5.23179 20.1 4.53179 20.1 4.23179 19.7Z"
+                            fill="#035A4B" />
                         </svg>
 
                       </span>
@@ -857,8 +940,12 @@
                     <div class="flex-shrink-0">
                       <span class="svg-icon text-primary">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path fill-rule="evenodd" clip-rule="evenodd" d="M22.1671 18.1421C22.4827 18.4577 23.0222 18.2331 23.0206 17.7868L23.0039 13.1053V5.52632C23.0039 4.13107 21.8729 3 20.4776 3H8.68815C7.2929 3 6.16183 4.13107 6.16183 5.52632V9H13C14.6568 9 16 10.3431 16 12V15.6316H19.6565L22.1671 18.1421Z" fill="#035A4B" />
-                          <path opacity="0.3" fill-rule="evenodd" clip-rule="evenodd" d="M1.98508 18V13C1.98508 11.8954 2.88051 11 3.98508 11H11.9851C13.0896 11 13.9851 11.8954 13.9851 13V18C13.9851 19.1046 13.0896 20 11.9851 20H4.10081L2.85695 21.1905C2.53895 21.4949 2.01123 21.2695 2.01123 20.8293V18.3243C1.99402 18.2187 1.98508 18.1104 1.98508 18ZM5.99999 14.5C5.99999 14.2239 6.22385 14 6.49999 14H11.5C11.7761 14 12 14.2239 12 14.5C12 14.7761 11.7761 15 11.5 15H6.49999C6.22385 15 5.99999 14.7761 5.99999 14.5ZM9.49999 16C9.22385 16 8.99999 16.2239 8.99999 16.5C8.99999 16.7761 9.22385 17 9.49999 17H11.5C11.7761 17 12 16.7761 12 16.5C12 16.2239 11.7761 16 11.5 16H9.49999Z" fill="#035A4B" />
+                          <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M22.1671 18.1421C22.4827 18.4577 23.0222 18.2331 23.0206 17.7868L23.0039 13.1053V5.52632C23.0039 4.13107 21.8729 3 20.4776 3H8.68815C7.2929 3 6.16183 4.13107 6.16183 5.52632V9H13C14.6568 9 16 10.3431 16 12V15.6316H19.6565L22.1671 18.1421Z"
+                            fill="#035A4B" />
+                          <path opacity="0.3" fill-rule="evenodd" clip-rule="evenodd"
+                            d="M1.98508 18V13C1.98508 11.8954 2.88051 11 3.98508 11H11.9851C13.0896 11 13.9851 11.8954 13.9851 13V18C13.9851 19.1046 13.0896 20 11.9851 20H4.10081L2.85695 21.1905C2.53895 21.4949 2.01123 21.2695 2.01123 20.8293V18.3243C1.99402 18.2187 1.98508 18.1104 1.98508 18ZM5.99999 14.5C5.99999 14.2239 6.22385 14 6.49999 14H11.5C11.7761 14 12 14.2239 12 14.5C12 14.7761 11.7761 15 11.5 15H6.49999C6.22385 15 5.99999 14.7761 5.99999 14.5ZM9.49999 16C9.22385 16 8.99999 16.2239 8.99999 16.5C8.99999 16.7761 9.22385 17 9.49999 17H11.5C11.7761 17 12 16.7761 12 16.5C12 16.2239 11.7761 16 11.5 16H9.49999Z"
+                            fill="#035A4B" />
                         </svg>
 
                       </span>
@@ -884,8 +971,12 @@
                     <div class="flex-shrink-0">
                       <span class="svg-icon text-primary">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path opacity="0.3" fill-rule="evenodd" clip-rule="evenodd" d="M4.85714 1H11.7364C12.0911 1 12.4343 1.12568 12.7051 1.35474L17.4687 5.38394C17.8057 5.66895 18 6.08788 18 6.5292V19.0833C18 20.8739 17.9796 21 16.1429 21H4.85714C3.02045 21 3 20.8739 3 19.0833V2.91667C3 1.12612 3.02045 1 4.85714 1ZM7 13C7 12.4477 7.44772 12 8 12H15C15.5523 12 16 12.4477 16 13C16 13.5523 15.5523 14 15 14H8C7.44772 14 7 13.5523 7 13ZM8 16C7.44772 16 7 16.4477 7 17C7 17.5523 7.44772 18 8 18H11C11.5523 18 12 17.5523 12 17C12 16.4477 11.5523 16 11 16H8Z" fill="#035A4B" />
-                          <path fill-rule="evenodd" clip-rule="evenodd" d="M6.85714 3H14.7364C15.0911 3 15.4343 3.12568 15.7051 3.35474L20.4687 7.38394C20.8057 7.66895 21 8.08788 21 8.5292V21.0833C21 22.8739 20.9796 23 19.1429 23H6.85714C5.02045 23 5 22.8739 5 21.0833V4.91667C5 3.12612 5.02045 3 6.85714 3ZM7 13C7 12.4477 7.44772 12 8 12H15C15.5523 12 16 12.4477 16 13C16 13.5523 15.5523 14 15 14H8C7.44772 14 7 13.5523 7 13ZM8 16C7.44772 16 7 16.4477 7 17C7 17.5523 7.44772 18 8 18H11C11.5523 18 12 17.5523 12 17C12 16.4477 11.5523 16 11 16H8Z" fill="#035A4B" />
+                          <path opacity="0.3" fill-rule="evenodd" clip-rule="evenodd"
+                            d="M4.85714 1H11.7364C12.0911 1 12.4343 1.12568 12.7051 1.35474L17.4687 5.38394C17.8057 5.66895 18 6.08788 18 6.5292V19.0833C18 20.8739 17.9796 21 16.1429 21H4.85714C3.02045 21 3 20.8739 3 19.0833V2.91667C3 1.12612 3.02045 1 4.85714 1ZM7 13C7 12.4477 7.44772 12 8 12H15C15.5523 12 16 12.4477 16 13C16 13.5523 15.5523 14 15 14H8C7.44772 14 7 13.5523 7 13ZM8 16C7.44772 16 7 16.4477 7 17C7 17.5523 7.44772 18 8 18H11C11.5523 18 12 17.5523 12 17C12 16.4477 11.5523 16 11 16H8Z"
+                            fill="#035A4B" />
+                          <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M6.85714 3H14.7364C15.0911 3 15.4343 3.12568 15.7051 3.35474L20.4687 7.38394C20.8057 7.66895 21 8.08788 21 8.5292V21.0833C21 22.8739 20.9796 23 19.1429 23H6.85714C5.02045 23 5 22.8739 5 21.0833V4.91667C5 3.12612 5.02045 3 6.85714 3ZM7 13C7 12.4477 7.44772 12 8 12H15C15.5523 12 16 12.4477 16 13C16 13.5523 15.5523 14 15 14H8C7.44772 14 7 13.5523 7 13ZM8 16C7.44772 16 7 16.4477 7 17C7 17.5523 7.44772 18 8 18H11C11.5523 18 12 17.5523 12 17C12 16.4477 11.5523 16 11 16H8Z"
+                            fill="#035A4B" />
                         </svg>
 
                       </span>
@@ -1068,7 +1159,8 @@
               <!-- Form -->
               <div class="mb-3">
                 <label class="form-label" for="signupModalFormLoginEmail">Your email</label>
-                <input type="email" class="form-control form-control-lg" name="email" id="signupModalFormLoginEmail" placeholder="email@site.com" aria-label="email@site.com" required>
+                <input type="email" class="form-control form-control-lg" name="email" id="signupModalFormLoginEmail"
+                  placeholder="email@site.com" aria-label="email@site.com" required>
                 <span class="invalid-feedback">Please enter a valid email address.</span>
               </div>
               <!-- End Form -->
@@ -1084,7 +1176,9 @@
                      }'>Forgot Password?</a>
                 </div>
 
-                <input type="password" class="form-control form-control-lg" name="password" id="signupModalFormLoginPassword" placeholder="8+ characters required" aria-label="8+ characters required" required minlength="8">
+                <input type="password" class="form-control form-control-lg" name="password"
+                  id="signupModalFormLoginPassword" placeholder="8+ characters required"
+                  aria-label="8+ characters required" required minlength="8">
                 <span class="invalid-feedback">Please enter a valid password.</span>
               </div>
               <!-- End Form -->
@@ -1148,7 +1242,8 @@
               <!-- Form -->
               <div class="mb-3">
                 <label class="form-label" for="signupModalFormSignupEmail">Your email</label>
-                <input type="email" class="form-control form-control-lg" name="email" id="signupModalFormSignupEmail" placeholder="email@site.com" aria-label="email@site.com" required>
+                <input type="email" class="form-control form-control-lg" name="email" id="signupModalFormSignupEmail"
+                  placeholder="email@site.com" aria-label="email@site.com" required>
                 <span class="invalid-feedback">Please enter a valid email address.</span>
               </div>
               <!-- End Form -->
@@ -1156,7 +1251,9 @@
               <!-- Form -->
               <div class="mb-3">
                 <label class="form-label" for="signupModalFormSignupPassword">Password</label>
-                <input type="password" class="form-control form-control-lg" name="password" id="signupModalFormSignupPassword" placeholder="8+ characters required" aria-label="8+ characters required" required>
+                <input type="password" class="form-control form-control-lg" name="password"
+                  id="signupModalFormSignupPassword" placeholder="8+ characters required"
+                  aria-label="8+ characters required" required>
                 <span class="invalid-feedback">Your password is invalid. Please try again.</span>
               </div>
               <!-- End Form -->
@@ -1164,7 +1261,10 @@
               <!-- Form -->
               <div class="mb-3" data-hs-validation-validate-class>
                 <label class="form-label" for="signupModalFormSignupConfirmPassword">Confirm password</label>
-                <input type="password" class="form-control form-control-lg" name="confirmPassword" id="signupModalFormSignupConfirmPassword" placeholder="8+ characters required" aria-label="8+ characters required" required data-hs-validation-equal-field="#signupModalFormSignupPassword">
+                <input type="password" class="form-control form-control-lg" name="confirmPassword"
+                  id="signupModalFormSignupConfirmPassword" placeholder="8+ characters required"
+                  aria-label="8+ characters required" required
+                  data-hs-validation-equal-field="#signupModalFormSignupPassword">
                 <span class="invalid-feedback">Password does not match the confirm password.</span>
               </div>
               <!-- End Form -->
@@ -1185,7 +1285,8 @@
             <!-- Heading -->
             <div class="text-center mb-7">
               <h2>Forgot password?</h2>
-              <p>Enter the email address you used when you joined and we'll send you instructions to reset your password.</p>
+              <p>Enter the email address you used when you joined and we'll send you instructions to reset your
+                password.</p>
             </div>
             <!-- En dHeading -->
 
@@ -1203,7 +1304,9 @@
                   </a>
                 </div>
 
-                <input type="email" class="form-control form-control-lg" name="email" id="signupModalFormResetPasswordEmail" tabindex="1" placeholder="Enter your email address" aria-label="Enter your email address" required>
+                <input type="email" class="form-control form-control-lg" name="email"
+                  id="signupModalFormResetPasswordEmail" tabindex="1" placeholder="Enter your email address"
+                  aria-label="Enter your email address" required>
                 <span class="invalid-feedback">Please enter a valid email address.</span>
                 <!-- End Form -->
               </div>
@@ -1291,7 +1394,7 @@
   <script>
     (function () {
 
-         
+
       // INITIALIZATION OF CIRCLES
       // =======================================================
       setTimeout(() => {
@@ -1306,10 +1409,10 @@
       // INITIALIZATION OF MEGA MENU
       // =======================================================
       new HSMegaMenu('.js-mega-menu', {
-         desktop: {
-           position: 'left'
-         }
-        })
+        desktop: {
+          position: 'left'
+        }
+      })
 
 
       // INITIALIZATION OF SHOW ANIMATIONS
@@ -1342,10 +1445,10 @@
         duration: 650,
         once: true
       });
-      
+
       // INITIALIZATION OF SWIPER
       // =======================================================
-      function loadImage( path ) {
+      function loadImage(path) {
         return new Promise(function (resolve) {
           const img = new Image()
 
@@ -1359,40 +1462,40 @@
 
       const $preloader = document.querySelector('.js-swiper-preloader')
       const promises = [...document.querySelectorAll('.js-swiper-slide-preload')]
-              .map(slide => loadImage(window.getComputedStyle(slide).backgroundImage))
+        .map(slide => loadImage(window.getComputedStyle(slide).backgroundImage))
 
       Promise.all(promises)
-              .then(() => {
-                $preloader.remove()
+        .then(() => {
+          $preloader.remove()
 
-                var sliderThumbs = new Swiper('.js-swiper-blog-journal-hero-thumbs', {
-                  direction: 'vertical',
-                  watchSlidesVisibility: true,
-                  watchSlidesProgress: true,
-                  slidesPerView: 3,
-                  history: false,
-                  on: {
-                    'afterInit': function (swiper) {
-                      swiper.el.style.opacity = 1
-                      swiper.el.querySelectorAll('.js-swiper-pagination-progress-body-helper')
-                              .forEach($progress => $progress.style.transitionDuration = `${swiper.params.autoplay.delay}ms`)
-                    }
-                  }
-                });
+          var sliderThumbs = new Swiper('.js-swiper-blog-journal-hero-thumbs', {
+            direction: 'vertical',
+            watchSlidesVisibility: true,
+            watchSlidesProgress: true,
+            slidesPerView: 3,
+            history: false,
+            on: {
+              'afterInit': function (swiper) {
+                swiper.el.style.opacity = 1
+                swiper.el.querySelectorAll('.js-swiper-pagination-progress-body-helper')
+                  .forEach($progress => $progress.style.transitionDuration = `${swiper.params.autoplay.delay}ms`)
+              }
+            }
+          });
 
-                var swiper = new Swiper('.js-swiper-blog-journal-hero',{
-                  effect: 'fade',
-                  autoplay: true,
-                  loop: true,
-                  pagination: {
-                    el: '.js-swiper-blog-journal-hero-pagination',
-                    clickable: true,
-                  },
-                  thumbs: {
-                    swiper: sliderThumbs
-                  }
-                });
-              })
+          var swiper = new Swiper('.js-swiper-blog-journal-hero', {
+            effect: 'fade',
+            autoplay: true,
+            loop: true,
+            pagination: {
+              el: '.js-swiper-blog-journal-hero-pagination',
+              clickable: true,
+            },
+            thumbs: {
+              swiper: sliderThumbs
+            }
+          });
+        })
 
       // INITIALIZATION OF STICKY BLOCKS
       // =======================================================
