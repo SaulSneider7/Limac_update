@@ -31,10 +31,7 @@
 <body>
   <!-- ========== HEADER ========== -->
   <header id="header" class="navbar navbar-expand-lg navbar-end navbar-absolute-top navbar-light"
-    data-hs-header-options='{
-              "fixMoment": 1000,
-              "fixEffect": "slide"
-            }'>
+    style="position: fixed; top: 0; left: 0; right: 0; z-index: 1030; transition: transform 0.3s ease;">
     <div class="container">
       <nav class="js-mega-menu navbar-nav-wrap">
         <!-- Default Logo -->
@@ -370,8 +367,8 @@
                 </div>
                 <div class="col-md-6">
                   <div class="container w-75 mt-5">
-                    <img src="./assets/img/servicios/interpretacion/bkg0091.jpg" class="d-block w-85 mx-auto rounded-circle"
-                      alt="Imagen 1">
+                    <img src="./assets/img/servicios/interpretacion/bkg0091.jpg"
+                      class="d-block w-85 mx-auto rounded-circle" alt="Imagen 1">
                   </div>
                 </div>
                 <!-- End Col -->
@@ -609,99 +606,100 @@
   <!-- ========== END MAIN CONTENT ========== -->
 
   <!-- ========== FOOTER ========== -->
-  <footer class="bg-dark">
-    <div class="container pb-1 pb-lg-5">
+  <footer class="bg-light">
+    <div class="container pb-1 pb-lg-7">
       <div class="row content-space-t-2">
         <div class="col-lg-3 mb-7 mb-lg-0">
           <!-- Logo -->
           <div class="mb-5">
             <a class="navbar-brand" href="./index.html" aria-label="Space">
-              <span class="logo_create text-white display-1">limac</span>
-              <sub class="text-white">&reg;</sub>
+              <span class="logo_create text-primary" style="font-size: 4rem;">limac</span>
+              <sub class="text-primary">&reg;</sub>
             </a>
           </div>
           <!-- End Logo -->
-
+  
         </div>
         <!-- End Col -->
-
+  
         <div class="col-sm mb-7 mb-sm-0">
-          <h5 class="text-white mb-3">Recursos</h5>
-
+          <h5 class="mb-3">Recursos</h5>
+  
           <!-- List -->
           <ul class="list-unstyled list-py-1 mb-0">
-            <li><a class="link-sm link-light" href="Nostros">Nosotros</a></li>
-            <li><a class="link-sm link-light" href="Pagos">Pagos</a></li>
-            <li><a class="link-sm link-light" href="Nexus">Nexus</a></li>
-            <li><a class="link-sm link-light" href="Bolsa de Trabajo">Bolsa de Trabajo</a></li>
+            <li><a class="link-sm link-secondary" href="Nostros">Nosotros</a></li>
+            <li><a class="link-sm link-secondary" href="Pagos">Pagos</a></li>
+            <li><a class="link-sm link-secondary" href="Nexus">Nexus</a></li>
+            <li><a class="link-sm link-secondary" href="Bolsa de Trabajo">Bolsa de Trabajo</a></li>
           </ul>
           <!-- End List -->
         </div>
         <!-- End Col -->
-
+  
         <div class="col-sm mb-7 mb-sm-0">
-          <h5 class="text-white mb-3">Traducci&oacute;n</h5>
-
+          <h5 class="mb-3">Traducción</h5>
+  
           <!-- List -->
           <ul class="list-unstyled list-py-1 mb-0">
-            <li><a class="link-sm link-light" href="#">Digital</a></li>
-            <li><a class="link-sm link-light" href="#">Consecutiva</a></li>
-            <li><a class="link-sm link-light" href="#">Oficial</a></li>
+            <li><a class="link-sm link-secondary" href="#">Digital</a></li>
+            <li><a class="link-sm link-secondary" href="#">Consecutiva</a></li>
+            <li><a class="link-sm link-secondary" href="#">Oficial</a></li>
           </ul>
           <!-- End List -->
         </div>
         <!-- End Col -->
-
+  
         <div class="col-sm mb-7 mb-sm-0">
-          <h5 class="text-white mb-3">Interpretación</h5>
-
+          <h5 class="mb-3">Interpretación</h5>
+  
           <!-- List -->
           <ul class="list-unstyled list-py-1 mb-0">
-            <li><a class="link-sm link-light" href="#">Simultánea</a></li>
-            <li><a class="link-sm link-light" href="#">Consecutiva</a></li>
-            <li><a class="link-sm link-light" href="#">OPI</a></li>
+            <li><a class="link-sm link-secondary" href="#">Simultánea</a></li>
+            <li><a class="link-sm link-secondary" href="#">Consecutiva</a></li>
+            <li><a class="link-sm link-secondary" href="#">OPI</a></li>
           </ul>
           <!-- End List -->
         </div>
         <!-- End Col -->
-
+  
         <div class="col-sm">
-          <h5 class="text-white mb-3">Contacto</h5>
-
+          <h5 class="mb-3">Contacto</h5>
+  
           <!-- List -->
           <ul class="list-unstyled list-py-1 mb-5">
-            <li><a class="link-sm link-light" href="#">Formulario digital</a></li>
-            <li><a class="link-sm link-light" href="#">Iniciar sesión</a></li>
+            <li><a class="link-sm link-secondary" href="#">Formulario digital</a></li>
+            <li><a class="link-sm link-secondary" href="#">Iniciar sesión</a></li>
           </ul>
           <!-- End List -->
         </div>
         <!-- End Col -->
       </div>
       <!-- End Row -->
-
-      <div class="border-top border-white-10 my-7"></div>
-
+  
+      <div class="border-top my-7"></div>
+  
       <div class="row mb-7">
         <div class="col-sm mb-3 mb-sm-0">
           <!-- Socials -->
-          <ul class="list-inline list-separator list-separator-light mb-0">
+          <ul class="list-inline list-separator mb-0">
             <li class="list-inline-item">
-              <a class="link-sm link-light" href="#">Libro de reclamaciones</a>
+              <a class="text-body" href="#">Libro de reclamaciones</a>
             </li>
             <li class="list-inline-item">
-              <a class="link-sm link-light" href="#">Politica de privacidad</a>
+              <a class="text-body" href="#">Politica de privacidad</a>
             </li>
             <li class="list-inline-item">
-              <a class="link-sm link-light" href="#">Términos y Condiciones</a>
+              <a class="text-body" href="#">Términos y condiciones</a>
             </li>
             <li class="list-inline-item">
-              <a class="link-sm link-light" href="#">Términos y Condiciones</a>
+              <a class="text-body" href="#">Uso de Sitio</a>
             </li>
           </ul>
           <!-- End Socials -->
         </div>
-        <!-- End Copyright -->
+  
       </div>
+    </div>
   </footer>
 
   <!-- ========== END FOOTER ========== -->
@@ -743,6 +741,9 @@
 
   <!-- JS Front -->
   <script src="./assets/js/theme.min.js"></script>
+
+  <!-- My script -->
+  <script src="./assets/js/script.js"></script>
 
   <!-- JS Plugins Init. -->
   <script>
