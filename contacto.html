@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Title -->
-    <title>Contacto | LIMAC</title>
+    <title>Limac | Contacto</title>
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="./favicon.png">
@@ -18,15 +18,14 @@
     <!-- CSS Implementing Plugins -->
     <link rel="stylesheet" href="./assets/vendor/bootstrap-icons/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.css">
-    <link rel="stylesheet" href="./assets/vendor/aos/dist/aos.css">
-    <link rel="stylesheet" href="./assets/vendor/swiper/swiper-bundle.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <link rel="stylesheet" href="./assets/vendor/leaflet/dist/leaflet.css" />
 
     <!-- CSS Front Template -->
     <link rel="stylesheet" href="./assets/css/theme.min.css">
 
     <!-- CSS My Style -->
     <link rel="stylesheet" href="./assets/css/my_style.css?v=1">
+
 </head>
 
 <body>
@@ -41,10 +40,11 @@
                     <sub class="text-primary">&reg;</sub>
                 </a>
                 <!-- End Default Logo -->
-    
+
                 <!-- Toggler -->
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
                     <span class="navbar-toggler-default">
                         <i class="bi-list"></i>
                     </span>
@@ -53,7 +53,7 @@
                     </span>
                 </button>
                 <!-- End Toggler -->
-    
+
                 <!-- Collapse -->
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <div class="navbar-absolute-top-scroller">
@@ -62,7 +62,7 @@
                             <li class="hs-has-mega-menu nav-item">
                                 <a id="demosMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle active"
                                     aria-current="page" href="#" role="button">Servicios</a>
-    
+
                                 <!-- Mega Menu -->
                                 <div class="hs-mega-menu dropdown-menu w-100" aria-labelledby="demosMegaMenu"
                                     style="min-width: 40rem;">
@@ -86,20 +86,22 @@
                                                                             d="M17.6 15.6L12.3 20.9C11.9 21.3 11.3 21.3 10.9 20.9L7.59998 17.6L13.6 11.6L17.6 15.6ZM10.9 2.3L5.59998 7.6L9.59998 11.6L15.6 5.6L12.3 2.3C11.9 1.9 11.3 1.9 10.9 2.3Z"
                                                                             fill="#035A4B" />
                                                                     </svg>
-    
+
                                                                 </span>
                                                             </div>
                                                             <div class="flex-grow-1 ms-3">
-                                                                <span class="navbar-dropdown-menu-media-title">Traducción
+                                                                <span
+                                                                    class="navbar-dropdown-menu-media-title">Traducción
                                                                     Digital</span>
-                                                                <p class="navbar-dropdown-menu-media-desc">Económica, rápida
+                                                                <p class="navbar-dropdown-menu-media-desc">Económica,
+                                                                    rápida
                                                                     y editable</p>
                                                             </div>
                                                         </div>
                                                     </a>
                                                 </div>
                                                 <!-- End Promo Item -->
-    
+
                                                 <!-- Promo Item -->
                                                 <div class="navbar-dropdown-menu-promo-item">
                                                     <a class="navbar-dropdown-menu-promo-link" href="./traduccion.html">
@@ -116,23 +118,25 @@
                                                                             d="M20.5 11H10V17.5C10 18.3284 10.6716 19 11.5 19H15.5C17.3546 19 19.0277 18.2233 20.2119 16.9775C20.1436 16.9922 20.0727 17 20 17C19.4477 17 19 16.5523 19 16V13C19 12.4477 19.4477 12 20 12C20.5523 12 21 12.4477 21 13V15.9657C21.6334 14.9626 22 13.7741 22 12.5C22 11.6716 21.3284 11 20.5 11Z"
                                                                             fill="#035A4B" />
                                                                     </svg>
-    
+
                                                                 </span>
                                                             </div>
                                                             <div class="flex-grow-1 ms-3">
-                                                                <span class="navbar-dropdown-menu-media-title">Traducción
+                                                                <span
+                                                                    class="navbar-dropdown-menu-media-title">Traducción
                                                                     Certificada</span>
-                                                                <p class="navbar-dropdown-menu-media-desc">Para todo tipo de
+                                                                <p class="navbar-dropdown-menu-media-desc">Para todo
+                                                                    tipo de
                                                                     trámites</p>
                                                             </div>
                                                         </div>
                                                     </a>
                                                 </div>
                                                 <!-- End Promo Item -->
-    
+
                                             </div>
                                             <!-- End Promo -->
-    
+
                                             <!-- Promo -->
                                             <div class="navbar-dropdown-menu-promo">
                                                 <!-- Promo Item -->
@@ -154,32 +158,36 @@
                                                                             d="M14.9167 6.83334H9.91666C9.18899 6.83334 8.66666 7.37744 8.66666 8.08334V13.9167C8.66666 14.6226 9.18899 15.1667 9.91666 15.1667H14.9167C15.1841 15.1667 15.3333 15.0112 15.3333 14.75V14.3333H10.3333C10.1032 14.3333 9.91665 14.1468 9.91665 13.9167C9.91665 13.6866 10.1032 13.5 10.3333 13.5H15.3333V7.25001C15.3333 6.9888 15.1841 6.83334 14.9167 6.83334Z"
                                                                             fill="#035A4B" />
                                                                         <mask id="mask0" mask-type="alpha"
-                                                                            maskUnits="userSpaceOnUse" x="8" y="6" width="8"
-                                                                            height="10">
-                                                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                                            maskUnits="userSpaceOnUse" x="8" y="6"
+                                                                            width="8" height="10">
+                                                                            <path fill-rule="evenodd"
+                                                                                clip-rule="evenodd"
                                                                                 d="M14.9167 6.83334H9.91666C9.18899 6.83334 8.66666 7.37744 8.66666 8.08334V13.9167C8.66666 14.6226 9.18899 15.1667 9.91666 15.1667H14.9167C15.1841 15.1667 15.3333 15.0112 15.3333 14.75V14.3333H10.3333C10.1032 14.3333 9.91665 14.1468 9.91665 13.9167C9.91665 13.6866 10.1032 13.5 10.3333 13.5H15.3333V7.25001C15.3333 6.9888 15.1841 6.83334 14.9167 6.83334Z"
                                                                                 fill="white" />
                                                                         </mask>
                                                                         <g mask="url(#mask0)">
                                                                         </g>
                                                                     </svg>
-    
+
                                                                 </span>
                                                             </div>
                                                             <div class="flex-grow-1 ms-3">
-                                                                <span class="navbar-dropdown-menu-media-title">Traducción
+                                                                <span
+                                                                    class="navbar-dropdown-menu-media-title">Traducción
                                                                     Oficial</span>
-                                                                <p class="navbar-dropdown-menu-media-desc">Para trámites con
+                                                                <p class="navbar-dropdown-menu-media-desc">Para trámites
+                                                                    con
                                                                     el MRE</p>
                                                             </div>
                                                         </div>
                                                     </a>
                                                 </div>
                                                 <!-- End Promo Item -->
-    
+
                                                 <!-- Promo Item -->
                                                 <div class="navbar-dropdown-menu-promo-item">
-                                                    <a class="navbar-dropdown-menu-promo-link" href="./interpretacion.html">
+                                                    <a class="navbar-dropdown-menu-promo-link"
+                                                        href="./interpretacion.html">
                                                         <div class="d-flex">
                                                             <div class="flex-shrink-0">
                                                                 <span class="svg-icon svg-icon-sm text-primary">
@@ -192,23 +200,24 @@
                                                                             d="M12 14C9.2 14 7 11.8 7 9V5C7 4.4 7.4 4 8 4C8.6 4 9 4.4 9 5V9C9 10.7 10.3 12 12 12C13.7 12 15 10.7 15 9V5C15 4.4 15.4 4 16 4C16.6 4 17 4.4 17 5V9C17 11.8 14.8 14 12 14Z"
                                                                             fill="#035A4B" />
                                                                     </svg>
-    
+
                                                                 </span>
                                                             </div>
                                                             <div class="flex-grow-1 ms-3">
                                                                 <span class="navbar-dropdown-menu-media-title">Interpr.
                                                                     Simultánea</span>
-                                                                <p class="navbar-dropdown-menu-media-desc">Interpretación en
+                                                                <p class="navbar-dropdown-menu-media-desc">
+                                                                    Interpretación en
                                                                     tiempo real</p>
                                                             </div>
                                                         </div>
                                                     </a>
                                                 </div>
                                                 <!-- End Promo Item -->
-    
+
                                             </div>
                                             <!-- End Promo -->
-    
+
                                             <!-- Promo -->
                                             <div class="navbar-dropdown-menu-promo">
                                                 <!-- Promo Item -->
@@ -228,20 +237,21 @@
                                                                             d="M1.98508 18V13C1.98508 11.8954 2.88051 11 3.98508 11H11.9851C13.0896 11 13.9851 11.8954 13.9851 13V18C13.9851 19.1046 13.0896 20 11.9851 20H4.10081L2.85695 21.1905C2.53895 21.4949 2.01123 21.2695 2.01123 20.8293V18.3243C1.99402 18.2187 1.98508 18.1104 1.98508 18ZM5.99999 14.5C5.99999 14.2239 6.22385 14 6.49999 14H11.5C11.7761 14 12 14.2239 12 14.5C12 14.7761 11.7761 15 11.5 15H6.49999C6.22385 15 5.99999 14.7761 5.99999 14.5ZM9.49999 16C9.22385 16 8.99999 16.2239 8.99999 16.5C8.99999 16.7761 9.22385 17 9.49999 17H11.5C11.7761 17 12 16.7761 12 16.5C12 16.2239 11.7761 16 11.5 16H9.49999Z"
                                                                             fill="#035A4B" />
                                                                     </svg>
-    
+
                                                                 </span>
                                                             </div>
                                                             <div class="flex-grow-1 ms-3">
                                                                 <span class="navbar-dropdown-menu-media-title">Interpr.
                                                                     Consecutiva</span>
-                                                                <p class="navbar-dropdown-menu-media-desc">Intérpretes para
+                                                                <p class="navbar-dropdown-menu-media-desc">Intérpretes
+                                                                    para
                                                                     grupos</p>
                                                             </div>
                                                         </div>
                                                     </a>
                                                 </div>
                                                 <!-- End Promo Item -->
-    
+
                                                 <!-- Promo Item -->
                                                 <div class="navbar-dropdown-menu-promo-item">
                                                     <a class="navbar-dropdown-menu-promo-link" href="" target="_blank">
@@ -265,13 +275,14 @@
                                                                             d="M8 17C8 16.4477 8.44772 16 9 16H15C15.5523 16 16 16.4477 16 17C16 17.5523 15.5523 18 15 18C15.5523 18 16 18.4477 16 19C16 19.5523 15.5523 20 15 20C15.5523 20 16 20.4477 16 21C16 21.5523 15.5523 22 15 22H9C8.44772 22 8 21.5523 8 21C8 20.4477 8.44772 20 9 20C8.44772 20 8 19.5523 8 19C8 18.4477 8.44772 18 9 18C8.44772 18 8 17.5523 8 17Z"
                                                                             fill="#035A4B" />
                                                                     </svg>
-    
+
                                                                 </span>
                                                             </div>
                                                             <div class="flex-grow-1 ms-3">
                                                                 <span class="navbar-dropdown-menu-media-title">Interpr.
                                                                     Telefónica</span>
-                                                                <p class="navbar-dropdown-menu-media-desc">Próximamente<i
+                                                                <p class="navbar-dropdown-menu-media-desc">
+                                                                    Próximamente<i
                                                                         class="bi-box-arrow-up-right ms-1"></i>
                                                                 </p>
                                                             </div>
@@ -299,32 +310,32 @@
                                         </div>
                                     </div>
                                 </div>
-    
+
                                 <!-- End Mega Menu -->
                             </li>
                             <!-- End Landings -->
-    
+
                             <!-- Nosotros -->
                             <li class="nav-item">
                                 <a class="hs-mega-menu-invoker nav-link" href="nosotros.html" role="button"
                                     aria-expanded="false">Nosotros</a>
                             </li>
                             <!-- End Nosotros -->
-    
+
                             <!-- Pagos -->
                             <li class="nav-item">
                                 <a class="hs-mega-menu-invoker nav-link" href="pagos.html" role="button"
                                     aria-expanded="false">Pagos</a>
                             </li>
                             <!-- End Pagos -->
-    
+
                             <!-- Nexus -->
                             <li class="nav-item">
                                 <a class="hs-mega-menu-invoker nav-link" href="nexus.html" role="button"
                                     aria-expanded="false">Nexus</a>
                             </li>
                             <!-- End Nexus -->
-    
+
                             <!-- Trabaje aquí -->
                             <li class="nav-item">
                                 <a class="hs-mega-menu-invoker nav-link" href="bolsa.html" role="button"
@@ -332,14 +343,14 @@
                                     aquí</a>
                             </li>
                             <!-- End trabaje aqui -->
-    
+
                             <!-- contacto -->
                             <li class="nav-item">
                                 <a class="hs-mega-menu-invoker nav-link" href="contacto.html" role="button"
                                     aria-expanded="false">Contacto</a>
                             </li>
                             <!-- End contacto -->
-    
+
                             <!-- Button -->
                             <li class="nav-item">
                                 <a class="btn btn-primary btn-transition"
@@ -354,199 +365,262 @@
             </nav>
         </div>
     </header>
+
     <!-- ========== END HEADER ========== -->
 
     <!-- ========== MAIN CONTENT ========== -->
     <main id="content" role="main">
+        <!-- Hero -->
+        <div class="position-relative bg-img-start" style="background-image: url(./assets/svg/components/card-11.svg);">
+            <div class="container content-space-t-3 content-space-t-lg-5 content-space-b-2 position-relative zi-2">
+                <div class="w-md-75 w-lg-50 text-center mx-md-auto mb-5 mb-md-9">
+                    <h1>Comuniquese con nosotros</h1>
+                    <p>We'd love to talk about how we can help you.</p>
+                </div>
 
-        <div class="bg-white position-relative">
-            <div class="container content-space-b-1 position-relative z-2">
-                <div class="row justify-content-lg-between mb-10">
-                    <div class="col-lg-5 content-space-t-2 content-space-t-lg-3 mb-7 mb-lg-0">
-                        <!-- Heading -->
-                        <div class="mb-7">
-                            <h2 class="h1 text-primary">Comuníquese con nosotros</h2>
-                            <p class="">Llene el formulario y nos pondremos en contácto o comuníquese al:
-                            </p>
-                        </div>
-                        <!-- End Heading -->
-
-                        <div class="row">
-                            <div class="col-sm-6 mb-5">
-                                <span class="icon icon-soft-light icon-circle mb-3">
-                                    <i class="bi-envelope-open-fill"></i>
-                                </span>
-                                <h4 class="mb-0">Consultas generales</h4>
-                                <p class="small">ventas@limac.com.pe</p>
-                            </div>
-                            <!-- End Col -->
-
-                            <div class="col-sm-6 mb-5">
-                                <span class="icon icon-soft-light icon-circle mb-3">
-                                    <i class="bi-telephone-inbound-fill"></i>
-                                </span>
-                                <h4 class="mb-0">Número</h4>
-                                <p class="small">(01) 700 9040</p>
-                            </div>
-                            <!-- End Col -->
-
-                            <div class="col-sm-6">
-                                <span class="icon icon-soft-light icon-circle mb-3">
-                                    <i class="bi-geo-alt-fill"></i>
-                                </span>
-                                <h4 class="mb-0">Dirección</h4>
-                                <p class="small">Calle German Schreiber 210 Oficina 302, San
-                                    Isidro</p>
-                            </div>
-                            <!-- End Col -->
-                            <div class="col-sm-6">
-                                <span class="icon icon-soft-light icon-circle mb-3">
-                                    <i class="bi bi-clock-history"></i>
-                                </span>
-                                <h4 class="mb-0">Horarió de Atención</h4>
-                                <p class="small">Lunes a Viernes de 08:00 a 18:00<br>Sábados de
-                                    08:00 a 13:00</p>
-                            </div>
-                            <!-- End Col -->
-                        </div>
-                        <!-- End Row -->
-                    </div>
-
-                    <div class="col-lg-5 content-space-t-2 content-space-t-lg-3 mb-7 mb-lg-0">
+                <div class="row">
+                    <div class="col-md-4 mb-3 mb-md-0">
                         <!-- Card -->
-                        <div class="card zi-2">
+                        <a class="card card-transition text-center h-100" href="#">
                             <div class="card-body">
-                                <div class="mb-4">
-                                    <h3 class="text-primary">Datos del servicio</h3>
+                                <div class="svg-icon text-primary mb-3">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path opacity="0.3" fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
+                                            fill="#035A4B" />
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M10.591 13.209V14.868H11.851C14.392 14.868 16.387 12.915 16.387 10.395C16.387 7.875 14.392 5.922 11.851 5.922C9.31 5.922 7.336 7.875 7.336 10.395H9.121C9.121 8.799 10.234 7.581 11.851 7.581C13.447 7.581 14.602 8.799 14.602 10.395C14.602 11.991 13.447 13.209 11.851 13.209H10.591ZM12 16C11.4477 16 11 16.4477 11 17C11 17.5523 11.4477 18 12 18C12.5523 18 13 17.5523 13 17C13 16.4477 12.5523 16 12 16Z"
+                                            fill="#035A4B" />
+                                    </svg>
+
                                 </div>
+
+                                <h4 class="card-title">Knowledgebase</h4>
+                                <p class="card-text text-body">We're here to help with any questions or code.</p>
+                            </div>
+
+                            <div class="card-footer pt-0">
+                                <span class="card-link">Contact support <i
+                                        class="bi-chevron-right small ms-1"></i></span>
+                            </div>
+                        </a>
+                        <!-- End Card -->
+                    </div>
+                    <!-- End Col -->
+
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <!-- Card -->
+                        <a class="card card-transition text-center h-100" href="#">
+                            <div class="card-body">
+                                <div class="svg-icon text-primary mb-3">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M22.1671 18.1421C22.4827 18.4577 23.0222 18.2331 23.0206 17.7868L23.0039 13.1053V5.52632C23.0039 4.13107 21.8729 3 20.4776 3H8.68815C7.2929 3 6.16183 4.13107 6.16183 5.52632V9H13C14.6568 9 16 10.3431 16 12V15.6316H19.6565L22.1671 18.1421Z"
+                                            fill="#035A4B" />
+                                        <path opacity="0.3" fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M1.98508 18V13C1.98508 11.8954 2.88051 11 3.98508 11H11.9851C13.0896 11 13.9851 11.8954 13.9851 13V18C13.9851 19.1046 13.0896 20 11.9851 20H4.10081L2.85695 21.1905C2.53895 21.4949 2.01123 21.2695 2.01123 20.8293V18.3243C1.99402 18.2187 1.98508 18.1104 1.98508 18ZM5.99999 14.5C5.99999 14.2239 6.22385 14 6.49999 14H11.5C11.7761 14 12 14.2239 12 14.5C12 14.7761 11.7761 15 11.5 15H6.49999C6.22385 15 5.99999 14.7761 5.99999 14.5ZM9.49999 16C9.22385 16 8.99999 16.2239 8.99999 16.5C8.99999 16.7761 9.22385 17 9.49999 17H11.5C11.7761 17 12 16.7761 12 16.5C12 16.2239 11.7761 16 11.5 16H9.49999Z"
+                                            fill="#035A4B" />
+                                    </svg>
+
+                                </div>
+
+                                <h4 class="card-title">FAQ</h4>
+                                <p class="card-text text-body">Search our FAQ for answers to anything you might ask.</p>
+                            </div>
+
+                            <div class="card-footer pt-0">
+                                <span class="card-link">Visit FAQ <i class="bi-chevron-right small ms-1"></i></span>
+                            </div>
+                        </a>
+                        <!-- End Card -->
+                    </div>
+                    <!-- End Col -->
+
+                    <div class="col-md-4">
+                        <!-- Card -->
+                        <a class="card card-transition text-center h-100" href="#">
+                            <div class="card-body">
+                                <div class="svg-icon text-primary mb-3">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path opacity="0.3"
+                                            d="M19.0687 17.9688H11.0687C10.4687 17.9688 10.0687 18.3687 10.0687 18.9688V19.9688C10.0687 20.5688 10.4687 20.9688 11.0687 20.9688H19.0687C19.6687 20.9688 20.0687 20.5688 20.0687 19.9688V18.9688C20.0687 18.3687 19.6687 17.9688 19.0687 17.9688Z"
+                                            fill="#035A4B" />
+                                        <path
+                                            d="M4.06875 17.9688C3.86875 17.9688 3.66874 17.8688 3.46874 17.7688C2.96874 17.4688 2.86875 16.8688 3.16875 16.3688L6.76874 10.9688L3.16875 5.56876C2.86875 5.06876 2.96874 4.46873 3.46874 4.16873C3.96874 3.86873 4.56875 3.96878 4.86875 4.46878L8.86875 10.4688C9.06875 10.7688 9.06875 11.2688 8.86875 11.5688L4.86875 17.5688C4.66875 17.7688 4.36875 17.9688 4.06875 17.9688Z"
+                                            fill="#035A4B" />
+                                    </svg>
+
+                                </div>
+
+                                <h4 class="card-title">Developer APIs</h4>
+                                <p class="card-text text-body">Check out our development quickstart guide.</p>
+                            </div>
+
+                            <div class="card-footer pt-0">
+                                <span class="card-link">Contact sales <i class="bi-chevron-right small ms-1"></i></span>
+                            </div>
+                        </a>
+                        <!-- End Card -->
+                    </div>
+                    <!-- End Col -->
+                </div>
+                <!-- End Row -->
+            </div>
+
+            <!-- Shape -->
+            <div class="shape shape-bottom zi-1">
+                <svg width="3000" height="500" viewBox="0 0 3000 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 500H3000V0L0 500Z" fill="#fff" />
+                </svg>
+            </div>
+            <!-- End Shape -->
+        </div>
+        <!-- End Hero -->
+
+        <!-- Contact Form -->
+        <div class="container content-space-t-3 content-space-t-lg-5 content-space-b-2">
+            <div class="row">
+                <div class="col-lg-6 mb-9 mb-lg-0">
+                    <!-- Heading -->
+                    <div class="mb-5">
+                        <h1>Get in touch</h1>
+                        <p>We'd love to talk about how we can help you.</p>
+                    </div>
+                    <!-- End Heading -->
+
+                    <!-- Leaflet -->
+                    <div class="overflow-hidden">
+                        <div id="mapEg3" class="leaflet mb-5" data-hs-leaflet-options='{
+                       "map": {
+                         "scrollWheelZoom": false,
+                         "coords": [37.4040344, -122.0289704]
+                       },
+                       "marker": [
+                         {
+                           "coords": [37.4040344, -122.0289704],
+                           "icon": {
+                             "iconUrl": "../assets/svg/components/map-pin.svg",
+                             "iconSize": [50, 45]
+                           },
+                           "popup": {
+                             "text": "153 Williamson Plaza, Maggieberg"
+                           }
+                         }
+                       ]
+                      }'></div>
+                    </div>
+                    <!-- End Leaflet -->
+
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <h5 class="mb-1">Call us:</h5>
+                            <p>+1 (062) 109-9222</p>
+                        </div>
+                        <!-- End Col -->
+
+                        <div class="col-sm-6">
+                            <h5 class="mb-1">Email us:</h5>
+                            <p>hello@example.com</p>
+                        </div>
+                        <!-- End Col -->
+
+                        <div class="col-sm-6">
+                            <h5 class="mb-1">Address:</h5>
+                            <p>153 Williamson Plaza, Maggieberg</p>
+                        </div>
+                        <!-- End Col -->
+                    </div>
+                    <!-- End Row -->
+                </div>
+                <!-- End Col -->
+
+                <div class="col-lg-6">
+                    <div class="ps-lg-5">
+                        <!-- Card -->
+                        <div class="card">
+                            <div class="card-header border-bottom text-center">
+                                <h3 class="card-header-title">General inquiries</h3>
+                            </div>
+
+                            <div class="card-body">
                                 <!-- Form -->
                                 <form>
                                     <div class="row gx-3">
+                                        <div class="col-sm-6">
+                                            <!-- Form -->
+                                            <div class="mb-3">
+                                                <label class="form-label" for="hireUsFormFirstNameEg3">First
+                                                    name</label>
+                                                <input type="text" class="form-control form-control-lg"
+                                                    name="hireUsFormNameFirstName" id="hireUsFormFirstNameEg3"
+                                                    placeholder="First name" aria-label="First name">
+                                            </div>
+                                            <!-- End Form -->
+                                        </div>
+                                        <!-- End Col -->
 
-                                        <!-- Select -->
-                                        <div class="mb-3">
-                                            <label class="form-label visually-hidden"
-                                                for="hireUsFormCountry">Traducción</label>
-                                            <select id="hireUsFormCountry" class="form-select form-select-lg"
-                                                name="hireUsFormNameCountry" aria-label="Country">
-                                                <option value="" selected disabled>Seleccione un servicio</option>
-                                                <option value="Traducción">Traducción</option>
-                                                <option value="Interpretación">Interpretación</option>
-                                            </select>
+                                        <div class="col-sm-6">
+                                            <!-- Form -->
+                                            <div class="mb-3">
+                                                <label class="form-label" for="hireUsFormLasttNameEg3">Last name</label>
+                                                <input type="text" class="form-control form-control-lg"
+                                                    name="hireUsFormNameLastName" id="hireUsFormLasttNameEg3"
+                                                    placeholder="Last name" aria-label="Last name">
+                                            </div>
+                                            <!-- End Form -->
                                         </div>
-                                        <!-- End Select -->
+                                        <!-- End Col -->
+                                    </div>
+                                    <!-- End Row -->
 
-                                        <!-- Select -->
-                                        <div class="mb-3">
-                                            <label class="form-label visually-hidden" for="hireUsFormCountry">Seleccione
-                                                el tipo de entrega</label>
-                                            <select id="hireUsFormCountry" class="form-select form-select-lg"
-                                                name="hireUsFormNameCountry" aria-label="Country">
-                                                <option value="" selected disabled>Seleccione el tipo de entrega
-                                                </option>
-                                                <option value="MS Word - versión digital">MS Word - versión digital
-                                                </option>
-                                                <option value="Certificada - versión digital">Certificada - versión
-                                                    digital</option>
-                                                <option value="Certificada - versión impresa">Certificada - versión
-                                                    impresa</option>
-                                                <option value="Oficial - versión impresa">Oficial - versión impresa
-                                                </option>
-                                            </select>
+                                    <div class="row gx-3">
+                                        <div class="col-sm-6">
+                                            <!-- Form -->
+                                            <div class="mb-3">
+                                                <label class="form-label" for="hireUsFormWorkEmailEg3">Email
+                                                    address</label>
+                                                <input type="email" class="form-control form-control-lg"
+                                                    name="hireUsFormNameWorkEmail" id="hireUsFormWorkEmailEg3"
+                                                    placeholder="email@site.com" aria-label="email@site.com">
+                                            </div>
+                                            <!-- End Form -->
                                         </div>
-                                        <!-- End Select -->
+                                        <!-- End Col -->
 
-                                        <!-- Select -->
-                                        <div class="mb-3">
-                                            <label class="form-label visually-hidden" for="hireUsFormCountry">Ingrese el
-                                                idioma de origen</label>
-                                            <select id="hireUsFormCountry" class="form-select form-select-lg"
-                                                name="hireUsFormNameCountry" aria-label="Country">
-                                                <option value="" selected disabled>Ingrese el idioma de origen</option>
-                                                <option value="Español (Perú)">Español (Perú)</option>
-                                                <option value="Español (España)">Español (España)</option>
-                                                <option value="Inglés (EE.UU.)">Inglés (EE.UU.)</option>
-                                                <option value="Inglés (Reino Unido)">Inglés (Reino Unido)</option>
-                                                <option value="Francés (Francia)">Francés (Francia)</option>
-                                                <option value="Francés (Canadá)">Francés (Canadá)</option>
-                                                <option value="Alemán (Alemania)">Alemán (Alemania)</option>
-                                                <option value="Italiano (Italia)">Italiano (Italia)</option>
-                                                <option value="Portugués (Brasil)">Portugués (Brasil)</option>
-                                                <option value="Portugués (Portugal)">Portugués (Portugal)</option>
-                                                <option value="Quechua (Perú)">Quechua (Perú)</option>
-                                            </select>
+                                        <div class="col-sm-6">
+                                            <!-- Form -->
+                                            <div class="mb-3">
+                                                <label class="form-label" for="hireUsFormPhoneEg3">Phone <span
+                                                        class="form-label-secondary">(Optional)</span></label>
+                                                <input type="text" class="form-control form-control-lg"
+                                                    name="hireUsFormNamePhone" id="hireUsFormPhoneEg3"
+                                                    placeholder="+x(xxx)xxx-xx-xx" aria-label="+x(xxx)xxx-xx-xx">
+                                            </div>
+                                            <!-- End Form -->
                                         </div>
-                                        <!-- End Select -->
+                                        <!-- End Col -->
+                                    </div>
+                                    <!-- End Row -->
 
-                                        <!-- Select -->
-                                        <div class="mb-3">
-                                            <label class="form-label visually-hidden" for="hireUsFormCountry">Ingrese el
-                                                idioma de destino</label>
-                                            <select id="hireUsFormCountry" class="form-select form-select-lg"
-                                                name="hireUsFormNameCountry" aria-label="Country">
-                                                <option value="" selected disabled>Ingrese el idioma de destino</option>
-                                                <option value="Español (Perú)">Español (Perú)</option>
-                                                <option value="Español (España)">Español (España)</option>
-                                                <option value="Inglés (EE.UU.)">Inglés (EE.UU.)</option>
-                                                <option value="Inglés (Reino Unido)">Inglés (Reino Unido)</option>
-                                                <option value="Francés (Francia)">Francés (Francia)</option>
-                                                <option value="Francés (Canadá)">Francés (Canadá)</option>
-                                                <option value="Alemán (Alemania)">Alemán (Alemania)</option>
-                                                <option value="Italiano (Italia)">Italiano (Italia)</option>
-                                                <option value="Portugués (Brasil)">Portugués (Brasil)</option>
-                                                <option value="Portugués (Portugal)">Portugués (Portugal)</option>
-                                                <option value="Quechua (Perú)">Quechua (Perú)</option>
-                                            </select>
-                                        </div>
-                                        <!-- End Select -->
-                                        <div class="mb-4 mt-4">
-                                            <h3 class="text-primary">Datos del servicio</h3>
-                                        </div>
-                                        <!-- Form -->
-                                        <div class="mb-3">
-                                            <input type="text" class="form-control form-control-lg"
-                                                name="hireUsFormNameFirstName" id="hireUsFormFirstName"
-                                                placeholder="Nombre / Razón social">
-                                        </div>
-                                        <!-- End Form -->
-                                        <!-- Form -->
-                                        <div class="mb-3">
-                                            <input type="email" class="form-control form-control-lg"
-                                                name="hireUsFormNameWorkEmail" id="hireUsFormWorkEmail"
-                                                placeholder="Correo Electronico" aria-label="email@site.com">
-                                        </div>
-                                        <!-- End Form -->
-                                        <!-- Form -->
-                                        <div class="mb-3">
-                                            <input type="text" class="form-control form-control-lg"
-                                                name="hireUsFormNameCompanyName" id="hireUsFormCompanyName"
-                                                placeholder="Teléfono" aria-label="Htmlstream">
-                                        </div>
-                                        <!-- End Form -->
-                                        <!-- Form -->
-                                        <div class="mb-3">
-                                            <input type="text" class="form-control form-control-lg"
-                                                name="hireUsFormNameCompanyName" id="hireUsFormCompanyName"
-                                                placeholder="DNI / RUC" aria-label="Htmlstream">
-                                        </div>
-                                        <!-- End Form -->
-                                        <!-- Form -->
-                                        <div class="mb-3">
-                                            <label class="form-label visually-hidden"
-                                                for="hireUsFormDetails">Details</label>
-                                            <textarea class="form-control form-control-lg" name="hireUsFormNameDetails"
-                                                id="hireUsFormDetails" placeholder="Escríbanos su consulta"
-                                                aria-label="Tell us about your project" rows="4"></textarea>
-                                        </div>
-                                        <!-- End Form -->
+                                    <!-- Form -->
+                                    <div class="mb-3">
+                                        <label class="form-label" for="hireUsFormDetails">Details</label>
+                                        <textarea class="form-control form-control-lg" name="hireUsFormNameDetails"
+                                            id="hireUsFormDetails" placeholder="Tell us about your ..."
+                                            aria-label="Tell us about your ..." rows="4"></textarea>
+                                    </div>
+                                    <!-- End Form -->
 
-                                        <div class="d-grid mb-2">
-                                            <button type="submit" class="btn btn-primary btn-lg">Send inquiry</button>
-                                        </div>
+                                    <div class="d-grid">
+                                        <button type="submit" class="btn btn-primary btn-lg">Send inquiry</button>
+                                    </div>
 
-                                        <div class="text-center">
-                                            <span class="form-text">We'll get back to you in 1-2 business days.</span>
-                                        </div>
+                                    <div class="text-center">
+                                        <p class="form-text">We'll get back to you in 1-2 business days.</p>
+                                    </div>
                                 </form>
                                 <!-- End Form -->
                             </div>
@@ -554,16 +628,11 @@
                         <!-- End Card -->
                     </div>
                 </div>
-
+                <!-- End Col -->
             </div>
-
-            <!-- SVG Background Shape -->
-            <div class="position-absolute bottom-0 start-0 end-0">
-                <img class="img-fluid" src="./assets/svg/components/isometric-squares-light.svg"
-                    alt="Image Description">
-            </div>
-            <!-- End SVG Background Shape -->
+            <!-- End Row -->
         </div>
+        <!-- End Contact Form -->
 
     </main>
     <!-- ========== END MAIN CONTENT ========== -->
@@ -572,11 +641,12 @@
     <footer class="bg-light">
         <div class="container pb-1 pb-lg-7">
             <div class="row content-space-t-2">
-                <div class="col-lg-3 mb-4 mb-lg-0">
+                <div class="col-lg-3 mb-7 mb-lg-0">
                     <!-- Logo -->
                     <div class="mb-5">
                         <a class="navbar-brand" href="./index.html" aria-label="Space">
-                            <p class="logo_create">limac</p>
+                            <span class="logo_create text-primary" style="font-size: 4rem;">limac</span>
+                            <sub class="text-primary">&reg;</sub>
                         </a>
                     </div>
                     <!-- End Logo -->
@@ -589,11 +659,10 @@
 
                     <!-- List -->
                     <ul class="list-unstyled list-py-1 mb-0">
-                        <li><a class="link-sm link-secondary" href="nosotros.html">Nosotros</a></li>
-                        <li><a class="link-sm link-secondary" href="pagos.html">Pagos</a></li>
-                        <li><a class="link-sm link-secondary" href="nexus.html">Nexus</a></li>
-                        <li><a class="link-sm link-secondary" href="pagos.html">Bolsa de Trabajo<i
-                                    class="bi-box-arrow-up-right small ms-1"></i></a></li>
+                        <li><a class="link-sm link-secondary" href="Nostros">Nosotros</a></li>
+                        <li><a class="link-sm link-secondary" href="Pagos">Pagos</a></li>
+                        <li><a class="link-sm link-secondary" href="Nexus">Nexus</a></li>
+                        <li><a class="link-sm link-secondary" href="Bolsa de Trabajo">Bolsa de Trabajo</a></li>
                     </ul>
                     <!-- End List -->
                 </div>
@@ -604,9 +673,9 @@
 
                     <!-- List -->
                     <ul class="list-unstyled list-py-1 mb-0">
-                        <li><a class="link-sm link-secondary" href="traduccion-digital.html">Digital</a></li>
-                        <li><a class="link-sm link-secondary" href="traduccion.html">Certificada</a></li>
-                        <li><a class="link-sm link-secondary" href="traduccion-oficial.html">Oficial</a></li>
+                        <li><a class="link-sm link-secondary" href="#">Digital</a></li>
+                        <li><a class="link-sm link-secondary" href="#">Consecutiva</a></li>
+                        <li><a class="link-sm link-secondary" href="#">Oficial</a></li>
                     </ul>
                     <!-- End List -->
                 </div>
@@ -617,9 +686,8 @@
 
                     <!-- List -->
                     <ul class="list-unstyled list-py-1 mb-0">
-                        <li><a class="link-sm link-secondary" href="interpretacion.html">Simultánea</a></li>
-                        <li><a class="link-sm link-secondary" href="interpretacion-consecutiva.html">Consecutiva</a>
-                        </li>
+                        <li><a class="link-sm link-secondary" href="#">Simultánea</a></li>
+                        <li><a class="link-sm link-secondary" href="#">Consecutiva</a></li>
                         <li><a class="link-sm link-secondary" href="#">OPI</a></li>
                     </ul>
                     <!-- End List -->
@@ -631,10 +699,8 @@
 
                     <!-- List -->
                     <ul class="list-unstyled list-py-1 mb-5">
-                        <li><a class="link-sm link-secondary" href="#"><i
-                                    class="bi-question-circle-fill me-1"></i>Formulario digital</a></li>
-                        <li><a class="link-sm link-secondary" href="#"><i class="bi-person-circle me-1"></i> Iniciar
-                                Sesión</a></li>
+                        <li><a class="link-sm link-secondary" href="#">Formulario digital</a></li>
+                        <li><a class="link-sm link-secondary" href="#">Iniciar sesión</a></li>
                     </ul>
                     <!-- End List -->
                 </div>
@@ -652,10 +718,10 @@
                             <a class="text-body" href="#">Libro de reclamaciones</a>
                         </li>
                         <li class="list-inline-item">
-                            <a class="text-body" href="politica-de-privacidad.html">Politica de privacidad</a>
+                            <a class="text-body" href="#">Politica de privacidad</a>
                         </li>
                         <li class="list-inline-item">
-                            <a class="text-body" href="terminos-y-condiciones.html">Términos y condiciones</a>
+                            <a class="text-body" href="#">Términos y condiciones</a>
                         </li>
                         <li class="list-inline-item">
                             <a class="text-body" href="#">Uso de Sitio</a>
@@ -664,309 +730,11 @@
                     <!-- End Socials -->
                 </div>
 
-                <div class="col-sm-auto">
-                    <!-- Socials -->
-                    <ul class="list-inline mb-0">
-                        <li class="list-inline-item">
-                            <a class="btn btn-soft-secondary btn-xs btn-icon" href="#">
-                                <i class="bi-facebook"></i>
-                            </a>
-                        </li>
-
-                        <li class="list-inline-item">
-                            <a class="btn btn-soft-secondary btn-xs btn-icon" href="#">
-                                <i class="bi-twitter"></i>
-                            </a>
-                        </li>
-
-                        <li class="list-inline-item">
-                            <a class="btn btn-soft-secondary btn-xs btn-icon" href="#">
-                                <i class="bi-linkedin"></i>
-                            </a>
-                        </li>
-                    </ul>
-                    <!-- End Socials -->
-                </div>
             </div>
-
-            <!-- Copyright -->
-            <div class="w-md-85 text-lg-center mx-lg-auto">
-                <p class="text-muted small">&copy; © 2025 Limac - Todos los derechos Reservados.</p>
-            </div>
-            <!-- End Copyright -->
         </div>
     </footer>
+
     <!-- ========== END FOOTER ========== -->
-    <!-- ========== SECONDARY CONTENTS ========== -->
-    <!-- Sign Up -->
-    <div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <!-- Header -->
-                <div class="modal-close">
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <!-- End Header -->
-
-                <!-- Body -->
-                <div class="modal-body">
-                    <!-- Log in -->
-                    <div id="signupModalFormLogin" style="display: none; opacity: 0;">
-                        <!-- Heading -->
-                        <div class="text-center mb-7">
-                            <h2>Log in</h2>
-                            <p>Don't have an account yet?
-                                <a class="js-animation-link link" href="javascript:;" role="button"
-                                    data-hs-show-animation-options='{
-                         "targetSelector": "#signupModalFormSignup",
-                         "groupName": "idForm"
-                       }'>Sign up</a>
-                            </p>
-                        </div>
-                        <!-- End Heading -->
-
-                        <div class="d-grid gap-2">
-                            <a class="btn btn-white btn-lg" href="#">
-                                <span class="d-flex justify-content-center align-items-center">
-                                    <img class="avatar avatar-xss me-2" src="./assets/svg/brands/google-icon.svg"
-                                        alt="Image Description">
-                                    Log in with Google
-                                </span>
-                            </a>
-
-                            <a class="js-animation-link btn btn-primary btn-lg" href="#" data-hs-show-animation-options='{
-                       "targetSelector": "#signupModalFormLoginWithEmail",
-                       "groupName": "idForm"
-                     }'>Log in with Email</a>
-                        </div>
-                    </div>
-                    <!-- End Log in -->
-
-                    <!-- Log in with Modal -->
-                    <div id="signupModalFormLoginWithEmail" style="display: none; opacity: 0;">
-                        <!-- Heading -->
-                        <div class="text-center mb-7">
-                            <h2>Log in</h2>
-                            <p>Don't have an account yet?
-                                <a class="js-animation-link link" href="javascript:;" role="button"
-                                    data-hs-show-animation-options='{
-                         "targetSelector": "#signupModalFormSignup",
-                         "groupName": "idForm"
-                       }'>Sign up</a>
-                            </p>
-                        </div>
-                        <!-- End Heading -->
-
-                        <form class="js-validate needs-validation" novalidate>
-                            <!-- Form -->
-                            <div class="mb-3">
-                                <label class="form-label" for="signupModalFormLoginEmail">Your email</label>
-                                <input type="email" class="form-control form-control-lg" name="email"
-                                    id="signupModalFormLoginEmail" placeholder="email@site.com"
-                                    aria-label="email@site.com" required>
-                                <span class="invalid-feedback">Please enter a valid email address.</span>
-                            </div>
-                            <!-- End Form -->
-
-                            <!-- Form -->
-                            <div class="mb-3">
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <label class="form-label" for="signupModalFormLoginPassword">Password</label>
-
-                                    <a class="js-animation-link form-label-link" href="javascript:;"
-                                        data-hs-show-animation-options='{
-                       "targetSelector": "#signupModalFormResetPassword",
-                       "groupName": "idForm"
-                     }'>Forgot Password?</a>
-                                </div>
-
-                                <input type="password" class="form-control form-control-lg" name="password"
-                                    id="signupModalFormLoginPassword" placeholder="8+ characters required"
-                                    aria-label="8+ characters required" required minlength="8">
-                                <span class="invalid-feedback">Please enter a valid password.</span>
-                            </div>
-                            <!-- End Form -->
-
-                            <div class="d-grid mb-3">
-                                <button type="submit" class="btn btn-primary form-control-lg">Log in</button>
-                            </div>
-                        </form>
-                    </div>
-                    <!-- End Log in with Modal -->
-
-                    <!-- Sign up -->
-                    <div id="signupModalFormSignup">
-                        <!-- Heading -->
-                        <div class="text-center mb-7">
-                            <h2>Sign up</h2>
-                            <p>Already have an account?
-                                <a class="js-animation-link link" href="javascript:;" role="button"
-                                    data-hs-show-animation-options='{
-                         "targetSelector": "#signupModalFormLogin",
-                         "groupName": "idForm"
-                       }'>Log in</a>
-                            </p>
-                        </div>
-                        <!-- End Heading -->
-
-                        <div class="d-grid gap-3">
-                            <a class="btn btn-white btn-lg" href="#">
-                                <span class="d-flex justify-content-center align-items-center">
-                                    <img class="avatar avatar-xss me-2" src="./assets/svg/brands/google-icon.svg"
-                                        alt="Image Description">
-                                    Sign up with Google
-                                </span>
-                            </a>
-
-                            <a class="js-animation-link btn btn-primary btn-lg" href="#" data-hs-show-animation-options='{
-                       "targetSelector": "#signupModalFormSignupWithEmail",
-                       "groupName": "idForm"
-                     }'>Sign up with Email</a>
-
-                            <div class="text-center">
-                                <p class="small mb-0">By continuing you agree to our <a href="#">Terms and
-                                        Conditions</a></p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Sign up -->
-
-                    <!-- Sign up with Modal -->
-                    <div id="signupModalFormSignupWithEmail" style="display: none; opacity: 0;">
-                        <!-- Heading -->
-                        <div class="text-center mb-7">
-                            <h2>Sign up</h2>
-                            <p>Already have an account?
-                                <a class="js-animation-link link" href="javascript:;" role="button"
-                                    data-hs-show-animation-options='{
-                         "targetSelector": "#signupModalFormLogin",
-                         "groupName": "idForm"
-                       }'>Log in</a>
-                            </p>
-                        </div>
-                        <!-- End Heading -->
-
-                        <form class="js-validate need-validate" novalidate>
-                            <!-- Form -->
-                            <div class="mb-3">
-                                <label class="form-label" for="signupModalFormSignupEmail">Your email</label>
-                                <input type="email" class="form-control form-control-lg" name="email"
-                                    id="signupModalFormSignupEmail" placeholder="email@site.com"
-                                    aria-label="email@site.com" required>
-                                <span class="invalid-feedback">Please enter a valid email address.</span>
-                            </div>
-                            <!-- End Form -->
-
-                            <!-- Form -->
-                            <div class="mb-3">
-                                <label class="form-label" for="signupModalFormSignupPassword">Password</label>
-                                <input type="password" class="form-control form-control-lg" name="password"
-                                    id="signupModalFormSignupPassword" placeholder="8+ characters required"
-                                    aria-label="8+ characters required" required>
-                                <span class="invalid-feedback">Your password is invalid. Please try again.</span>
-                            </div>
-                            <!-- End Form -->
-
-                            <!-- Form -->
-                            <div class="mb-3" data-hs-validation-validate-class>
-                                <label class="form-label" for="signupModalFormSignupConfirmPassword">Confirm
-                                    password</label>
-                                <input type="password" class="form-control form-control-lg" name="confirmPassword"
-                                    id="signupModalFormSignupConfirmPassword" placeholder="8+ characters required"
-                                    aria-label="8+ characters required" required
-                                    data-hs-validation-equal-field="#signupModalFormSignupPassword">
-                                <span class="invalid-feedback">Password does not match the confirm password.</span>
-                            </div>
-                            <!-- End Form -->
-
-                            <div class="d-grid mb-3">
-                                <button type="submit" class="btn btn-primary form-control-lg">Sign up</button>
-                            </div>
-
-                            <div class="text-center">
-                                <p class="small mb-0">By continuing you agree to our <a href="#">Terms and
-                                        Conditions</a></p>
-                            </div>
-                        </form>
-                    </div>
-                    <!-- End Sign up with Modal -->
-
-                    <!-- Reset Password -->
-                    <div id="signupModalFormResetPassword" style="display: none; opacity: 0;">
-                        <!-- Heading -->
-                        <div class="text-center mb-7">
-                            <h2>Forgot password?</h2>
-                            <p>Enter the email address you used when you joined and we'll send you instructions to reset
-                                your password.</p>
-                        </div>
-                        <!-- En dHeading -->
-
-                        <form class="js-validate need-validate" novalidate>
-                            <div class="mb-3">
-                                <!-- Form -->
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <label class="form-label" for="signupModalFormResetPasswordEmail" tabindex="0">Your
-                                        email</label>
-
-                                    <a class="js-animation-link form-label-link" href="javascript:;"
-                                        data-hs-show-animation-options='{
-                         "targetSelector": "#signupModalFormLogin",
-                         "groupName": "idForm"
-                       }'>
-                                        <i class="bi-chevron-left small"></i> Back to Log in
-                                    </a>
-                                </div>
-
-                                <input type="email" class="form-control form-control-lg" name="email"
-                                    id="signupModalFormResetPasswordEmail" tabindex="1"
-                                    placeholder="Enter your email address" aria-label="Enter your email address"
-                                    required>
-                                <span class="invalid-feedback">Please enter a valid email address.</span>
-                                <!-- End Form -->
-                            </div>
-
-                            <div class="d-grid">
-                                <button type="submit" class="btn btn-primary form-control-lg">Submit</button>
-                            </div>
-                        </form>
-                    </div>
-                    <!-- End Reset Password -->
-                </div>
-                <!-- End Body -->
-
-                <!-- Footer -->
-                <div class="modal-footer d-block text-center py-sm-5">
-                    <small class="text-cap mb-4">Trusted by the world's best teams</small>
-
-                    <div class="w-85 mx-auto">
-                        <div class="row justify-content-between">
-                            <div class="col">
-                                <img class="img-fluid" src="./assets/svg/brands/gitlab-gray.svg" alt="Logo">
-                            </div>
-                            <!-- End Col -->
-
-                            <div class="col">
-                                <img class="img-fluid" src="./assets/svg/brands/fitbit-gray.svg" alt="Logo">
-                            </div>
-                            <!-- End Col -->
-
-                            <div class="col">
-                                <img class="img-fluid" src="./assets/svg/brands/flow-xo-gray.svg" alt="Logo">
-                            </div>
-                            <!-- End Col -->
-
-                            <div class="col">
-                                <img class="img-fluid" src="./assets/svg/brands/layar-gray.svg" alt="Logo">
-                            </div>
-                            <!-- End Col -->
-                        </div>
-                    </div>
-                    <!-- End Row -->
-                </div>
-                <!-- End Footer -->
-            </div>
-        </div>
-    </div>
 
     <!-- Go To -->
     <a class="js-go-to go-to position-fixed" href="javascript:;" style="visibility: hidden;" data-hs-go-to-options='{
@@ -995,8 +763,7 @@
     <script src="./assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.js"></script>
     <script src="./assets/vendor/hs-show-animation/dist/hs-show-animation.min.js"></script>
     <script src="./assets/vendor/hs-go-to/dist/hs-go-to.min.js"></script>
-    <script src="./assets/vendor/aos/dist/aos.js"></script>
-    <script src="./assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="./assets/vendor/leaflet/dist/leaflet.js"></script>
 
     <!-- JS Front -->
     <script src="./assets/js/theme.min.js"></script>
@@ -1007,7 +774,6 @@
     <!-- JS Plugins Init. -->
     <script>
         (function () {
-
             // INITIALIZATION OF HEADER
             // =======================================================
             new HSHeader('#header').init()
@@ -1021,16 +787,7 @@
                 }
             })
 
-            document.addEventListener('DOMContentLoaded', function () {
-                document.querySelectorAll('.js-typedjs').forEach(function (el) {
-                    try {
-                        const options = JSON.parse(el.getAttribute('data-hs-typed-options'));
-                        new Typed(el, options);
-                    } catch (e) {
-                        console.error('Typed.js: JSON inválido en data-hs-typed-options', e);
-                    }
-                });
-            });
+
             // INITIALIZATION OF SHOW ANIMATIONS
             // =======================================================
             new HSShowAnimation('.js-animation-link')
@@ -1056,90 +813,15 @@
             new HSGoTo('.js-go-to')
 
 
-            // INITIALIZATION OF AOS
+            // INITIALIZATION OF LEAFLET
             // =======================================================
-            AOS.init({
-                duration: 650,
-                once: true
-            });
+            const leaflet = HSCore.components.HSLeaflet.init(document.getElementById('mapEg3'))
 
+            // Establece la ubica
 
-            // INITIALIZATION OF SWIPER
-            // =======================================================
-            let activeIndex = 0
-            var sliderThumbs = new Swiper('.js-swiper-thumbs', {
-                slidesPerView: 1,
-                autoplay: false,
-                watchSlidesVisibility: true,
-                watchSlidesProgress: true,
-                followFinger: false,
-                loop: true,
-                on: {
-                    'slideChangeTransitionEnd': function (event) {
-                        if (sliderMain === undefined) return
-                        sliderMain.slideTo(event.activeIndex)
-                    }
-                }
-            });
-
-            var sliderMain = new Swiper('.js-swiper-main', {
-                effect: 'fade',
-                autoplay: false,
-                disableOnInteraction: true,
-                loop: true,
-                navigation: {
-                    nextEl: '.js-swiper-main-button-next',
-                    prevEl: '.js-swiper-main-button-prev',
-                },
-                thumbs: {
-                    swiper: sliderThumbs
-                },
-                on: {
-                    'slideChangeTransitionEnd': function (event) {
-                        if (sliderThumbs === undefined) return
-                        sliderThumbs.slideTo(event.activeIndex)
-                    }
-                }
-            })
-
-            // Clients
-            var swiper = new Swiper('.js-swiper-clients', {
-                slidesPerView: 2,
-                breakpoints: {
-                    380: {
-                        slidesPerView: 3,
-                        spaceBetween: 15,
-                    },
-                    768: {
-                        slidesPerView: 4,
-                        spaceBetween: 15,
-                    },
-                    1024: {
-                        slidesPerView: 5,
-                        spaceBetween: 15,
-                    },
-                },
-            });
-
-            // Card Grid
-            var swiper = new Swiper('.js-swiper-card-blocks', {
-                slidesPerView: 1,
-                pagination: {
-                    el: '.js-swiper-card-blocks-pagination',
-                    dynamicBullets: true,
-                    clickable: true,
-                },
-                breakpoints: {
-                    620: {
-                        slidesPerView: 2,
-                        spaceBetween: 15,
-                    },
-                    1024: {
-                        slidesPerView: 3,
-                        spaceBetween: 15,
-                    },
-                },
-            });
+            L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
+                id: 'mapbox/light-v9'
+            }).addTo(leaflet)
         })()
     </script>
 </body>
