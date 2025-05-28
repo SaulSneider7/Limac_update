@@ -1,30 +1,54 @@
 let lastScrollTop = 0;
 const header = document.getElementById("header");
+const logo = document.getElementById("logo");
+const btn_login = document.getElementById("btn_login");
+
+const isContactoPage = window.location.pathname.includes("contacto.html");
 
 window.addEventListener("scroll", function () {
-    let currentScroll = window.pageYOffset || document.documentElement.scrollTop;
-    let id_logo = document.getElementById("logo");
-    let btn_login = document.getElementById("btn_login");
+    const currentScroll = window.pageYOffset || document.documentElement.scrollTop;
 
     if (currentScroll === 0) {
-        // Estamos en la parte superior
+        // Parte superior: mostrar header sin fondo blanco
+        header.style.transform = "translateY(0)";
         header.classList.remove("bg-white");
-        header.classList.add("navbar-dark");
-        id_logo.classList.add("text-white");
-        btn_login.classList.add("btn-white");
-        btn_login.classList.remove("btn-primary");
+
+        if (isContactoPage) {
+            updateHeaderStyle({
+                dark: true,
+                logoWhite: true,
+                btnWhite: true
+            });
+        }
+
     } else if (currentScroll > lastScrollTop) {
-        // Scroll hacia abajo -> ocultar
+        // Scroll hacia abajo: ocultar header
         header.style.transform = "translateY(-100%)";
+
     } else {
-        // Scroll hacia arriba -> mostrar
+        // Scroll hacia arriba: mostrar header con fondo blanco
         header.style.transform = "translateY(0)";
         header.classList.add("bg-white");
-        header.classList.remove("navbar-dark");
-        id_logo.classList.remove("text-white");
-        btn_login.classList.remove("btn-white");
-        btn_login.classList.add("btn-primary");
+
+        if (isContactoPage) {
+            updateHeaderStyle({
+                dark: false,
+                logoWhite: false,
+                btnWhite: false
+            });
+        }
     }
 
-    lastScrollTop = currentScroll <= 0 ? 0 : currentScroll;
+    lastScrollTop = Math.max(currentScroll, 0);
 });
+
+// Utilidad para actualizar clases según el estado
+function updateHeaderStyle({ dark, logoWhite, btnWhite }) {
+    header.classList.toggle("navbar-dark", dark);
+    header.classList.toggle("navbar-light", !dark);
+
+    logo.classList.toggle("text-white", logoWhite);
+
+    btn_login.classList.toggle("btn-white", btnWhite);
+    btn_login.classList.toggle("btn-primary", !btnWhite);
+}
