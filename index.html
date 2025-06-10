@@ -30,18 +30,16 @@
 
 <body>
   <style>
-    
+
   </style>
   <!-- ========== HEADER ========== -->
-  <header id="header" class="navbar navbar-expand-lg navbar-end navbar-absolute-top navbar-dark" data-hs-header-options='{
-            "fixMoment": 1000,
-            "fixEffect": "slide"
-          }'>
+  <header id="header" class="navbar navbar-expand-lg navbar-end navbar-absolute-top navbar-dark"
+    style="position: fixed; top: 0; left: 0; right: 0; z-index: 1030; transition: transform 0.3s ease;">
     <div class="container">
       <nav class="js-mega-menu navbar-nav-wrap">
         <!-- Default Logo -->
         <a class="navbar-brand" href="./index.html" aria-label="Front">
-          <span class="logo_create text-white">limac</span>
+          <span id="logo" class="logo_create text-white">limac</span>
           <sub class="text-white">&reg;</sub>
         </a>
         <!-- End Default Logo -->
@@ -68,7 +66,8 @@
                   href="#" role="button">Servicios</a>
 
                 <!-- Mega Menu -->
-                <div class="hs-mega-menu dropdown-menu w-100" aria-labelledby="demosMegaMenu" style="min-width: 40rem;">
+                <div class="hs-mega-menu dropdown-menu w-100 mt-0" aria-labelledby="demosMegaMenu"
+                  style="min-width: 40rem;">
                   <!-- Promo -->
                   <div class="row">
                     <div class="col-lg-6">
@@ -315,7 +314,7 @@
 
               <!-- Button -->
               <li class="nav-item">
-                <a class="btn btn-dark btn-transition"
+                <a id="btn_login" class="btn btn-white btn-transition"
                   href="https://themes.getbootstrap.com/product/front-multipurpose-responsive-template/"
                   target="_blank">Iniciar Sesión</a>
               </li>
@@ -520,14 +519,14 @@
             <img src="./assets/img/bolsa_carreras/bkg0191.jpg" alt="Servicio de traducción profesional"
               class="img-fluid rounded-3 shadow-sm">
           </div>
-      
+
           <!-- Texto y cita -->
           <div class="col-md-7">
             <div class="ps-md-5">
               <h2 class="text-primary fw-bold mb-3">
                 ¿Por qué elegirnos como tu aliado en traducción?
               </h2>
-      
+
               <p class="text-body">
                 Desde el 2013 nos dedicamos a transformar la forma en que las empresas peruanas acceden a servicios de
                 traducción. Combinamos calidad, rapidez y profesionalismo para ayudarte a comunicarte sin barreras.
@@ -536,7 +535,7 @@
           </div>
         </div>
       </div>
-      
+
       <!-- End Features -->
 
       <!-- Stats -->
@@ -572,7 +571,7 @@
             <!-- End Circle Chart -->
           </div>
           <!-- End Col -->
-      
+
           <div class="col-sm-6 col-lg-4 mb-7 mb-lg-4" data-aos="fade-up" data-aos-duration="1000">
             <!-- Circle Chart -->
             <div class="circles-chart">
@@ -603,7 +602,7 @@
             <!-- End Circle Chart -->
           </div>
           <!-- End Col -->
-      
+
           <div class="col-sm-6 col-lg-4 mb-7 mb-lg-4" data-aos="fade-up" data-aos-duration="1500">
             <!-- Circle Chart -->
             <div class="circles-chart">
@@ -708,7 +707,8 @@
                           d="M18 22C19.7 22 21 20.7 21 19C21 18.5 20.9 18.1 20.7 17.7L15.3 6.30005C15.1 5.90005 15 5.5 15 5C15 3.3 16.3 2 18 2H6C4.3 2 3 3.3 3 5C3 5.5 3.1 5.90005 3.3 6.30005L8.7 17.7C8.9 18.1 9 18.5 9 19C9 20.7 7.7 22 6 22H18Z"
                           fill="#035A4B"></path>
                         <path d="M18 2C19.7 2 21 3.3 21 5H9C9 3.3 7.7 2 6 2H18Z" fill="#035A4B"></path>
-                        <path d="M9 19C9 20.7 7.7 22 6 22C4.3 22 3 20.7 3 19H9Z" fill="#035A4B"></path>  </svg>
+                        <path d="M9 19C9 20.7 7.7 22 6 22C4.3 22 3 20.7 3 19H9Z" fill="#035A4B"></path>
+                      </svg>
 
                     </span>
 
@@ -720,16 +720,20 @@
                   <div class="col-sm-12 col-lg-6 mb-3" data-aos="fade-left" data-aos-duration="750">
                     <span class="svg-icon text-primary mb-3">
                       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path opacity="0.3" d="M18 10V20C18 20.6 18.4 21 19 21C19.6 21 20 20.6 20 20V10H18Z" fill="#035A4B"></path>
-                        <path opacity="0.3" d="M11 10V17H6V10H4V20C4 20.6 4.4 21 5 21H12C12.6 21 13 20.6 13 20V10H11Z" fill="#035A4B"></path>
+                        <path opacity="0.3" d="M18 10V20C18 20.6 18.4 21 19 21C19.6 21 20 20.6 20 20V10H18Z"
+                          fill="#035A4B"></path>
+                        <path opacity="0.3" d="M11 10V17H6V10H4V20C4 20.6 4.4 21 5 21H12C12.6 21 13 20.6 13 20V10H11Z"
+                          fill="#035A4B"></path>
                         <path opacity="0.3" d="M10 10C10 11.1 9.1 12 8 12C6.9 12 6 11.1 6 10H10Z" fill="#035A4B"></path>
-                        <path opacity="0.3" d="M18 10C18 11.1 17.1 12 16 12C14.9 12 14 11.1 14 10H18Z" fill="#035A4B"></path>
+                        <path opacity="0.3" d="M18 10C18 11.1 17.1 12 16 12C14.9 12 14 11.1 14 10H18Z" fill="#035A4B">
+                        </path>
                         <path opacity="0.3" d="M14 4H10V10H14V4Z" fill="#035A4B"></path>
                         <path opacity="0.3" d="M17 4H20L22 10H18L17 4Z" fill="#035A4B"></path>
                         <path opacity="0.3" d="M7 4H4L2 10H6L7 4Z" fill="#035A4B"></path>
                         <path
                           d="M6 10C6 11.1 5.1 12 4 12C2.9 12 2 11.1 2 10H6ZM10 10C10 11.1 10.9 12 12 12C13.1 12 14 11.1 14 10H10ZM18 10C18 11.1 18.9 12 20 12C21.1 12 22 11.1 22 10H18ZM19 2H5C4.4 2 4 2.4 4 3V4H20V3C20 2.4 19.6 2 19 2ZM12 17C12 16.4 11.6 16 11 16H6C5.4 16 5 16.4 5 17C5 17.6 5.4 18 6 18H11C11.6 18 12 17.6 12 17Z"
-                          fill="#035A4B"></path>  </svg>
+                          fill="#035A4B"></path>
+                      </svg>
 
                     </span>
 
@@ -746,7 +750,8 @@
                           fill="#008060"></path>
                         <path fill-rule="evenodd" clip-rule="evenodd"
                           d="M12.0001 15.006L10.0463 16.0332C9.81245 16.1561 9.5232 16.0662 9.40025 15.8324C9.3513 15.7393 9.33445 15.6326 9.3522 15.5289L9.72535 13.3533L8.1447 11.8126C7.9555 11.6282 7.95165 11.3253 8.13605 11.1361C8.2095 11.0608 8.3057 11.0118 8.4098 10.9967L10.5942 10.6792L11.5711 8.69985C11.6881 8.46295 11.9749 8.3657 12.2118 8.4826C12.3061 8.52915 12.3825 8.60555 12.4291 8.69985L13.4059 10.6792L15.5903 10.9967C15.8518 11.0346 16.0329 11.2774 15.9949 11.5388C15.9798 11.6429 15.9308 11.7392 15.8555 11.8126L14.2748 13.3533L14.6479 15.5289C14.6926 15.7893 14.5177 16.0366 14.2573 16.0812C14.1537 16.099 14.047 16.0821 13.9539 16.0332L12.0001 15.006Z"
-                          fill="#008060"></path>  </svg>
+                          fill="#008060"></path>
+                      </svg>
 
                     </span>
 
@@ -763,7 +768,8 @@
                           fill="#035A4B"></path>
                         <path opacity="0.3"
                           d="M21 22H3C2.4 22 2 21.6 2 21V10C2 9.4 2.4 9 3 9H21C21.6 9 22 9.4 22 10V21C22 21.6 21.6 22 21 22ZM5 12C4.4 12 4 12.4 4 13C4 13.6 4.4 14 5 14C5.6 14 6 13.6 6 13C6 12.4 5.6 12 5 12ZM8 12C7.4 12 7 12.4 7 13C7 13.6 7.4 14 8 14C8.6 14 9 13.6 9 13C9 12.4 8.6 12 8 12ZM11 12C10.4 12 10 12.4 10 13C10 13.6 10.4 14 11 14C11.6 14 12 13.6 12 13C12 12.4 11.6 12 11 12ZM14 12C13.4 12 13 12.4 13 13C13 13.6 13.4 14 14 14C14.6 14 15 13.6 15 13C15 12.4 14.6 12 14 12ZM9 15C8.4 15 8 15.4 8 16C8 16.6 8.4 17 9 17C9.6 17 10 16.6 10 16C10 15.4 9.6 15 9 15ZM12 15C11.4 15 11 15.4 11 16C11 16.6 11.4 17 12 17C12.6 17 13 16.6 13 16C13 15.4 12.6 15 12 15ZM15 15C14.4 15 14 15.4 14 16C14 16.6 14.4 17 15 17C15.6 17 16 16.6 16 16C16 15.4 15.6 15 15 15ZM19 18C18.4 18 18 18.4 18 19C18 19.6 18.4 20 19 20C19.6 20 20 19.6 20 19C20 18.4 19.6 18 19 18ZM7 19C7 18.4 6.6 18 6 18H5C4.4 18 4 18.4 4 19C4 19.6 4.4 20 5 20H6C6.6 20 7 19.6 7 19ZM7 16C7 15.4 6.6 15 6 15H5C4.4 15 4 15.4 4 16C4 16.6 4.4 17 5 17H6C6.6 17 7 16.6 7 16ZM17 14H19C19.6 14 20 13.6 20 13C20 12.4 19.6 12 19 12H17C16.4 12 16 12.4 16 13C16 13.6 16.4 14 17 14ZM18 17H19C19.6 17 20 16.6 20 16C20 15.4 19.6 15 19 15H18C17.4 15 17 15.4 17 16C17 16.6 17.4 17 18 17ZM17 19C17 18.4 16.6 18 16 18H9C8.4 18 8 18.4 8 19C8 19.6 8.4 20 9 20H16C16.6 20 17 19.6 17 19Z"
-                          fill="#035A4B"></path>  </svg>
+                          fill="#035A4B"></path>
+                      </svg>
 
                     </span>
 
@@ -778,21 +784,19 @@
             <div class="col-md-4 order-md-2 mb-10 mb-md-0" data-aos="fade-right" data-aos-duration="1000">
               <div class="position-relative">
                 <!-- Card -->
-                <div class="card card-transition d-flex flex-column justify-content-between bg-img-start h-100"
-                  style="
+                <div class="card card-transition d-flex flex-column justify-content-between bg-img-start h-100" style="
                   min-height: 25rem; padding: 1.5rem; 
                   background-image: linear-gradient(rgba(0, 0, 0, 0.315), rgba(0, 0, 0, 0.329)), url(./assets/img/index/silla.jpg); 
                   background-size: cover; 
                   background-position: center;
-                  "
-                  data-aos-delay="150">
-                
+                  " data-aos-delay="150">
+
                   <!-- Parte superior: Títulos -->
                   <div>
                     <h3 class="card-title text-white">limac | nexus</h3>
                     <p class="card-title text-white">Acceda a una traducción professional esté donde est&eacute;</p>
                   </div>
-                
+
                   <!-- Parte inferior: Enlace o llamada a la acción -->
                   <div>
                     <span class="card-link link-light">Empieza ahora <i class="bi-chevron-right small ms-1"></i></span>
@@ -1231,6 +1235,9 @@
 
   <!-- JS Front -->
   <script src="./assets/js/theme.min.js"></script>
+
+  <!-- My script -->
+  <script src="./assets/js/script.js"></script>
 
   <!-- JS Plugins Init. -->
   <script>
