@@ -4,6 +4,7 @@ const logo = document.getElementById("logo");
 const btn_login = document.getElementById("btn_login");
 
 const isContactoPage = window.location.pathname.includes("contacto.html");
+const isIndexPage = window.location.pathname.includes("index.html");
 
 window.addEventListener("scroll", function () {
     const currentScroll = window.pageYOffset || document.documentElement.scrollTop;
@@ -13,7 +14,7 @@ window.addEventListener("scroll", function () {
         header.style.transform = "translateY(0)";
         header.classList.remove("bg-white");
 
-        if (isContactoPage) {
+        if (isContactoPage || isIndexPage) {
             updateHeaderStyle({
                 dark: true,
                 logoWhite: true,
@@ -30,7 +31,7 @@ window.addEventListener("scroll", function () {
         header.style.transform = "translateY(0)";
         header.classList.add("bg-white");
 
-        if (isContactoPage) {
+        if (isContactoPage || isIndexPage) {
             updateHeaderStyle({
                 dark: false,
                 logoWhite: false,
