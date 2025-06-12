@@ -60,13 +60,13 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <div class="navbar-absolute-top-scroller">
             <ul class="navbar-nav">
-              <!-- Demos (reemplaza a Landings) -->
+
               <li class="hs-has-mega-menu nav-item">
                 <a id="demosMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle active" aria-current="page"
                   href="#" role="button">Servicios</a>
 
                 <!-- Mega Menu -->
-                <div class="hs-mega-menu dropdown-menu w-100 mt-0" aria-labelledby="demosMegaMenu"
+                <div id="miMenu" class="hs-mega-menu dropdown-menu w-100 mt-0" aria-labelledby="demosMegaMenu"
                   style="min-width: 40rem;">
                   <!-- Promo -->
                   <div class="row">
@@ -74,7 +74,7 @@
                       <div class="navbar-dropdown-menu-promo">
                         <!-- Promo Item -->
                         <div class="navbar-dropdown-menu-promo-item">
-                          <a class="navbar-dropdown-menu-promo-link active" href="./traduccion-digital.html">
+                          <a class="navbar-dropdown-menu-promo-link " href="./traduccion-digital.html">
                             <div class="d-flex">
                               <div class="flex-shrink-0">
                                 <span class="svg-icon svg-icon-sm text-primary">
@@ -118,7 +118,7 @@
                                 </span>
                               </div>
                               <div class="flex-grow-1 ms-3">
-                                <span class="navbar-dropdown-menu-media-title">Traducción Certificada</span>
+                                <span class="navbar-dropdown-menu-media-title text-body">Traducción Certificada</span>
                                 <p class="navbar-dropdown-menu-media-desc">Para todo tipo de trámites</p>
                               </div>
                             </div>
@@ -158,7 +158,7 @@
                                 </span>
                               </div>
                               <div class="flex-grow-1 ms-3">
-                                <span class="navbar-dropdown-menu-media-title">Traducción Oficial</span>
+                                <span class="navbar-dropdown-menu-media-title text-body">Traducción Oficial</span>
                                 <p class="navbar-dropdown-menu-media-desc">Para trámites con el MRE</p>
                               </div>
                             </div>
@@ -184,7 +184,7 @@
                                 </span>
                               </div>
                               <div class="flex-grow-1 ms-3">
-                                <span class="navbar-dropdown-menu-media-title">Interpr. Simultánea</span>
+                                <span class="navbar-dropdown-menu-media-title text-body">Interpr. Simultánea</span>
                                 <p class="navbar-dropdown-menu-media-desc">Interpretación en tiempo real</p>
                               </div>
                             </div>
@@ -216,7 +216,7 @@
                                 </span>
                               </div>
                               <div class="flex-grow-1 ms-3">
-                                <span class="navbar-dropdown-menu-media-title">Interpr. Consecutiva</span>
+                                <span class="navbar-dropdown-menu-media-title text-body">Interpr. Consecutiva</span>
                                 <p class="navbar-dropdown-menu-media-desc">Intérpretes para grupos</p>
                               </div>
                             </div>
@@ -249,7 +249,7 @@
                                 </span>
                               </div>
                               <div class="flex-grow-1 ms-3">
-                                <span class="navbar-dropdown-menu-media-title">Interpr. Telefónica</span>
+                                <span class="navbar-dropdown-menu-media-title text-body">Interpr. Telefónica</span>
                                 <p class="navbar-dropdown-menu-media-desc">Próximamente<i
                                     class="bi-box-arrow-up-right ms-1"></i>
                                 </p>
@@ -311,15 +311,20 @@
                 <a class="hs-mega-menu-invoker nav-link" href="contacto.html" role="button"
                   aria-expanded="false">Contacto</a>
               </li>
-
               <!-- Button -->
-              <li class="nav-item">
-                <a id="btn_login" class="btn btn-white btn-transition"
-                  href="https://themes.getbootstrap.com/product/front-multipurpose-responsive-template/"
-                  target="_blank">Iniciar Sesión</a>
+              <li class="nav-item d-lg-none">
+                <a id="btn_login" class="btn btn-white btn-transition" href="https://www.limac.com.pe/login/" target="_blank">Iniciar
+                  Sesión</a>
               </li>
-              <!-- End Button -->
             </ul>
+          </div>
+          <div class="navbar-absolute-top-scroller d-none d-lg-block">
+            <div class="">
+              <div>
+                <a class="btn btn-white btn-transition" href="https://www.limac.com.pe/login/"
+                  target="_blank">Iniciar Sesión</a>
+                </div>
+            </div>
           </div>
         </div>
         <!-- End Collapse -->
@@ -342,7 +347,7 @@
               <source src="./assets/video/video_new.mov" type="video/mp4">
               Tu navegador no soporta video HTML5.
             </video>
-            
+
             <!-- Container -->
             <div class="container d-flex align-items-center" style="min-height: 40rem;">
               <div class="w-lg-50 me-3">
