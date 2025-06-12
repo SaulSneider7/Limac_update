@@ -30,7 +30,10 @@
 
 <body>
   <style>
-
+    .js-swiper-blog-journal-hero {
+      height: 70vh;
+      overflow: hidden;
+    }
   </style>
   <!-- ========== HEADER ========== -->
   <header id="header" class="navbar navbar-expand-lg navbar-end navbar-absolute-top navbar-dark"
@@ -1351,6 +1354,7 @@
           });
 
           var swiper = new Swiper('.js-swiper-blog-journal-hero', {
+            direction: 'vertical', 
             effect: 'slide',
             autoplay: true,
             loop: true,
