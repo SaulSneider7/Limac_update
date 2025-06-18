@@ -347,7 +347,7 @@
                 background-repeat: no-repeat;
                 min-height: 40rem;">
 
-            <video autoplay muted loop playsinline class="position-absolute w-100 h-100 object-fit-cover zi-n1">
+            <video id="HeroVideo" autoplay muted loop playsinline class="position-absolute w-100 h-100 object-fit-cover zi-n1">
               <source src="./assets/video/index_video.mov" type="video/mp4">
               Tu navegador no soporta video HTML5.
             </video>
@@ -1383,7 +1383,7 @@
                   this.autoplay.stop();
                   setTimeout(() => {
                     this.autoplay.start();
-                  }, 8000); // 10s para el primer slide
+                  }, 15000); // 15s para el primer slide
                   isFirstSlideDelayed = true;
                 } else if (this.realIndex !== 0) {
                   isFirstSlideDelayed = false;
